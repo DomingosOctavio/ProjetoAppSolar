@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Monitor_Energia_Solar</string>
+    <string name="title_home">Relatórios</string>
+    <string name="title_dashboard">Ferramentas Instalação</string>
+    <string name="title_notifications">Informações Energia</string>
+
+
+
+  <string name="inclinacao">Inclinação</string>
+  <string name="bussola">Bússola</string>
+
+
+
+</resources>

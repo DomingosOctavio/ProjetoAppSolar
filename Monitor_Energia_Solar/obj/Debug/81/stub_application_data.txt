@@ -1,0 +1,2 @@
+android.app.Application
+Monitor_Energia_Solar.Monitor_Energia_Solar
