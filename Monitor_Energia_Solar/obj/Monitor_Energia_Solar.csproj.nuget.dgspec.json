@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj",
+        "projectName": "Monitor_Energia_Solar",
+        "projectPath": "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Json.Net": {
+              "target": "Package",
+              "version": "[1.0.25, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "OxyPlot.Xamarin.Android": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Refractored.GifImageView": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "Xamarin.Android.Support.Compat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.Vector.Drawable": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

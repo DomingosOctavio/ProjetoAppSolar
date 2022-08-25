@@ -20,6 +20,12 @@
 		android:textSize="40px"
 		android:textColor="#4682B4"
         android:text="" />
+	<TextView
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textSize="40px"
+        android:text="" />
 
 	<TextView
         android:id="@+id/tensao_atual"

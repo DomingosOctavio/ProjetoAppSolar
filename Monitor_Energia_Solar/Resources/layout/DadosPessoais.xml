@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+
+    <EditText  
+			android:id="@+id/usuario"  
+			android:layout_width="match_parent"  
+			android:layout_height="50dp"  
+			android:hint="Usuario"  
+			android:background="@layout/rounded_border_edittext"  
+			android:padding="15dp"
+			android:layout_marginBottom="10dp"
+			android:layout_gravity="center" />
+     
+	<EditText  
+			android:id="@+id/senha"  
+			android:layout_width="match_parent"  
+			android:layout_height="50dp"  
+			android:hint="Senha"  
+			android:background="@layout/rounded_border_edittext"  
+			android:padding="15dp"
+			android:layout_marginBottom="10dp"
+			android:layout_gravity="center" />
+	<EditText  
+			android:id="@+id/email"  
+			android:layout_width="match_parent"  
+			android:layout_height="50dp"  
+			android:hint="Email"  
+			android:background="@layout/rounded_border_edittext"  
+			android:padding="15dp"
+			android:layout_marginBottom="10dp"
+			android:layout_gravity="center" />
+     <Button
+            android:id="@+id/concluir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#0026fd"
+            android:text="CONCLUIR CADASTRO"
+			android:textStyle="bold"
+            android:textColor="#ffbc01" />
+</LinearLayout>

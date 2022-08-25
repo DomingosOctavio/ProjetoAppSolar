@@ -127,4 +127,1205 @@ C:\Users\Rio\Desktop\tcc2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\
 C:\Users\Rio\Desktop\tcc2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\Rio\Desktop\tcc2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Essentials.pdb
 C:\Users\Rio\Desktop\tcc2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csprojAssemblyReference.cache
-C:\Users\Rio\Desktop\tcc2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\OxyPlot.dll.mdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.dll
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.apk
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.nuget.stamp
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csprojAssemblyReference.cache
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\libraryimports.cache.stamp
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res.flag
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csproj.CoreCompileInputs.cache
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.dll
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\activity_main.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\colors.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\dimens.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\ic_launcher_background.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\strings.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\styles.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_home_black_24dp.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_dashboard_black_24dp.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_notifications_black_24dp.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\bussola.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\dados_api_energia.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\icon.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inclinacao_tela.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\instrucao_tela.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\plot_geracao.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inicial.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sol_anim.gif
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\login.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\rounded_border_edittext.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation2.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola1.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_amarela.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_verde.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha2.png
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\layout_shadow_white.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sombra_menu.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\mymenu.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\popmenu.xml
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.cs.flag
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.txt
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\uploadflags.txt
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Mono.Android.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Mono.Security.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\mscorlib.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Plugin.Fingerprint.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.ComponentModel.Composition.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Core.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Data.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.IO.Compression.FileSystem.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.IO.Compression.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Net.Http.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Numerics.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Numerics.Vectors.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Runtime.Serialization.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.ServiceModel.Internals.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Transactions.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Web.Services.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Xml.Linq.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Xml.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Xamarin.Essentials.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\OxyPlot.dll.mdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Monitor_Energia_Solar.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Mono.Android.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\mscorlib.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Plugin.Fingerprint.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Core.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Data.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Net.Http.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Xml.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Xamarin.Essentials.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.IO.Compression.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Numerics.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Transactions.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Web.Services.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Xml.Linq.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Mono.Security.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Numerics.Vectors.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\OxyPlot.dll.mdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.dll.mdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Monitor_Energia_Solar.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Android.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Security.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\mscorlib.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Plugin.Fingerprint.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Core.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Net.Http.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.Vectors.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Transactions.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Web.Services.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.Linq.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.pdb
+C:\Users\Rio\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Essentials.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\build.props
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\adb.props
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res.flag
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\7\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\11\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\13\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\14\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\15\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\16\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\18\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar.aab
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.aab
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.apk
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.apk.idsig
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.txt
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.cs.flag
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\base.zip
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.aab
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.apks
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\activity_main.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\colors.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\dimens.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\ic_launcher_background.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\strings.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\styles.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_home_black_24dp.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_dashboard_black_24dp.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_notifications_black_24dp.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\bussola.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\dados_api_energia.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\icon.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inclinacao_tela.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\instrucao_tela.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\plot_geracao.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inicial.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sol_anim.gif
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\login.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\rounded_border_edittext.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation2.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola1.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_amarela.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_verde.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha2.png
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\layout_shadow_white.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sombra_menu.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\mymenu.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\popmenu.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\cadastro.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\dadospessoais.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\uploadflags.txt
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\resolvedassemblies.hash
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Java.Interop.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Json.Net.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Monitor_Energia_Solar.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Monitor_Energia_Solar.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Android.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Android.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Security.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Security.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\mscorlib.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\MySqlConnector.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\netstandard.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.dll.mdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.Xamarin.Android.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Plugin.Fingerprint.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Plugin.Fingerprint.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Refractored.GifImageView.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Buffers.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Collections.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Core.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Core.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.DataSetExtensions.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.DataSetExtensions.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Diagnostics.Debug.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Drawing.Common.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Drawing.Common.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Globalization.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Linq.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Memory.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Net.Http.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Net.Http.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Reflection.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Text.Encoding.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Text.RegularExpressions.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Threading.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Transactions.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Transactions.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Web.Services.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.Linq.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.Linq.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Essentials.dll
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Essentials.pdb
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.arm64-v8a.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.armeabi-v7a.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86_64.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.armeabi-v7a-shared.inc
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.shared.inc
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\AndroidManifest.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\__environment__.txt
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\MonoRuntimeProvider.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\machine.config
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\mono.android.jar
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\static.flag
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\buildid.txt
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.arm64-v8a.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.armeabi-v7a.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86_64.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\compat\R.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\design\R.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\design\widget\Snackbar_SnackbarActionClickImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\mediacompat\R.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\transition\R.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\appcompat\R.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\recyclerview\R.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc6456e6f71a0b54d12a\PlotView.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\API_Dados_Energia_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Bussola_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\CadastroTokenAtividade.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Compass_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\DadosPessoaisAtividade.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Escolha_Instrucao_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\GraficoAtividade.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Login.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\MainActivity.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Sensor_Inclinacao_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Telainicial.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\AccelerometerListener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\ActivityLifecycleContextListener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\BarometerListener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\BatteryBroadcastReceiver.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\ClipboardChangeListener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\ConnectivityBroadcastReceiver.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\EnergySaverBroadcastReceiver.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\GyroscopeListener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\IntermediateActivity.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\Listener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\MagnetometerListener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\OrientationSensorListener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\SensorListener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\SingleLocationListener.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\TextToSpeechImplementation.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorCallbackActivity.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorIntermediateActivity.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a98abb514ffad9f1\CustomTabsServiceConnectionImpl.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a98abb514ffad9f1\KeepAliveService.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\app\ApplicationRegistration.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\AppBarLayout_OnOffsetChangedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemReselectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\NavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\SwipeDismissBehavior_OnDismissListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\TabLayout_OnTabSelectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\transition\Transition_TransitionListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\app\FragmentManager_OnBackStackChangedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\app\SharedElementCallback_OnSharedElementsReadyListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCanceledListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCompleteListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\media\session\MediaSessionCompat_OnActiveChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\os\CancellationSignal_OnCancelListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ActionProvider_SubUiVisibilityListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ActionProvider_VisibilityListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\AsyncLayoutInflater_OnInflateFinishedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\MenuItemCompat_OnActionExpandListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\OnApplyWindowInsetsListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPager_OnAdapterChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPager_OnPageChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorUpdateListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\DrawerLayout_DrawerListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\NestedScrollView_OnScrollChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\SlidingPaneLayout_PanelSlideListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\SwipeRefreshLayout_OnRefreshListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_OnMenuVisibilityListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_OnNavigationListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_TabListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ActionMenuView_OnMenuItemClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ContentFrameLayout_OnAttachListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\MenuItemHoverListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\PopupMenu_OnDismissListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\PopupMenu_OnMenuItemClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_OnChildAttachStateChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_OnItemTouchListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_RecyclerListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnCloseListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnQueryTextListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnSuggestionListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ShareActionProvider_OnShareTargetSelectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\Toolbar_OnMenuItemClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ViewStubCompat_OnInflateListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\com\felipecsl\gifimageview\library\GifImageView_OnFrameAvailableListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\MonoPackageManager_Resources.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\xamarin\essentials\fileProvider.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\packaged_resources
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\monitor_energia_solar\monitor_energia_solar\R.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.arm64-v8a.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.armeabi-v7a.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86_64.s
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.arm64-v8a.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.armeabi-v7a.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86_64.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.arm64-v8a.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.armeabi-v7a.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86_64.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.arm64-v8a.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.armeabi-v7a.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86_64.o
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\armeabi-v7a\libxamarin-app.so
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\x86\libxamarin-app.so
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\classes.dex
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_CleanIntermediateIfNeeded.stamp
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_CompileToDalvik.stamp
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ConvertCustomView.stamp
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ConvertResourcesCases.stamp
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inputbox_email.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Bandeira_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csprojAssemblyReference.cache
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\botoes_api_energia.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation3.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\tarifas.xml
+C:\Users\User\Desktop\novo ultimo TCC\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Tarifas_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\build.props
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\adb.props
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res.flag
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\7\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\11\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\13\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\14\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\15\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\16\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\18\jl\files.cache
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.txt
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.cs.flag
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar.aab
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.aab
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.apk
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.apk.idsig
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\base.zip
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.aab
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.apks
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\activity_main.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\colors.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\dimens.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\ic_launcher_background.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\strings.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\styles.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_home_black_24dp.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_dashboard_black_24dp.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_notifications_black_24dp.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_round.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\bussola.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\dados_api_energia.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\icon.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inclinacao_tela.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\instrucao_tela.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\plot_geracao.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inicial.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sol_anim.gif
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\login.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\rounded_border_edittext.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation2.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola1.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_amarela.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_verde.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha2.png
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\layout_shadow_white.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sombra_menu.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\mymenu.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\popmenu.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\cadastro.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\dadospessoais.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inputbox_email.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\botoes_api_energia.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation3.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\tarifas.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\uploadflags.txt
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\resolvedassemblies.hash
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Java.Interop.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Json.Net.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Monitor_Energia_Solar.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Monitor_Energia_Solar.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Android.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Android.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Security.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Security.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\mscorlib.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\MySqlConnector.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\netstandard.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.dll.mdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.Xamarin.Android.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Plugin.Fingerprint.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Plugin.Fingerprint.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Refractored.GifImageView.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Buffers.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Collections.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Core.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Core.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.DataSetExtensions.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.DataSetExtensions.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Diagnostics.Debug.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Drawing.Common.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Drawing.Common.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Globalization.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Linq.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Memory.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Net.Http.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Net.Http.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Reflection.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Text.Encoding.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Text.RegularExpressions.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Threading.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Transactions.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Transactions.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Web.Services.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.Linq.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.Linq.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Essentials.dll
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Essentials.pdb
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.arm64-v8a.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.armeabi-v7a.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86_64.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.armeabi-v7a-shared.inc
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.shared.inc
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\AndroidManifest.xml
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\__environment__.txt
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\MonoRuntimeProvider.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\machine.config
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\mono.android.jar
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\static.flag
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\buildid.txt
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.arm64-v8a.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.armeabi-v7a.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86_64.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\compat\R.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\design\R.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\design\widget\Snackbar_SnackbarActionClickImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\mediacompat\R.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\transition\R.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\appcompat\R.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\recyclerview\R.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc6456e6f71a0b54d12a\PlotView.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Bandeira_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Bussola_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\CadastroTokenAtividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Compass_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\DadosPessoaisAtividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Escolha_Instrucao_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\GraficoAtividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Login.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\MainActivity.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Sensor_Inclinacao_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Tarifas_Atividade.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Telainicial.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\AccelerometerListener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\ActivityLifecycleContextListener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\BarometerListener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\BatteryBroadcastReceiver.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\ClipboardChangeListener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\ConnectivityBroadcastReceiver.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\EnergySaverBroadcastReceiver.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\GyroscopeListener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\IntermediateActivity.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\Listener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\MagnetometerListener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\OrientationSensorListener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\SensorListener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\SingleLocationListener.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\TextToSpeechImplementation.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorCallbackActivity.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorIntermediateActivity.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a98abb514ffad9f1\CustomTabsServiceConnectionImpl.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a98abb514ffad9f1\KeepAliveService.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\app\ApplicationRegistration.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\AppBarLayout_OnOffsetChangedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemReselectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\NavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\SwipeDismissBehavior_OnDismissListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\TabLayout_OnTabSelectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\transition\Transition_TransitionListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\app\FragmentManager_OnBackStackChangedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\app\SharedElementCallback_OnSharedElementsReadyListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCanceledListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCompleteListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\media\session\MediaSessionCompat_OnActiveChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\os\CancellationSignal_OnCancelListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ActionProvider_SubUiVisibilityListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ActionProvider_VisibilityListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\AsyncLayoutInflater_OnInflateFinishedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\MenuItemCompat_OnActionExpandListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\OnApplyWindowInsetsListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPager_OnAdapterChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPager_OnPageChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorUpdateListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\DrawerLayout_DrawerListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\NestedScrollView_OnScrollChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\SlidingPaneLayout_PanelSlideListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\SwipeRefreshLayout_OnRefreshListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_OnMenuVisibilityListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_OnNavigationListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_TabListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ActionMenuView_OnMenuItemClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ContentFrameLayout_OnAttachListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\MenuItemHoverListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\PopupMenu_OnDismissListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\PopupMenu_OnMenuItemClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_OnChildAttachStateChangeListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_OnItemTouchListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_RecyclerListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnCloseListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnQueryTextListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnSuggestionListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ShareActionProvider_OnShareTargetSelectedListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\Toolbar_OnMenuItemClickListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ViewStubCompat_OnInflateListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\com\felipecsl\gifimageview\library\GifImageView_OnFrameAvailableListenerImplementor.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\MonoPackageManager_Resources.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\xamarin\essentials\fileProvider.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\packaged_resources
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\monitor_energia_solar\monitor_energia_solar\R.java
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.arm64-v8a.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.armeabi-v7a.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86_64.s
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.arm64-v8a.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.armeabi-v7a.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86_64.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.arm64-v8a.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.armeabi-v7a.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86_64.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.arm64-v8a.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.armeabi-v7a.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86_64.o
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\armeabi-v7a\libxamarin-app.so
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\x86\libxamarin-app.so
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\classes.dex
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_CleanIntermediateIfNeeded.stamp
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_CompileToDalvik.stamp
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ConvertCustomView.stamp
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ConvertResourcesCases.stamp
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\User\Desktop\novo ultimo TCC2\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csprojAssemblyReference.cache
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.dll
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.apk
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.nuget.stamp
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\libraryimports.cache.stamp
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res.flag
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csproj.CoreCompileInputs.cache
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.dll
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\activity_main.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\colors.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\dimens.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\ic_launcher_background.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\strings.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\styles.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_home_black_24dp.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_dashboard_black_24dp.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_notifications_black_24dp.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_foreground.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_round.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\bussola.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\dados_api_energia.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\icon.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inclinacao_tela.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\instrucao_tela.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\plot_geracao.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inicial.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sol_anim.gif
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\login.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\rounded_border_edittext.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation2.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola1.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_amarela.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_verde.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha2.png
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\layout_shadow_white.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sombra_menu.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\mymenu.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\popmenu.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\cadastro.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\dadospessoais.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inputbox_email.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\botoes_api_energia.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation3.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\tarifas.xml
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.cs.flag
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.txt
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\uploadflags.txt
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Mono.Android.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\mscorlib.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Plugin.Fingerprint.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Core.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Data.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Net.Http.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Xml.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Xamarin.Essentials.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.IO.Compression.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.IO.Compression.FileSystem.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.ComponentModel.Composition.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Numerics.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Runtime.Serialization.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.ServiceModel.Internals.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Transactions.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Web.Services.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Xml.Linq.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Mono.Security.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\System.Numerics.Vectors.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Monitor_Energia_Solar.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Mono.Android.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\mscorlib.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Plugin.Fingerprint.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Core.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Data.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Net.Http.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Xml.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Xamarin.Essentials.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.IO.Compression.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Numerics.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Transactions.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Web.Services.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Xml.Linq.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\Mono.Security.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\System.Numerics.Vectors.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\OxyPlot.dll.mdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\linksrc\OxyPlot.dll.mdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.dll.mdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Monitor_Energia_Solar.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Android.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Security.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\mscorlib.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Plugin.Fingerprint.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Core.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Net.Http.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.Vectors.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Transactions.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Web.Services.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.Linq.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Essentials.pdb
+C:\Users\Rio\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csprojAssemblyReference.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar.aab
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.aab
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.apk
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\bin\Debug\Monitor_Energia_Solar.Monitor_Energia_Solar-Signed.apk.idsig
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\build.props
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\adb.props
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res.flag
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\7\jl\files.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\11\jl\files.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\13\jl\files.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\14\jl\files.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\15\jl\files.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\16\jl\files.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\18\jl\files.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.txt
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\R.cs.flag
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\Monitor_Energia_Solar.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.apk
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\base.zip
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.aab
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\Monitor_Energia_Solar.Monitor_Energia_Solar.apks
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\activity_main.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\colors.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\dimens.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\ic_launcher_background.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\strings.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\values\styles.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_home_black_24dp.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_dashboard_black_24dp.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\ic_notifications_black_24dp.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-hdpi\ic_launcher_round.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-mdpi\ic_launcher_round.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xhdpi\ic_launcher_round.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxhdpi\ic_launcher_round.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_foreground.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_round.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\bussola.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\dados_api_energia.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\icon.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inclinacao_tela.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\instrucao_tela.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\plot_geracao.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inicial.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sol_anim.gif
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\login.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\rounded_border_edittext.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation2.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bussola1.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_amarela.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_verde.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeira_vermelha2.png
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\layout_shadow_white.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\sombra_menu.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\mymenu.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\popmenu.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\cadastro.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\dadospessoais.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\inputbox_email.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\botoes_api_energia.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\menu\navigation3.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\layout\tarifas.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\uploadflags.txt
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\resolvedassemblies.hash
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Java.Interop.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Java.Interop.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Json.Net.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Monitor_Energia_Solar.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Monitor_Energia_Solar.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Android.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Android.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Security.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Mono.Security.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\mscorlib.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\MySqlConnector.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\netstandard.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.dll.mdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\OxyPlot.Xamarin.Android.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Plugin.Fingerprint.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Plugin.Fingerprint.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Refractored.GifImageView.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Buffers.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Collections.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Core.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Core.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.DataSetExtensions.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.DataSetExtensions.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Data.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Diagnostics.Debug.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Drawing.Common.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Drawing.Common.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Globalization.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.Compression.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.IO.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Linq.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Memory.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Net.Http.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Net.Http.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Numerics.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Reflection.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Text.Encoding.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Text.RegularExpressions.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Threading.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Transactions.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Transactions.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Web.Services.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.Linq.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.Linq.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Essentials.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\Xamarin.Essentials.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.arm64-v8a.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.armeabi-v7a.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86_64.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.armeabi-v7a-shared.inc
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.shared.inc
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\AndroidManifest.xml
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\__environment__.txt
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\MonoRuntimeProvider.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\machine.config
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\mono.android.jar
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\static.flag
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\buildid.txt
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.arm64-v8a.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.armeabi-v7a.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86_64.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\compat\R.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\design\R.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\design\widget\Snackbar_SnackbarActionClickImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\mediacompat\R.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\transition\R.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\appcompat\R.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\recyclerview\R.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc6456e6f71a0b54d12a\PlotView.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Bandeira_Atividade.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Bussola_Atividade.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\CadastroTokenAtividade.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Compass_Atividade.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\DadosPessoaisAtividade.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Escolha_Instrucao_Atividade.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\GraficoAtividade.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Login.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\MainActivity.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Sensor_Inclinacao_Atividade.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Tarifas_Atividade.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc649a084b6c64066712\Telainicial.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\AccelerometerListener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\ActivityLifecycleContextListener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\BarometerListener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\BatteryBroadcastReceiver.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\ClipboardChangeListener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\ConnectivityBroadcastReceiver.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\EnergySaverBroadcastReceiver.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\GyroscopeListener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\IntermediateActivity.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\Listener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\MagnetometerListener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\OrientationSensorListener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\SensorListener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\SingleLocationListener.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\TextToSpeechImplementation.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorCallbackActivity.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorIntermediateActivity.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a98abb514ffad9f1\CustomTabsServiceConnectionImpl.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\crc64a98abb514ffad9f1\KeepAliveService.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\app\ApplicationRegistration.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\AppBarLayout_OnOffsetChangedListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemReselectedListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\NavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\SwipeDismissBehavior_OnDismissListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\design\widget\TabLayout_OnTabSelectedListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\transition\Transition_TransitionListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\app\FragmentManager_OnBackStackChangedListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\app\SharedElementCallback_OnSharedElementsReadyListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCanceledListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCompleteListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\media\session\MediaSessionCompat_OnActiveChangeListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\os\CancellationSignal_OnCancelListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ActionProvider_SubUiVisibilityListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ActionProvider_VisibilityListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\AsyncLayoutInflater_OnInflateFinishedListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\MenuItemCompat_OnActionExpandListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\OnApplyWindowInsetsListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPager_OnAdapterChangeListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPager_OnPageChangeListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorUpdateListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\DrawerLayout_DrawerListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\NestedScrollView_OnScrollChangeListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\SlidingPaneLayout_PanelSlideListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v4\widget\SwipeRefreshLayout_OnRefreshListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_OnMenuVisibilityListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_OnNavigationListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_TabListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ActionMenuView_OnMenuItemClickListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ContentFrameLayout_OnAttachListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\MenuItemHoverListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\PopupMenu_OnDismissListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\PopupMenu_OnMenuItemClickListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_OnChildAttachStateChangeListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_OnItemTouchListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_RecyclerListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnCloseListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnQueryTextListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnSuggestionListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ShareActionProvider_OnShareTargetSelectedListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\Toolbar_OnMenuItemClickListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\android\support\v7\widget\ViewStubCompat_OnInflateListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\com\felipecsl\gifimageview\library\GifImageView_OnFrameAvailableListenerImplementor.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\mono\MonoPackageManager_Resources.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\xamarin\essentials\fileProvider.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\packaged_resources
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\src\monitor_energia_solar\monitor_energia_solar\R.java
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.arm64-v8a.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.armeabi-v7a.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86_64.s
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.arm64-v8a.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.armeabi-v7a.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\typemaps.x86_64.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.arm64-v8a.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.armeabi-v7a.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\environment.x86_64.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.arm64-v8a.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.armeabi-v7a.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\compressed_assemblies.x86_64.o
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\armeabi-v7a\libxamarin-app.so
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\x86\libxamarin-app.so
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\bin\classes.dex
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_CleanIntermediateIfNeeded.stamp
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_CompileToDalvik.stamp
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ConvertCustomView.stamp
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ConvertResourcesCases.stamp
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp

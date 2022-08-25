@@ -44,12 +44,22 @@
             android:textColor="#ffbc01" />
 		
 		 <Button
-            android:id="@+id/get"
+            android:id="@+id/novo_usuario"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="GET"
+            android:text="novo Usuario"
 			android:textStyle="bold"/>
+
+		 <Button
+            android:id="@+id/recuperar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Recuperar Usuario/Senha"
+			android:textStyle="bold"/>
+
+		
 	
 
     </LinearLayout>

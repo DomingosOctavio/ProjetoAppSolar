@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+    <TextView
+        android:text="Insira o código arduino"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+		android:layout_margin="15dp"
+		android:layout_centerInParent="true"
+        android:id="@+id/textView1" />
+    <EditText  
+			android:id="@+id/token"  
+			android:layout_width="match_parent"  
+			android:layout_height="50dp"  
+			android:hint="Código Arduino"  
+			android:background="@layout/rounded_border_edittext"  
+			android:padding="15dp"
+			android:layout_marginBottom="10dp"
+			android:layout_gravity="center" />
+
+
+      <Button
+            android:id="@+id/proximo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#0026fd"
+            android:text="PRóXIMO >"
+			android:textStyle="bold"
+            android:textColor="#ffbc01" />
+
+      
+
+
+
+
+
+
+</LinearLayout>

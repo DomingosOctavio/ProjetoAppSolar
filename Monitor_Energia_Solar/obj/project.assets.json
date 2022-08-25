@@ -13,16 +13,11 @@
       },
       "MySqlConnector/1.2.1": {
         "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Memory": "4.5.0",
-          "System.Threading.Tasks.Extensions": "4.3.0"
-        },
         "compile": {
-          "lib/netstandard2.0/MySqlConnector.dll": {}
+          "lib/netstandard2.1/MySqlConnector.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MySqlConnector.dll": {}
+          "lib/netstandard2.1/MySqlConnector.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -133,15 +128,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        }
-      },
-      "System.Threading.Tasks.Extensions/4.3.0": {
-        "type": "package",
-        "compile": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -389,19 +375,19 @@
           "build/MonoAndroid81/Xamarin.Android.Support.v7.RecyclerView.targets": {}
         }
       },
-      "Xamarin.Android.Support.Vector.Drawable/27.0.2.1": {
+      "Xamarin.Android.Support.Vector.Drawable/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Compat": "[27.0.2.1]"
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]"
         },
         "compile": {
-          "lib/MonoAndroid81/Xamarin.Android.Support.Vector.Drawable.dll": {}
+          "lib/monoandroid81/Xamarin.Android.Support.Vector.Drawable.dll": {}
         },
         "runtime": {
-          "lib/MonoAndroid81/Xamarin.Android.Support.Vector.Drawable.dll": {}
+          "lib/monoandroid81/Xamarin.Android.Support.Vector.Drawable.dll": {}
         },
         "build": {
-          "build/MonoAndroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
+          "build/monoandroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
       "Xamarin.Essentials/1.6.1": {
@@ -426,7 +412,7 @@
   },
   "libraries": {
     "Json.Net/1.0.25": {
-      "sha512": "eDhGgXEU+EUTrAkViVR8wZJrWwffOwHgF+KRROHNtO1+UduqM1leoKLYrYLfpJbPixIPNuhqXoWH7iJ1UspJ7A==",
+      "sha512": "Aj5kjteD5mBmUSL0D64R9SzuQuM/dtHV2JcbVJ1iGOZjp3hGO4eoWY/D5Nzxe+kR15KAERQS1e2mU7mFjwKyDg==",
       "type": "package",
       "path": "json.net/1.0.25",
       "files": [
@@ -438,7 +424,7 @@
       ]
     },
     "MySqlConnector/1.2.1": {
-      "sha512": "ORgYD4eJ11vIpSkMS4jFjQ0jKUqfcBUtaE54hg5Q+JvpAV/QeCDMnKgyrLh0lMvtB7SgPdlY+6TLr2KFcdQJPw==",
+      "sha512": "B+uQUXBhWibjQBaOe+GXXTEm573HGQU2M2NR8BKdyEEBxzGui8OVTL+dtW5Jg4FwovvW4Y1uMOKeBdmI5tQltA==",
       "type": "package",
       "path": "mysqlconnector/1.2.1",
       "files": [
@@ -468,7 +454,7 @@
       ]
     },
     "Newtonsoft.Json/12.0.3": {
-      "sha512": "aTRmXwR5xYu+mWxE8r8W1DWnL02SeV8LwdQMsLwTWP8OZgrCCyTqvOAe5hRb1VNQYXjln7qr0PKpSyO/pcc19Q==",
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "type": "package",
       "path": "newtonsoft.json/12.0.3",
       "files": [
@@ -499,7 +485,7 @@
       ]
     },
     "OxyPlot.Core/1.0.0": {
-      "sha512": "ZHQmWy1M8fn/jZzXTm/a1ReqY5bBQLKvUHbgCHrzHRtsrQRNavm87cxpvIIpTswmmSUY6R/YG7ypJqj0mRmiOg==",
+      "sha512": "4CdN5a7xg7rdXAn0MqofQQV7Y2mt0e8nch3Zko5XSien2eTZo+lkkX9IjMhipMiwu2/SQnggS3ZMzvhEThRnIw==",
       "type": "package",
       "path": "oxyplot.core/1.0.0",
       "files": [
@@ -531,7 +517,7 @@
       ]
     },
     "OxyPlot.Xamarin.Android/1.0.0": {
-      "sha512": "AixXs5A+Dkg/zOXhe+mbtNjqGeD/v11MjAQylJecCmr9xLKHZaJUmPn4ioG3/aDLv1e2bUz9HMZbwV+yt5FLCQ==",
+      "sha512": "bPImaCi3hcnm9hVr73ZEuCObvlWj32cH6aaltBHliRFDlXSYhdwertRoG9lU3sgarddOmQC3WLshPW0hANWjyQ==",
       "type": "package",
       "path": "oxyplot.xamarin.android/1.0.0",
       "files": [
@@ -549,7 +535,7 @@
       ]
     },
     "Plugin.Fingerprint/2.1.3": {
-      "sha512": "2oJyfHSxcH019yU2sOYWCWAqYtJJ7NqqUH1J477zkeMA6xHUQt7iZYkaem/f/UeWVN1J2ElGPjg0haffzw929w==",
+      "sha512": "aiBz9NObLDwyV2Ecq6ijcntzBGL4E3Y/NQKSys/V99l+lNuTCcMvnaq9IjwPsEhmBXnaTSt72gPO+jzPijpu7w==",
       "type": "package",
       "path": "plugin.fingerprint/2.1.3",
       "files": [
@@ -590,7 +576,7 @@
       ]
     },
     "Refractored.GifImageView/2.0.0": {
-      "sha512": "c0SvPqeiPdZQAizAHPuCOV+UWEr0h5HJtkF5eAHGeJ3WR/0AsGLXCpiDUSaHODuuc4r9rlZWBfZEx/fSWd3Rhw==",
+      "sha512": "c67NJ1I9i0tNdSgd+4pofTCEoDJ85EVRq4pFmXT8BZ75n3/tLYT0RrEQKDQ6Rfw2E5tBMcz0RxXoBH1gdx/htw==",
       "type": "package",
       "path": "refractored.gifimageview/2.0.0",
       "files": [
@@ -602,7 +588,7 @@
       ]
     },
     "System.Buffers/4.5.1": {
-      "sha512": "gNphWOVbm89+C15jebnPRaYykU8De1PFv1YJV24814IfeGGVa3PXRHDS0MLlbdI1pe9Mpv/n4ZK4INwtAjqv8g==",
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
       "path": "system.buffers/4.5.1",
       "files": [
@@ -633,7 +619,7 @@
       ]
     },
     "System.Memory/4.5.4": {
-      "sha512": "js5UkesP4zK8GQ9Az3azvu4MX5ljJQNIYb4iH9sP8C/Vnk9wILPEofKaRX92/3bEyV1G04VV5PSMejvxcth5Zg==",
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
       "type": "package",
       "path": "system.memory/4.5.4",
       "files": [
@@ -745,7 +731,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.3": {
-      "sha512": "dl2H02p7dBXe5bbL06COrZdikV+/rPrYogWnjUoYfOxmd9okB/f3wtG1X+n4wCV5JcmwvBk9QClywyOXlni6qw==",
+      "sha512": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.3",
       "files": [
@@ -773,25 +759,8 @@
         "version.txt"
       ]
     },
-    "System.Threading.Tasks.Extensions/4.3.0": {
-      "sha512": "LDOQD/f1RNbbMa0RtrruHJ7LQNWlT1Hl3Vu7s39MUO417UgWFcv3wdphoxrjMzxEVL++7krjIkF4nnLOP5ENtg==",
-      "type": "package",
-      "path": "system.threading.tasks.extensions/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
-        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
-        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
-        "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
-        "system.threading.tasks.extensions.nuspec"
-      ]
-    },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
-      "sha512": "CmurvUxKMUZ5P1S4gvX061YF8IbhbIngE/V+6OD5lBAw+rFtfsc6xbk7RBdB1tVdjVLMikaOntF88lcu6VZsfg==",
+      "sha512": "ss+hnEoFeyxLgHk3TrCBqTMkK6ZJqhq382AONzdVGg7cyVibvBMWPX2Xp5byB8tvRJOMRIWZnqyqgpYQIagkZA==",
       "type": "package",
       "path": "xamarin.android.arch.core.common/1.1.1.3",
       "files": [
@@ -811,7 +780,7 @@
       ]
     },
     "Xamarin.Android.Arch.Lifecycle.Common/1.1.1.3": {
-      "sha512": "VlJIbiMGG/c6jWIrP9t8fQovHPsa+gqCxhHgPgVZTy1QGq4R51MDFqMfV984KYY2NiKjN6pmxaS0v8uWOEqlyA==",
+      "sha512": "4D/svfDf0+dwb6NbfVxodYIOKJ1MKo83I3E1XVPXy2QY54XT6+BVkEvbr/Q3eAF3oEYLlV/cugHjIbATKBEl9w==",
       "type": "package",
       "path": "xamarin.android.arch.lifecycle.common/1.1.1.3",
       "files": [
@@ -831,7 +800,7 @@
       ]
     },
     "Xamarin.Android.Arch.Lifecycle.Runtime/1.1.1.3": {
-      "sha512": "6/Q5rPB8KO735ryhjziaE5F9cNO2jPjB1soWY3eYKFf9+2lhu56njoJdY28ETRMO2ylBmxrdTTMhjQR1TNMZNA==",
+      "sha512": "uLBnjoRSpsLGQ1aWNijo4dX7GmZ3kUoFEB0IHd4M7WB1FxOfRcH/+LcvGDMmrEZG+mdkQiuLH42XhPU7K1Q4Tw==",
       "type": "package",
       "path": "xamarin.android.arch.lifecycle.runtime/1.1.1.3",
       "files": [
@@ -854,7 +823,7 @@
       ]
     },
     "Xamarin.Android.Support.Animated.Vector.Drawable/27.0.2.1": {
-      "sha512": "xaz2MjrV45FTveaCAzIepz/g/YIVBg3FQJJKLzg3ODtw7yu2CbbWyp3mvKtdyXpeE7rWwFPccHQH/2gD3aj3OQ==",
+      "sha512": "HMVYg9zZyB2QJXkANIyyDiZOWQGvnOFQvaMQ/aHAOhxJ1Dh8DncYlrs+VqOVMMqFcx07/CePw1AL8fxeDOqG3Q==",
       "type": "package",
       "path": "xamarin.android.support.animated.vector.drawable/27.0.2.1",
       "files": [
@@ -869,7 +838,7 @@
       ]
     },
     "Xamarin.Android.Support.Annotations/28.0.0.3": {
-      "sha512": "NUAo80roUiZhjSfhVzeDczFuBtR4RC6kBo+/N3kgd1xY6fvqvXKKWT1/EtsRZCn3aGTb3Ob9LZp7OTcl68xlGA==",
+      "sha512": "lpKctgvxOhFTTXt7BXC6slMfG7ZqmjBe6hAl1V8A9famPA7f5B6ZuDy3cs5w4CERuP7+ufC+WjeV45Hg3CDPpA==",
       "type": "package",
       "path": "xamarin.android.support.annotations/28.0.0.3",
       "files": [
@@ -890,7 +859,7 @@
       ]
     },
     "Xamarin.Android.Support.Compat/28.0.0.3": {
-      "sha512": "kllrikvUtP5gaZUtB8Zn4ljfrDb2Jk9HaA4AgOtwVVkf3pE470Ydop0lrhxKX0Lu8lOlFdzoA5E6v5HaLfgvDQ==",
+      "sha512": "30peLUpopGd8okEn5yDRRi2s9/Hr+UT31b957bLHRMH0ewQzccoxJ9F/PQy6JYzeB7t1oQ9aEpFuNRuTTRowwQ==",
       "type": "package",
       "path": "xamarin.android.support.compat/28.0.0.3",
       "files": [
@@ -912,7 +881,7 @@
       ]
     },
     "Xamarin.Android.Support.Core.UI/27.0.2.1": {
-      "sha512": "HfpQEghgxnT+VgJa2LDFUraDMj+sHtq3oIkO0IWNc/Ii/A2Kl9jpmidoVzfbLk7++KWsNsRBTOb3dNXYZePoXA==",
+      "sha512": "3LSUdUyFZ9anlu+G79UhoZSzpcy1BNfaxec7Wh03/0PH9QF2YR7k74dZ3ix+OjzAGi05+QBxuNqsJMervRhWsw==",
       "type": "package",
       "path": "xamarin.android.support.core.ui/27.0.2.1",
       "files": [
@@ -927,7 +896,7 @@
       ]
     },
     "Xamarin.Android.Support.Core.Utils/28.0.0.3": {
-      "sha512": "QQiUpAt6QKfjE8tLlDJZ/fmNq2SzMNWFXReIVp+XV6U5ivx4cF1kKymrhqhtpHKHS64DGIxfdIAzddWJg5Ag3w==",
+      "sha512": "vazubhLlMURdsaEfyomY6gNC8pEzzYNzh0puj2HthR19nGV3djTlQLCk3u8RFTRhi2v0om9BkLxAlQHsU0nkaw==",
       "type": "package",
       "path": "xamarin.android.support.core.utils/28.0.0.3",
       "files": [
@@ -948,7 +917,7 @@
       ]
     },
     "Xamarin.Android.Support.CustomTabs/28.0.0.3": {
-      "sha512": "HrrGQoWOsxJ8okStCUIOGVqwa3NKRiEHK5dWEgwaRKte0l6riBgC8yR5aUhU+Tt3Bk4KeWKvelpJg1K9IhrlUQ==",
+      "sha512": "4g+xOXDgHqvI+hSzS6Lwlx0zudsZvz/UKwW+1ax15kA9f+Oy2X3XVjmBXueEvrIlLnoTByfQKrFvNo4RZ7qR9g==",
       "type": "package",
       "path": "xamarin.android.support.customtabs/28.0.0.3",
       "files": [
@@ -969,7 +938,7 @@
       ]
     },
     "Xamarin.Android.Support.Design/27.0.2.1": {
-      "sha512": "Lc7sN6n4XQexZEnRm1Q+HGA+5xNPttM8vw/BNLsoKZy6Ao0uEzUbk+HDdYQwH9UAEJ01MBe0hp4sd0Uy7y/m4A==",
+      "sha512": "0VTL0Hg4f+tWYlMI8tqfWOnm0usbhTRK3O/qMQMLeT1pY1LpZxmuLID/Vvehp8TrpIrTpt3fJFejHfkCmyvfMw==",
       "type": "package",
       "path": "xamarin.android.support.design/27.0.2.1",
       "files": [
@@ -984,7 +953,7 @@
       ]
     },
     "Xamarin.Android.Support.Fragment/27.0.2.1": {
-      "sha512": "W217/JM+t+H4+bKc+LBIhblnLW4sZc8HABak9eTv5yJl3FlTfq0cNt7aMNOKxUxy2/wt0Uo8YNSZK6YVHYsVhg==",
+      "sha512": "qYqioZMgM0XQd+Hzt13Fp3V2I860xmUKFHQcc8v3LKl6Q4F3D8szn+HJX2/S7HqfyNkPWN+rPOsXAGMMsKo99w==",
       "type": "package",
       "path": "xamarin.android.support.fragment/27.0.2.1",
       "files": [
@@ -998,7 +967,7 @@
       ]
     },
     "Xamarin.Android.Support.Media.Compat/27.0.2.1": {
-      "sha512": "BbVt10cN+Adk6mlPT4MYPR7fB46laGqEV2//1AMDkLYk5PKbHNcmRXJQUnYPWQRjgBJ0k6QQq5fCHqxP3W9mbQ==",
+      "sha512": "WJ59xt5YopGcuJgI9RTc9c0cg8YafshLI0K+5H17eOvxOE6/cx02SNHcy/3pWWtnSC3cj4tTznQZO0fa3duKjw==",
       "type": "package",
       "path": "xamarin.android.support.media.compat/27.0.2.1",
       "files": [
@@ -1013,7 +982,7 @@
       ]
     },
     "Xamarin.Android.Support.Transition/27.0.2.1": {
-      "sha512": "PpHN79/lhUw+F2xiUkoPsDuglZGm8p1HfjYnOA1yJV/4CBkE8i6Ia6PZTqEWsy9bOfkoxe+shScAJXsKy4V89w==",
+      "sha512": "8wCs+rcM5pts/ZaKbAfGfSlbmJz9FFMtl4hzS8wgl8g2ecJ0l4nEiG0Q7QfM251rR762M4jMQ9BfCNwGZiAkCg==",
       "type": "package",
       "path": "xamarin.android.support.transition/27.0.2.1",
       "files": [
@@ -1028,7 +997,7 @@
       ]
     },
     "Xamarin.Android.Support.v7.AppCompat/27.0.2.1": {
-      "sha512": "MumW84Eb14Lt+nXFWzDaDEn2y4MtDJHGDZcSAtXtLwt8QbG5wU0HNX1DGM1qNtanFltIwoyiDNEuqGxYPthhyw==",
+      "sha512": "Tz0VmlR8TqvZ7crtymV2tQu8f2LZyDB7IGsnt3dj0/qfzPRmH6VkqoofxjyXM0sxqO5hFiR0VxhZdnsNYj0T3Q==",
       "type": "package",
       "path": "xamarin.android.support.v7.appcompat/27.0.2.1",
       "files": [
@@ -1042,7 +1011,7 @@
       ]
     },
     "Xamarin.Android.Support.v7.RecyclerView/27.0.2.1": {
-      "sha512": "ze4MYJlicTnIUGP37fVcrhgPfF47dG7TcRv1jkExBBqHoMk68kcrpg0cCNvCjIAhGdMtgEv3i+CiUC5QWLYQwA==",
+      "sha512": "Xai8QN62zwQq+tX0tp5MkQxtS1RZoaESO0o/JJUwfHSFImYpcfz7r0uwdvT497DZFMFvvVT1FqpZY4kNlbAVdA==",
       "type": "package",
       "path": "xamarin.android.support.v7.recyclerview/27.0.2.1",
       "files": [
@@ -1056,23 +1025,37 @@
         "xamarin.android.support.v7.recyclerview.nuspec"
       ]
     },
-    "Xamarin.Android.Support.Vector.Drawable/27.0.2.1": {
-      "sha512": "l7cInRhTODLzM6CLCXzqGiD+zstS7lYOWJxCZP5aIhsdBjSrv6oCqLPA50jK2ceaOu/6aG8/9NX18DHJy4mHFg==",
+    "Xamarin.Android.Support.Vector.Drawable/28.0.0.3": {
+      "sha512": "1Ky13Zl4wKOf52/hQxf05Dr85V8xwGpTYv1E5AxcmwyPD0300ImEL7pmjKJUcLOriYo/OtQM8GbJEUwQuBwqmA==",
       "type": "package",
-      "path": "xamarin.android.support.vector.drawable/27.0.2.1",
+      "path": "xamarin.android.support.vector.drawable/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/MonoAndroid81/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
-        "build/MonoAndroid81/Xamarin.Android.Support.Vector.Drawable.targets",
-        "lib/MonoAndroid81/Xamarin.Android.Support.Vector.Drawable.dll",
-        "xamarin.android.support.vector.drawable.27.0.2.1.nupkg.sha512",
+        "build/monoandroid60/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
+        "build/monoandroid60/Xamarin.Android.Support.Vector.Drawable.targets",
+        "build/monoandroid70/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
+        "build/monoandroid70/Xamarin.Android.Support.Vector.Drawable.targets",
+        "build/monoandroid71/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
+        "build/monoandroid71/Xamarin.Android.Support.Vector.Drawable.targets",
+        "build/monoandroid80/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
+        "build/monoandroid80/Xamarin.Android.Support.Vector.Drawable.targets",
+        "build/monoandroid81/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
+        "build/monoandroid81/Xamarin.Android.Support.Vector.Drawable.targets",
+        "build/monoandroid90/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
+        "build/monoandroid90/Xamarin.Android.Support.Vector.Drawable.targets",
+        "lib/monoandroid60/Xamarin.Android.Support.Vector.Drawable.dll",
+        "lib/monoandroid70/Xamarin.Android.Support.Vector.Drawable.dll",
+        "lib/monoandroid71/Xamarin.Android.Support.Vector.Drawable.dll",
+        "lib/monoandroid80/Xamarin.Android.Support.Vector.Drawable.dll",
+        "lib/monoandroid81/Xamarin.Android.Support.Vector.Drawable.dll",
+        "lib/monoandroid90/Xamarin.Android.Support.Vector.Drawable.dll",
+        "xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
     "Xamarin.Essentials/1.6.1": {
-      "sha512": "wHsjCmG/DUY1U5ebMhhh/BVquAM+gDKvgzxb8C8JcfypdxdBM5QcR3StXm3iDxgOsk1rxe2egO8gpC/Cj2R/Hg==",
+      "sha512": "gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
       "type": "package",
       "path": "xamarin.essentials/1.6.1",
       "files": [
@@ -1136,24 +1119,25 @@
       "Xamarin.Android.Support.Compat >= 28.0.0.3",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.3",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
+      "Xamarin.Android.Support.Vector.Drawable >= 28.0.0.3",
       "Xamarin.Essentials >= 1.6.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rio\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rio\\Desktop\\tcc2\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj",
       "projectName": "Monitor_Energia_Solar",
-      "projectPath": "C:\\Users\\Rio\\Desktop\\tcc2\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj",
-      "packagesPath": "C:\\Users\\Rio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rio\\Desktop\\tcc2\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Rio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1216,6 +1200,10 @@
             "target": "Package",
             "version": "[27.0.2.1, )"
           },
+          "Xamarin.Android.Support.Vector.Drawable": {
+            "target": "Package",
+            "version": "[28.0.0.3, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.6.1, )"
@@ -1241,6 +1229,16 @@
       "warningLevel": 1,
       "message": "Versão detectada do pacote fora da restrição de dependência: Xamarin.Android.Support.Design 27.0.2.1 requer Xamarin.Android.Support.Core.Utils (= 27.0.2.1), mas a versão Xamarin.Android.Support.Core.Utils 28.0.0.3 foi resolvida.",
       "libraryId": "Xamarin.Android.Support.Core.Utils",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.1"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: Xamarin.Android.Support.v7.AppCompat 27.0.2.1 requer Xamarin.Android.Support.Vector.Drawable (= 27.0.2.1), mas a versão Xamarin.Android.Support.Vector.Drawable 28.0.0.3 foi resolvida.",
+      "libraryId": "Xamarin.Android.Support.Vector.Drawable",
       "targetGraphs": [
         "MonoAndroid,Version=v8.1"
       ]
@@ -1339,8 +1337,8 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Versão detectada do pacote fora da restrição de dependência: Xamarin.Android.Support.Vector.Drawable 27.0.2.1 requer Xamarin.Android.Support.Compat (= 27.0.2.1), mas a versão Xamarin.Android.Support.Compat 28.0.0.3 foi resolvida.",
-      "libraryId": "Xamarin.Android.Support.Compat",
+      "message": "Versão detectada do pacote fora da restrição de dependência: Xamarin.Android.Support.Animated.Vector.Drawable 27.0.2.1 requer Xamarin.Android.Support.Vector.Drawable (= 27.0.2.1), mas a versão Xamarin.Android.Support.Vector.Drawable 28.0.0.3 foi resolvida.",
+      "libraryId": "Xamarin.Android.Support.Vector.Drawable",
       "targetGraphs": [
         "MonoAndroid,Version=v8.1"
       ]

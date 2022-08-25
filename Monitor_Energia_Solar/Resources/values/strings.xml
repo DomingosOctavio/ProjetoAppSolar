@@ -8,7 +8,10 @@
 
   <string name="inclinacao">Inclinação</string>
   <string name="bussola">Bússola</string>
+  
+  <string name="bandeira">bandeira</string>
+  <string name="tarifa">tarifa</string>
 
-
+  
 
 </resources>

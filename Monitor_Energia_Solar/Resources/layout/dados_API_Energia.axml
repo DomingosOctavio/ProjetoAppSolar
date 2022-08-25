@@ -5,10 +5,10 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
 	<ProgressBar
-		style="?android:attr/progressBarStyleHorizontal"
+		style="?android:attr/progressBarStyle"
 		android:layout_width="200dp"
 		android:layout_height="50dp"
-		android:layout_marginTop="350dp"
+		android:layout_marginTop="400dp"
 		android:layout_centerHorizontal="true"
 		android:id="@+id/progressBar1"
 		android:indeterminate="true" />
@@ -28,7 +28,7 @@
 			android:id="@+id/band" />
 		<TextView
 			android:layout_marginTop="10dp"
-			android:text="eeeeeeeeeeeeeee"
+			android:text=""
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
 			android:id="@+id/txtMes" />
 		<TextView
 			android:layout_marginTop="40dp"
-			android:text="eeeeeeeeeeeeee"
+			android:text=""
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -67,85 +67,98 @@
 		android:gravity="center_horizontal"
 		android:spinnerMode="dialog"	
 		android:id="@+id/drop_tarifas" />
+	
 	<TextView
-		android:layout_marginTop="300dp"
-		android:text="validade"
+		android:layout_marginTop="350dp"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
+		android:paddingLeft="20dp"
 		android:id="@+id/txtValidadede" />
 	<TextView
-		android:layout_marginTop="330dp"
-		android:text="subgrupo"
+		android:layout_marginTop="370dp"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
+		android:paddingLeft="20dp"
 		android:id="@+id/txtSubgrupo" />
 	<TextView
-		android:layout_marginTop="360dp"
-		android:text="modalidade"
+		android:layout_marginTop="390dp"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
+		android:paddingLeft="20dp"
 		android:id="@+id/txtModalidade" />
 	<TextView
-		android:layout_marginTop="390dp"
-		android:text="classe"
+		android:layout_marginTop="410dp"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
+		android:paddingLeft="20dp"
 		android:id="@+id/txtClasse" />
 	<TextView
-		android:layout_marginTop="420dp"
-		android:text="subclasse"
+		android:layout_marginTop="430dp"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
+		android:paddingLeft="20dp"
 		android:id="@+id/txtSubClasse" />
 	<TextView
 		android:layout_marginTop="450dp"
-		android:text="posto"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
+		android:paddingLeft="20dp"
 		android:id="@+id/txtPosto" />
 	<TextView
 		android:layout_marginTop="470dp"
-		android:text="tarifa"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
+		android:paddingLeft="20dp"
 		android:id="@+id/tarifa" />
 	<TextView
 		android:layout_marginTop="490dp"
-		android:text="branca1"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
+		android:paddingLeft="20dp"
 		android:id="@+id/branca1" />
 	<TextView
 		android:layout_marginTop="510dp"
-		android:text="branca2"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
+		android:paddingLeft="20dp"
 		android:id="@+id/branca2" />
-	<TextView
+	<TextView	
+		android:paddingLeft="20dp"
 		android:layout_marginTop="530dp"
-		android:text="branca3"
+		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="30px"
 		android:id="@+id/branca3" />
+
+	
 
 </RelativeLayout>
