@@ -60,7 +60,7 @@ namespace Monitor_Energia_Solar
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.tarifas);
-         
+
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
 
@@ -190,7 +190,7 @@ namespace Monitor_Energia_Solar
             {
                 try
                 {
-            
+
                     string url1 = Urls[i] + (ano - 1) + "&agente=" + Agente;
                     var api1Task2 = API_Dados_Energia.API_Tarifas(token, url1);
                     progress.Visibility = ViewStates.Visible;
@@ -212,7 +212,7 @@ namespace Monitor_Energia_Solar
 
                         }
                     }
-                   
+
                     if (validacao == true)
                     {
                         txtValidadede.Text = "Validade = " + obj_api_tarifas[posicao].validadesde.ToString();
@@ -222,7 +222,7 @@ namespace Monitor_Energia_Solar
                         txtModalidade.Text = "Modalidade = " + obj_api_tarifas[posicao].subclasse.ToString();
                         txtPosto.Text = "Posto = " + obj_api_tarifas[posicao].posto.ToString();
                         txtTarifa.Text = "Tarifa = " + (Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumote));
-                        
+
                         progress.Visibility = ViewStates.Invisible;
                         break;
                     }
@@ -240,7 +240,7 @@ namespace Monitor_Energia_Solar
             }
 
         }
-      
+
         private async System.Threading.Tasks.Task Tarifas_SyncAsync(int posicao, int num2, int num3, string Agente)
         {
             TextView txtValidadede = FindViewById<TextView>(Resource.Id.txtValidadede);
@@ -282,17 +282,17 @@ namespace Monitor_Energia_Solar
             {
                 for (int i = 0; i < Urls.Length; i++)
                 {
-                  
+
                     string url1 = Urls[i] + (ano - 1) + "&agente=" + Agente;
                     var api1Task2 = API_Dados_Energia.API_Tarifas(token, url1);
                     progress.Visibility = ViewStates.Visible;
 
                     obj_api_tarifas = await api1Task2;// traz
-                    
+
                     if (obj_api_tarifas.Count > 0)
                     {
                         validacao = true;
-         
+
 
                     }
                     else
@@ -303,11 +303,11 @@ namespace Monitor_Energia_Solar
                         if (obj_api_tarifas.Count > 0)
                         {
                             validacao = true;
-            
+
 
                         }
                     }
-                    
+
                     if (validacao == true)
                     {
                         txtValidadede.Text = "Validade = " + obj_api_tarifas[posicao].validadesde.ToString();
@@ -335,8 +335,8 @@ namespace Monitor_Energia_Solar
                     Thread.Sleep(100);
                 }
 
-         
-                
+
+
             }
             catch (Newtonsoft.Json.JsonSerializationException e)
             {
@@ -352,7 +352,7 @@ namespace Monitor_Energia_Solar
         protected override void OnDestroy()
         {
             base.OnDestroy();
- 
+
             spinner_tarifas.ItemSelected -= new EventHandler<AdapterView.ItemSelectedEventArgs>(Tarifas_ItemSelected);
         }
         private void Tarifas_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
@@ -363,7 +363,7 @@ namespace Monitor_Energia_Solar
 
             if (Agente == "CERAL ARARUAMA")
             {
-   
+
                 if (selectedPosition == 1)
                 {
                     Tarifas_SyncAsync(17, Agente);
@@ -556,6 +556,6 @@ namespace Monitor_Energia_Solar
             }
 
         }
-     
+
     }
 }

@@ -96,15 +96,15 @@ namespace Monitor_Energia_Solar
         public PlotModel Grafico1()
         {
             Context mContext1 = Android.App.Application.Context;
-            Session_Token ap2 = new Session_Token(mContext1);
-            string token = ap2.getAccessKey().ToString();
+            //Session_Token ap2 = new Session_Token(mContext1);
+            //string token = ap2.getAccessKey().ToString();
 
             Consulta_Dados_Banco_Dados consulta_grafico = new Consulta_Dados_Banco_Dados();
             List<Obj_Dados_Grafico.Grafico> lista_objetos_grafico = new List<Obj_Dados_Grafico.Grafico>();
 
             try
             {
-                lista_objetos_grafico = consulta_grafico.Consulta_dados_Grafico(token);
+                //lista_objetos_grafico = consulta_grafico.Consulta_dados_Grafico(token);
             }
             catch (MySqlException e)
             {
@@ -179,15 +179,15 @@ namespace Monitor_Energia_Solar
         public PlotModel Grafico2()
         {
             Context mContext1 = Android.App.Application.Context;
-            Session_Token ap2 = new Session_Token(mContext1);
-            string token = ap2.getAccessKey().ToString();
+            //Session_Token ap2 = new Session_Token(mContext1);
+            //string token = ap2.getAccessKey().ToString();
 
             Consulta_Dados_Banco_Dados consulta_grafico = new Consulta_Dados_Banco_Dados();
             List<Obj_Dados_Grafico.Grafico> lista_objetos_grafico = new List<Obj_Dados_Grafico.Grafico>();
 
             try
             {
-                lista_objetos_grafico = consulta_grafico.Consulta_dados_Grafico(token);
+               // lista_objetos_grafico = consulta_grafico.Consulta_dados_Grafico(token);
             }
             catch (MySqlException e)
             {

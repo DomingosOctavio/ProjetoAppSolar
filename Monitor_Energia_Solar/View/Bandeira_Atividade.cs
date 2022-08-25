@@ -30,7 +30,7 @@ namespace Monitor_Energia_Solar
             ISharedPreferencesEditor editer = pref.Edit();
             editer.Remove("PREFERENCE_ACCESS_KEY").Commit(); ////Remove Spec key values  
 
-            Finish();
+            this.Finish();
 
         }
 

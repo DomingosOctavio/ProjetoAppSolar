@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Content;
 using Android.Preferences;
 using SendEmail;
+using Monitor_Energia_Solar.Controller;
 
 namespace Monitor_Energia_Solar
 {
@@ -41,6 +42,9 @@ namespace Monitor_Energia_Solar
             btn_novo_usuario.Click += Btnnovo_usuario_Click;
            
             btn_novo_recuperar.Click += delegate {
+
+
+
                 LayoutInflater layoutInflater = LayoutInflater.From(this);
                 View view = layoutInflater.Inflate(Resource.Layout.InputBox_Email, null);
                 Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
@@ -49,13 +53,15 @@ namespace Monitor_Energia_Solar
                 alertbuilder.SetCancelable(false)
                 .SetPositiveButton("Enviar", delegate
                 {
-                    Context mContext = Android.App.Application.Context;
-                    Session_Usuario usuario = new Session_Usuario(mContext);
-                    string UserID = usuario.getAccessKey().ToString();
 
-                    Context mContext1 = Android.App.Application.Context;
-                    Session_Token token = new Session_Token(mContext1);
-                    string UserID2 = token.getAccessKey().ToString();
+
+
+                    var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
+                    string usuario = dadosUsuario.GetString("Usuario", null);
+                    string codigo = dadosUsuario.GetString("Codigo", null);
+                    string ip = dadosUsuario.GetString("Ip", null);
+                    string senha = dadosUsuario.GetString("Senha", null);
+
 
                     EditText etSearch = (EditText)view.FindViewById(Resource.Id.editText);
                     String userdata = etSearch.EditableText.ToString();
@@ -76,38 +82,39 @@ namespace Monitor_Energia_Solar
 
 
         }
+        
+
         private void Btnsave_Click(object sender, EventArgs e)
         {
+            Obj_Banco_Dados obj_Banco = new Obj_Banco_Dados();
+            LoginController loginControler = new LoginController();
 
-            BancoLogin obj_banco_login = new BancoLogin ();
-            
-            Obj_Banco_Dados obj_banco = new Obj_Banco_Dados();
+            obj_Banco = loginControler.BuscardadosLogin(usuario.Text, senha.Text);
 
-            obj_banco = obj_banco_login.Consulta_login(usuario.Text, senha.Text);
+         
 
             try
             {
-                if (obj_banco.Usuario.Equals("") || obj_banco.Senha.Equals(""))
+                if (obj_Banco.Usuario.Equals("") || obj_Banco.Senha.Equals(""))
                 {
                     Toast.MakeText(this, "Por favor, preencha os dois dos campos!", ToastLength.Short).Show();
                     return;
                 }
                 else
                 {
-                    if (obj_banco.Usuario.Equals(usuario.Text) && obj_banco.Senha.Equals(senha.Text))
+                    if (obj_Banco.Usuario.Equals(usuario.Text) && obj_Banco.Senha.Equals(senha.Text))
                     {
-                        Context mContext = Android.App.Application.Context;
-                        Session_Usuario usuario1 = new Session_Usuario(mContext);
-                        usuario1.saveAccessKey(obj_banco.Usuario);
 
-                        Context mContext1 = Android.App.Application.Context;
-                        Session_Token cod = new Session_Token(mContext1);
-                        cod.saveAccessKey(obj_banco.Cod);
+                        var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
+                        var usuarioEdit = dadosUsuario.Edit();
+                        usuarioEdit.PutString("Usuario", obj_Banco.Usuario);
+                        usuarioEdit.PutString("Codigo", obj_Banco.Cod);
+                        usuarioEdit.PutString("Ip", obj_Banco.IP_conexao);
+                        usuarioEdit.PutString("Senha", obj_Banco.Cod);
+                        usuarioEdit.Commit();
 
-                        Context mContext2 = Android.App.Application.Context;
-                        Session_Conexao ip_conexao = new Session_Conexao(mContext2);
-                        ip_conexao.saveAccessKey(obj_banco.IP_conexao);
 
+  
 
                         var intent = new Intent(this, typeof(MainActivity));
                         intent.SetFlags(ActivityFlags.NewTask);

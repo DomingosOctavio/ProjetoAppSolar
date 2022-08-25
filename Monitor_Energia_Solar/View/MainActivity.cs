@@ -8,6 +8,8 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using Java.Net;
+using Monitor_Energia_Solar.Controller;
+using Monitor_Energia_Solar.Service;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -21,21 +23,14 @@ namespace Monitor_Energia_Solar
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         TextView textMessage;
-        CancellationTokenSource _tokenSource = null;
         TextView textView_session;
         TextView textView_ip;
         public static string IP_atual;
 
 
-        // List<string> lista_string = new List<string>();
-        HttpClient client = new HttpClient();
-
         public override void OnBackPressed()
         {
-            ISharedPreferences pref = PreferenceManager.GetDefaultSharedPreferences(this);
-            ISharedPreferencesEditor editer = pref.Edit();
-            editer.Remove("PREFERENCE_ACCESS_KEY").Commit(); ////Remove Spec key values  
-
+      
             Finish();
 
         }
@@ -75,25 +70,26 @@ namespace Monitor_Energia_Solar
             // Get User ID
             Context mContext = Android.App.Application.Context;
 
-            Session_Usuario ap = new Session_Usuario(mContext);
-            string UserID = ap.getAccessKey().ToString();
-            //  objCommon = new CommonServices();
+            var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
 
-            Context mContext1 = Android.App.Application.Context;
-            Session_Token ap2 = new Session_Token(mContext1);
-            string UserID2 = ap2.getAccessKey().ToString();
+            string usuario = dadosUsuario.GetString("Usuario", null);
+            string codigo = dadosUsuario.GetString("Codigo", null);
+            string ip = dadosUsuario.GetString("Ip", null);
+            string senha = dadosUsuario.GetString("Senha", null);
 
-            Context mContext2 = Android.App.Application.Context;
-            Session_Conexao ap3 = new Session_Conexao(mContext2);
-            string UserID3 = ap3.getAccessKey().ToString();
+            MainActivityController controler = new MainActivityController();
+            if (ip == null)
+            {
+                IP_atual = controler.BuscarIp(codigo);
+                var usuarioEdit = dadosUsuario.Edit();
+                usuarioEdit.PutString("Ip", IP_atual);
+            }
+            else
+            {
+                IP_atual = ip;
+            }
 
-
-            Context mContext5 = Android.App.Application.Context;
-            Session_Token ap5 = new Session_Token(mContext5);
-            string UserID5 = ap2.getAccessKey().ToString();
-            BancoLogin banco = new BancoLogin();
-            IP_atual = "http://" + banco.ConsultarIp(UserID5) + "/";
-
+            IP_atual = "http://" + IP_atual + "/";
         }
 
 
@@ -117,19 +113,8 @@ namespace Monitor_Energia_Solar
 
         public delegate void TimerCallback(object state);
 
-
-        public async Task<Obj_Dados_WebServer> GetDadosAsync()
-        {
-            var response = await client.GetStringAsync(IP_atual);
-            var dados = JsonConvert.DeserializeObject<Obj_Dados_WebServer>(response);
-            return dados;
-        }
-
         public async Task<Obj_Dados_WebServer> Executar()
         {
-
-            _tokenSource = new CancellationTokenSource();
-            var token = _tokenSource.Token;
 
             ProgressBar progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
             Obj_Dados_WebServer obj_Dados = new Obj_Dados_WebServer();
@@ -142,42 +127,29 @@ namespace Monitor_Energia_Solar
             try
             {
                 Obj_Dados_WebServer obj_Dados_WebServer2 = new Obj_Dados_WebServer();
-
-                obj_Dados_WebServer2 = await GetDadosAsync();
+                ArduinoDadosService arduinoDados = new ArduinoDadosService();
+                
                 progress.Visibility = ViewStates.Visible;
-                return obj_Dados_WebServer2;
+
+                return await arduinoDados.GetDadosAsync(IP_atual);
 
             }
             #pragma warning disable CS0168 // A variável foi declarada, mas nunca foi usada
             catch (NoRouteToHostException e)
             #pragma warning restore CS0168 // A variável foi declarada, mas nunca foi usada
             {
-
-
                 obj_Dados.mensagem = "Tentando Reconectar...";
                 return obj_Dados;
-
-
             }
-#pragma warning disable CS0168 // A variável foi declarada, mas nunca foi usada
+            #pragma warning disable CS0168 // A variável foi declarada, mas nunca foi usada
             catch (Exception e)
-#pragma warning restore CS0168 // A variável foi declarada, mas nunca foi usada
+            #pragma warning restore CS0168 // A variável foi declarada, mas nunca foi usada
             {
-
-
                 obj_Dados.mensagem = "Erro: Verifique a Conexão da internet...";
                 return obj_Dados;
-
-
-
             }
 
         }
-
-
-
-        ///Task t2 = Task.Factory.StartNew(object state);
-
 
         public void TimerProc(object state)
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -14,20 +15,20 @@ namespace Monitor_Energia_Solar
 
         public static async Task<List<Obj_API_Dados_Energia.TarifasArray>> API_Tarifas(CancellationToken cancellationToken, string Url)
         {
-        
-            List<Obj_API_Dados_Energia.TarifasArray> datalist = new List<Obj_API_Dados_Energia.TarifasArray>();
-                    
-                    using (var client = new HttpClient())
-                    using (var request = new HttpRequestMessage(HttpMethod.Get, Url))
-                    using (var response = await client.SendAsync(request, cancellationToken))
-                    {
-                        response.EnsureSuccessStatusCode();
-                        var content = await response.Content.ReadAsStringAsync();
-                        List<Obj_API_Dados_Energia.TarifasArray> datalist2 = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Obj_API_Dados_Energia.TarifasArray>>(content);
 
-                        return datalist2;
-                    }         
-           
+            List<Obj_API_Dados_Energia.TarifasArray> datalist = new List<Obj_API_Dados_Energia.TarifasArray>();
+
+            using (var client = new HttpClient())
+            using (var request = new HttpRequestMessage(HttpMethod.Get, Url))
+            using (var response = await client.SendAsync(request, cancellationToken))
+            {
+                response.EnsureSuccessStatusCode();
+                var content = await response.Content.ReadAsStringAsync();
+                List<Obj_API_Dados_Energia.TarifasArray> datalist2 = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Obj_API_Dados_Energia.TarifasArray>>(content);
+
+                return datalist2;
+            }
+
         }
 
 
@@ -86,13 +87,13 @@ namespace Monitor_Energia_Solar
                     };
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 string msg = e.Message;
                 return bandeiras;
-               
+
             }
-           
+
         }
 
         //public static async Task<Obj_API_Dados_Energia.Root_Tarifas> CheckNetworkErrorCallAsyncTarifas(CancellationToken cancellationToken, string Url)
@@ -128,4 +129,3 @@ namespace Monitor_Energia_Solar
         //    }
     }
 }
-

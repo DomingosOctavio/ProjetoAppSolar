@@ -16,15 +16,11 @@ namespace Monitor_Energia_Solar.Controller
     {
         public static string IP_atual;
 
-        public String BuscarIp()
+        public String BuscarIp(string Cod)
         {
-            Context mContext = Android.App.Application.Context;
-
-            Session_Token ap5 = new Session_Token(mContext);
-            string UserID5 = ap5.getAccessKey().ToString();
-
+        
             BancoLogin banco = new BancoLogin();
-            IP_atual = "http://" + banco.ConsultarIp(UserID5) + "/";
+            IP_atual = "http://" + banco.ConsultarIp(Cod) + "/";
 
             return IP_atual;
         }

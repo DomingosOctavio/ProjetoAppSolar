@@ -46,17 +46,17 @@ namespace Monitor_Energia_Solar
             {
 
 
-                Context mContext1 = Android.App.Application.Context;
-                Session_Token cod = new Session_Token(mContext1);
-                cod.saveAccessKey(btn_token.Text);
+                //Context mContext1 = Android.App.Application.Context;
+                //Session_Token cod = new Session_Token(mContext1);
+                //cod.saveAccessKey(btn_token.Text);
 
-                Toast.MakeText(this, "Token encontrado!", ToastLength.Short).Show();
-                var intent = new Intent(this, typeof(DadosPessoaisAtividade));
-                intent.SetFlags(ActivityFlags.NewTask);
-                //Navigation to SecondActivity
-                StartActivity(intent);
-                //delete main activity from navigation
-                //Finish();
+                //Toast.MakeText(this, "Token encontrado!", ToastLength.Short).Show();
+                //var intent = new Intent(this, typeof(DadosPessoaisAtividade));
+                //intent.SetFlags(ActivityFlags.NewTask);
+                ////Navigation to SecondActivity
+                //StartActivity(intent);
+                ////delete main activity from navigation
+                ////Finish();
 
             }
             else
