@@ -66,6 +66,7 @@ namespace Monitor_Energia_Solar
                     else
                     {
                         Toast.MakeText(Application.Context, "TOKEN Inválido", ToastLength.Short).Show();
+                        return;
                     }
                   
 

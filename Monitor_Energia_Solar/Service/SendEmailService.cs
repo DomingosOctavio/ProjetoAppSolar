@@ -28,9 +28,9 @@ namespace SendEmailService
             Monitor_Energia_Solar.Controller.LoginController login = new LoginController();
 
             Obj_Banco_Dados objBancoDados = new Obj_Banco_Dados();
-            objBancoDados = login.RecuperarDadosPeloEmail("token");
+            objBancoDados = login.RecuperarDadosPeloEmail(token);
 
-            if (objBancoDados.Usuario != null || objBancoDados.Usuario != "")
+            if (objBancoDados.Usuario == null || objBancoDados.Usuario == "")
             {
                 Toast.MakeText(Application.Context, "Atenção, usuário não encontrado", ToastLength.Short).Show();
             }
