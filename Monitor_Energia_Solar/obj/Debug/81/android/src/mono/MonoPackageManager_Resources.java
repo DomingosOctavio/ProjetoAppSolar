@@ -3,13 +3,18 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Monitor_Energia_Solar.dll" comes first in this list. */
 		"Monitor_Energia_Solar.dll",
+		"BouncyCastle.Crypto.dll",
 		"Json.Net.dll",
+		"MailKit.dll",
+		"MimeKit.dll",
 		"MySqlConnector.dll",
 		"Newtonsoft.Json.dll",
 		"OxyPlot.dll",
 		"OxyPlot.Xamarin.Android.dll",
 		"Plugin.Fingerprint.dll",
 		"Refractored.GifImageView.dll",
+		"System.Formats.Asn1.dll",
+		"System.Security.Cryptography.Pkcs.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

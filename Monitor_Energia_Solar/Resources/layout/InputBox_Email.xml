@@ -10,7 +10,7 @@
         android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Insira o seu email para recuperar os dados de login"
+        android:text="Insira o token"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     <EditText
     
@@ -18,7 +18,7 @@
         android:layout_marginTop="15px"
 			android:layout_width="match_parent"  
 			android:layout_height="50dp"  
-			android:hint="E-mail" 
+			android:hint="Token" 
 			android:background="@layout/rounded_border_edittext"  
 			android:padding="15dp"
 			android:layout_marginBottom="10dp"

@@ -6,7 +6,7 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Content;
 using Android.Preferences;
-using SendEmail;
+using SendEmailService;
 using Monitor_Energia_Solar.Controller;
 
 namespace Monitor_Energia_Solar
@@ -55,19 +55,19 @@ namespace Monitor_Energia_Solar
                 {
 
 
-
-                    var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
-                    string usuario = dadosUsuario.GetString("Usuario", null);
-                    string codigo = dadosUsuario.GetString("Codigo", null);
-                    string ip = dadosUsuario.GetString("Ip", null);
-                    string senha = dadosUsuario.GetString("Senha", null);
-
-
                     EditText etSearch = (EditText)view.FindViewById(Resource.Id.editText);
                     String userdata = etSearch.EditableText.ToString();
 
-                    Email email = new Email();
-                    email.SendEmail();
+                    if (userdata != null || userdata != "")
+                    {
+                        Email email = new Email();
+                        email.SendEmail(userdata);
+                    }
+                    else
+                    {
+                        Toast.MakeText(Application.Context, "TOKEN Inválido", ToastLength.Short).Show();
+                    }
+                  
 
                     //select no banco procurando usuario e senha atraves do email
                     Toast.MakeText(this, "Submit Input: " + userdata, ToastLength.Short).Show();

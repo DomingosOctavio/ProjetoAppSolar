@@ -57,6 +57,27 @@ namespace Monitor_Energia_Solar
             return resultado;
 
         }
+        public Obj_Banco_Dados RecuperarDadosEmail(string token)
+        {
+            Conexao_Banco_Dados conection = new Conexao_Banco_Dados();
+            MySqlConnection conectionmysql = conection.CriarConexao();
+
+            conection.AdicionarParametros("token", token);
+            DataTable dataTable = conection.ExecutarConsulta(CommandType.StoredProcedure, "Select_EmailToken");
+            Obj_Banco_Dados obj_Banco_Dados = new Obj_Banco_Dados();
+
+            foreach (DataRow dataRow in dataTable.Rows)
+            {
+                obj_Banco_Dados.Usuario = Convert.ToString(dataRow["usuario"]);
+                obj_Banco_Dados.Senha = Convert.ToString(dataRow["senha"]);
+                obj_Banco_Dados.Email = Convert.ToString(dataRow["email"]);
+            }
+            conectionmysql.Close();
+
+            return obj_Banco_Dados;
+
+        }
+
 
         public void InserirDadosPessoais(string usuario, int senha, string email, string token)
         {

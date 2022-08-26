@@ -22,7 +22,11 @@ namespace Monitor_Energia_Solar
         public string IP_conexao { get; set; }
         public string Cod { get; set; }
 
+        public string Email { get; set; }
 
-     
+
+
+
+
     }
 }

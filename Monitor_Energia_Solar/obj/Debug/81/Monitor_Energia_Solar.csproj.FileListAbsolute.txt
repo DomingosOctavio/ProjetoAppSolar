@@ -1329,3 +1329,10 @@ C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Sola
 C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
 C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\MimeKit.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\MimeKit.pdb
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Formats.Asn1.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\System.Security.Cryptography.Pkcs.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\MailKit.dll
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\android\assets\MailKit.pdb

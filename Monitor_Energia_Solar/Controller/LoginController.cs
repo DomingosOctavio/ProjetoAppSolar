@@ -21,6 +21,12 @@ namespace Monitor_Energia_Solar.Controller
 
             return obj_banco;
 
-        }    
+        }
+        public Obj_Banco_Dados RecuperarDadosPeloEmail(string token)
+        {
+           
+            BancoLogin obj_banco_login = new BancoLogin();
+            return  obj_banco_login.RecuperarDadosEmail(token);
+        }
     }
 }
