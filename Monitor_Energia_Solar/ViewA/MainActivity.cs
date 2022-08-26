@@ -10,6 +10,7 @@ using Android.Widget;
 using Java.Net;
 using Monitor_Energia_Solar.Controller;
 using Monitor_Energia_Solar.Service;
+using Monitor_Energia_Solar;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -104,7 +105,7 @@ namespace Monitor_Energia_Solar
                     StartActivity(typeof(Escolha_Instrucao_Atividade));
                     return true;
                 case Resource.Id.navigation_notifications:
-                    StartActivity(typeof(Bandeira_Atividade));
+                    StartActivity(typeof(EscolhaTarifaBandeira));
                     return true;
             }
             return false;

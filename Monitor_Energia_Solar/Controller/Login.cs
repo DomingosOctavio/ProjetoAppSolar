@@ -20,6 +20,7 @@ namespace Monitor_Energia_Solar
         Button btn_novo_usuario;
         Button btn_login;
         Button btn_novo_recuperar;
+       
 
         protected override void OnCreate(Bundle bundle)
         {

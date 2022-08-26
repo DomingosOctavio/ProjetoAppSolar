@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 namespace Monitor_Energia_Solar
 {
     [Activity(Label = "", Theme = "@style/AppTheme", Icon = "@drawable/icon")]
-    public class Bandeira_Atividade : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
+    public class Bandeira_Atividade : AppCompatActivity
     {
    
    
@@ -26,29 +26,10 @@ namespace Monitor_Energia_Solar
 
         public override void OnBackPressed()
         {
-            ISharedPreferences pref = PreferenceManager.GetDefaultSharedPreferences(this);
-            ISharedPreferencesEditor editer = pref.Edit();
-            editer.Remove("PREFERENCE_ACCESS_KEY").Commit(); ////Remove Spec key values  
-
             this.Finish();
-
         }
 
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            MenuInflater.Inflate(Resource.Menu.myMenu, menu);
-            return base.OnPrepareOptionsMenu(menu);
-        }
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            if (item.ItemId == Resource.Id.file_settings)
-            {
-                // do something here... 
-                return true;
-            }
-            return base.OnOptionsItemSelected(item);
-        }
-
+   
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -79,28 +60,10 @@ namespace Monitor_Energia_Solar
                 });
             }
 
-            BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
-            navigation.SetOnNavigationItemSelectedListener(this);
-
        
 
         }
 
-
-        public bool OnNavigationItemSelected(IMenuItem item)
-        {
-            switch (item.ItemId)
-            {
-                case Resource.Id.bandeira:
-                    StartActivity(typeof(Bandeira_Atividade));
-                    return true;
-                case Resource.Id.tarifa:
-                    StartActivity(typeof(Tarifas_Atividade));
-                    return true;
-
-            }
-            return false;
-        }
 
 
 

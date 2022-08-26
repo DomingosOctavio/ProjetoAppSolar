@@ -48,20 +48,5 @@
 			android:id="@+id/txtID" />
 	</RelativeLayout>
 	
-
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="0dp"
-        android:layout_marginStart="0dp"
-        android:layout_alignParentBottom="true"
-        android:elevation="6dp"
-        android:background="@drawable/sombra_menu"
-        android:fadingEdge ="horizontal"
-        app:menu="@menu/navigation3"
-        android:layout_marginRight="35.0dp" />
-
 </RelativeLayout>
 

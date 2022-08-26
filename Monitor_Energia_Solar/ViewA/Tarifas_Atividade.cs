@@ -13,7 +13,7 @@ using System.Threading;
 namespace Monitor_Energia_Solar
 {
     [Activity(Label = "Tarifas_Atividade")]
-    public class Tarifas_Atividade : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
+    public class Tarifas_Atividade : AppCompatActivity
     {
         CancellationTokenSource _tokenSource = null;
         Spinner spinner;
@@ -32,28 +32,12 @@ namespace Monitor_Energia_Solar
 
         public override void OnBackPressed()
         {
-            ISharedPreferences pref = PreferenceManager.GetDefaultSharedPreferences(this);
-            ISharedPreferencesEditor editer = pref.Edit();
-            editer.Remove("PREFERENCE_ACCESS_KEY").Commit(); ////Remove Spec key values  
-
+  
             Finish();
 
         }
 
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            MenuInflater.Inflate(Resource.Menu.myMenu, menu);
-            return base.OnPrepareOptionsMenu(menu);
-        }
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            if (item.ItemId == Resource.Id.file_settings)
-            {
-                // do something here... 
-                return true;
-            }
-            return base.OnOptionsItemSelected(item);
-        }
+      
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -61,8 +45,7 @@ namespace Monitor_Energia_Solar
 
             SetContentView(Resource.Layout.tarifas);
 
-            BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
-            navigation.SetOnNavigationItemSelectedListener(this);
+         
 
             progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
 
@@ -79,20 +62,7 @@ namespace Monitor_Energia_Solar
             progress.Visibility = ViewStates.Invisible;
 
         }
-        public bool OnNavigationItemSelected(IMenuItem item)
-        {
-            switch (item.ItemId)
-            {
-                case Resource.Id.bandeira:
-                    StartActivity(typeof(Bandeira_Atividade));
-                    return true;
-                case Resource.Id.tarifa:
-                    StartActivity(typeof(Tarifas_Atividade));
-                    return true;
-
-            }
-            return false;
-        }
+     
 
         public void Companhia_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
@@ -349,6 +319,7 @@ namespace Monitor_Energia_Solar
             }
 
         }
+       
         protected override void OnDestroy()
         {
             base.OnDestroy();

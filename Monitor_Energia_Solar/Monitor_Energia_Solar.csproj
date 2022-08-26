@@ -68,18 +68,19 @@
     <Compile Include="Model\BancoLogin.cs" />
     <Compile Include="Controller\Bandeiras.cs" />
     <Compile Include="Service\ArduinoDadosService.cs" />
-    <Compile Include="View\Bandeira_Atividade.cs" />
-    <Compile Include="View\Bussola_Atividade.cs" />
-    <Compile Include="View\CadastroTokenAtividade.cs" />
-    <Compile Include="View\Compass_Atividade.cs" />
+    <Compile Include="ViewA\Bandeira_Atividade.cs" />
+    <Compile Include="ViewA\Bussola_Atividade.cs" />
+    <Compile Include="ViewA\CadastroTokenAtividade.cs" />
+    <Compile Include="ViewA\Compass_Atividade.cs" />
     <Compile Include="Model\Conexao_Banco_Dados.cs" />
     <Compile Include="Model\Consulta_Banco_Dados.cs" />
-    <Compile Include="View\DadosPessoaisAtividade.cs" />
+    <Compile Include="ViewA\DadosPessoaisAtividade.cs" />
     <Compile Include="Controller\Dados_Json_WebServer_Arduino.cs" />
-    <Compile Include="View\GraficoAtividade.cs" />
-    <Compile Include="View\Escolha_Instrucao_Atividade.cs" />
+    <Compile Include="ViewA\EscolhaTarifaBandeira.cs" />
+    <Compile Include="ViewA\GraficoAtividade.cs" />
+    <Compile Include="ViewA\Escolha_Instrucao_Atividade.cs" />
     <Compile Include="Controller\Login.cs" />
-    <Compile Include="View\MainActivity.cs" />
+    <Compile Include="ViewA\MainActivity.cs" />
     <Compile Include="Model\Obj_API_Dados_Energia.cs" />
     <Compile Include="Model\Obj_Banco_Dados.cs" />
     <Compile Include="Model\Obj_Dados_Grafico.cs" />
@@ -88,10 +89,10 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\SendEmailService.cs" />
-    <Compile Include="View\Sensor_Inclinacao_Atividade.cs" />
+    <Compile Include="ViewA\Sensor_Inclinacao_Atividade.cs" />
     <Compile Include="Controller\Session_classe.cs" />
-    <Compile Include="View\Tarifas_Atividade.cs" />
-    <Compile Include="View\TelaInicial.cs" />
+    <Compile Include="ViewA\Tarifas_Atividade.cs" />
+    <Compile Include="ViewA\TelaInicial.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -285,6 +286,18 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon_inclinacao.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\economia_icon.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bandeira_icon.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\ExplicacaoTarifaBandeira.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\menu\navigation4.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
