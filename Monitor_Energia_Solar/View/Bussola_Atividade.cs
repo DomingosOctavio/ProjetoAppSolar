@@ -11,11 +11,12 @@ using Android.Views.Animations;
 using Android.Views;
 using Android.Content;
 using Android.Preferences;
+using Android.Content.PM;
 
 namespace Monitor_Energia_Solar
 {
     // [Activity(Label = "Bussola_Atividade", MainLauncher = false, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
-     [Activity(Label = "Bussola_Atividade", MainLauncher = false, Icon = "@drawable/icon")]
+    [Activity(Label = "@string/bussola", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
 
     public class Bussola_Atividade : AppCompatActivity, ISensorEventListener
     {
@@ -37,11 +38,8 @@ namespace Monitor_Energia_Solar
         [MethodImpl(MethodImplOptions.Synchronized)]
         public override void OnBackPressed()
         {
-            ISharedPreferences pref = PreferenceManager.GetDefaultSharedPreferences(this);
-            ISharedPreferencesEditor editer = pref.Edit();
-            editer.Remove("PREFERENCE_ACCESS_KEY").Commit(); ////Remove Spec key values  
-
-            Finish();
+        
+            this.Finish();
         }
 
         private void ProcessCompass(SensorEvent e)

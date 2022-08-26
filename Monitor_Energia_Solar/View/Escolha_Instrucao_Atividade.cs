@@ -27,7 +27,7 @@ namespace Monitor_Energia_Solar
                     //Navigation to SecondActivity
                     StartActivity(intent);
                     //delete main activity from navigation
-                    Finish();
+                  
                     return true;
                 case Resource.Id.inclinacao:
                     var intent2 = new Intent(this, typeof(Sensor_Inclinacao_Atividade));
@@ -35,7 +35,7 @@ namespace Monitor_Energia_Solar
                     //Navigation to SecondActivity
                     StartActivity(intent2);
                     //delete main activity from navigation
-                    Finish();
+                
             
                     return true;
                 
@@ -53,6 +53,11 @@ namespace Monitor_Energia_Solar
             navigation.SetOnNavigationItemSelectedListener(this);
 
         }
-       
+        public override void OnBackPressed()
+        {
+           
+            this.Finish();
+        }
+
     }
 }

@@ -2376,6 +2376,9 @@ namespace Monitor_Energia_Solar
 			// aapt resource value: 0x7F07006A
 			public const int icon = 2131165290;
 			
+			// aapt resource value: 0x7F07006B
+			public const int icon_inclinacao = 2131165291;
+			
 			// aapt resource value: 0x7F070067
 			public const int ic_dashboard_black_24dp = 2131165287;
 			
@@ -2385,59 +2388,59 @@ namespace Monitor_Energia_Solar
 			// aapt resource value: 0x7F070069
 			public const int ic_notifications_black_24dp = 2131165289;
 			
-			// aapt resource value: 0x7F07006B
-			public const int layout_shadow_white = 2131165291;
-			
 			// aapt resource value: 0x7F07006C
-			public const int navigation_empty_icon = 2131165292;
+			public const int layout_shadow_white = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notification_action_background = 2131165293;
+			public const int navigation_empty_icon = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int notification_bg = 2131165294;
+			public const int notification_action_background = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int notification_bg_low = 2131165295;
+			public const int notification_bg = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int notification_bg_low_normal = 2131165296;
+			public const int notification_bg_low = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_bg_low_pressed = 2131165297;
+			public const int notification_bg_low_normal = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_bg_normal = 2131165298;
+			public const int notification_bg_low_pressed = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notification_bg_normal_pressed = 2131165299;
+			public const int notification_bg_normal = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notification_icon_background = 2131165300;
+			public const int notification_bg_normal_pressed = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int notification_template_icon_bg = 2131165301;
+			public const int notification_icon_background = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int notification_template_icon_low_bg = 2131165302;
+			public const int notification_template_icon_bg = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int notification_tile_bg = 2131165303;
+			public const int notification_template_icon_low_bg = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int notify_panel_notification_icon_bg = 2131165304;
+			public const int notification_tile_bg = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int Sol_anim = 2131165305;
+			public const int notify_panel_notification_icon_bg = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int sombra_menu = 2131165306;
+			public const int Sol_anim = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int tooltip_frame_dark = 2131165307;
+			public const int sombra_menu = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int tooltip_frame_light = 2131165308;
+			public const int tooltip_frame_dark = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int tooltip_frame_light = 2131165309;
 			
 			static Drawable()
 			{
@@ -3613,19 +3616,22 @@ namespace Monitor_Energia_Solar
 			public const int search_menu_title = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int status_bar_notification_info_overflow = 2131558442;
+			public const int sensor_inclinacao = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int tarifa = 2131558443;
+			public const int status_bar_notification_info_overflow = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int title_dashboard = 2131558444;
+			public const int tarifa = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int title_home = 2131558445;
+			public const int title_dashboard = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int title_notifications = 2131558446;
+			public const int title_home = 2131558446;
+			
+			// aapt resource value: 0x7F0D002F
+			public const int title_notifications = 2131558447;
 			
 			static String()
 			{

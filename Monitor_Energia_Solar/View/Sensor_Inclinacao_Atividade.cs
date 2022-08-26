@@ -9,7 +9,7 @@ using Android.Views;
 
 namespace Monitor_Energia_Solar
 {
-    [Activity(Label = "@string/app_name", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "@string/sensor_inclinacao", Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
 
   //  [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
 
@@ -87,6 +87,11 @@ namespace Monitor_Energia_Solar
             _sensorManager.RegisterListener(this,
                 _sensorManager.GetDefaultSensor(SensorType.Accelerometer),
                 SensorDelay.Ui);
+        }
+        public override void OnBackPressed()
+        { 
+
+            this.Finish();
         }
         protected override void OnPause()
         {

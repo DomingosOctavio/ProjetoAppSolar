@@ -12,6 +12,7 @@ public class Escolha_Instrucao_Atividade
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
+			"n_onBackPressed:()V:GetOnBackPressedHandler\n" +
 			"n_onNavigationItemSelected:(Landroid/view/MenuItem;)Z:GetOnNavigationItemSelected_Landroid_view_MenuItem_Handler:Android.Support.Design.Widget.BottomNavigationView/IOnNavigationItemSelectedListenerInvoker, Xamarin.Android.Support.Design\n" +
 			"";
 		mono.android.Runtime.register ("Monitor_Energia_Solar.Escolha_Instrucao_Atividade, Monitor_Energia_Solar", Escolha_Instrucao_Atividade.class, __md_methods);
@@ -32,6 +33,14 @@ public class Escolha_Instrucao_Atividade
 	}
 
 	private native void n_onCreate (android.os.Bundle p0);
+
+
+	public void onBackPressed ()
+	{
+		n_onBackPressed ();
+	}
+
+	private native void n_onBackPressed ();
 
 
 	public boolean onNavigationItemSelected (android.view.MenuItem p0)

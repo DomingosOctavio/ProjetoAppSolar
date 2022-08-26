@@ -55,6 +55,7 @@ path;obj\Debug\81\res\drawable\bussola1.xml
 path;obj\Debug\81\res\drawable\ic_dashboard_black_24dp.xml
 path;obj\Debug\81\res\drawable\ic_home_black_24dp.xml
 path;obj\Debug\81\res\drawable\ic_notifications_black_24dp.xml
+path;obj\Debug\81\res\drawable\icon_inclinacao.xml
 paths;C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\18\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 ProgressBar;obj\Debug\81\res\layout\activity_main.xml
 ProgressBar;obj\Debug\81\res\layout\botoes_api_energia.xml
@@ -101,3 +102,4 @@ vector;obj\Debug\81\res\drawable\bussola1.xml
 vector;obj\Debug\81\res\drawable\ic_dashboard_black_24dp.xml
 vector;obj\Debug\81\res\drawable\ic_home_black_24dp.xml
 vector;obj\Debug\81\res\drawable\ic_notifications_black_24dp.xml
+vector;obj\Debug\81\res\drawable\icon_inclinacao.xml
