@@ -12,7 +12,7 @@
 			android:layout_width="90dp"
 			android:layout_height="90dp"
 			android:layout_gravity="center"
-			android:layout_marginBottom="20dp"
+			android:layout_marginBottom="50dp"
 			android:src="@drawable/icon" />  
 		<EditText  
 			android:id="@+id/usuario"  
@@ -40,6 +40,7 @@
             android:layout_marginTop="10dp"
             android:background="#0026fd"
             android:text="ENTRAR"
+
 			android:textStyle="bold"
             android:textColor="#ffbc01" />
 		
@@ -49,6 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="novo Usuario"
+			android:background="#ffbc01"
 			android:textStyle="bold"/>
 
 		 <Button
@@ -56,11 +58,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+			android:textColor="#0026fd"
+			android:background="#FFFFFF"
             android:text="Recuperar Usuario/Senha"
-			android:textStyle="bold"/>
+			android:textStyle="normal"/>
 
 		
-	
 
     </LinearLayout>
 </RelativeLayout>

@@ -37,7 +37,7 @@
         android:layout_height="280dp">
  
         <TextView
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="25dp"
             android:text=""
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_width="match_parent"
@@ -46,12 +46,12 @@
             android:gravity="center_horizontal"
             android:id="@id/txtMes" />
         <TextView
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="65dp"
             android:text=""
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="40px"
+            android:textSize="35px"
              android:gravity="center_horizontal"
             android:id="@+id/txtID" />
     </RelativeLayout>
