@@ -40,7 +40,6 @@ namespace Monitor_Energia_Solar
             bandeirasService.DefinirBandeira(txtID, txtMes, imagem, objBandeiras);
         }
 
-   
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -52,9 +51,7 @@ namespace Monitor_Energia_Solar
             TextView txtID = FindViewById<TextView>(Resource.Id.txtID);
             TextView txtMes = FindViewById<TextView>(Resource.Id.txtMes);
             ImageView imagem = FindViewById<ImageView>(Resource.Id.band);
-            //TextView txtBand = FindViewById<TextView>(Resource.Id.txtBandeira);
-
-
+        
             LayoutInflater layoutInflater = LayoutInflater.From(this);
             View view = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
             Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);

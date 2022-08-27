@@ -36,7 +36,6 @@
         android:background="@drawable/layout_shadow_white"
         android:layout_height="280dp">
  
-
         <TextView
             android:layout_marginTop="35dp"
             android:text=""
@@ -58,4 +57,3 @@
     </RelativeLayout>
 
 </RelativeLayout>
-

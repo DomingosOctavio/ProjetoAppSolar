@@ -38,16 +38,24 @@ namespace Monitor_Energia_Solar
             EditText txt_senha = FindViewById<EditText>(Resource.Id.senha);
             EditText txt_email = FindViewById<EditText>(Resource.Id.email);
 
-            Context mContext1 = Android.App.Application.Context;
-            //Session_Token ap2 = new Session_Token(mContext1);
-           // string UserID2 = ap2.getAccessKey().ToString();
+            Context mContext = Android.App.Application.Context;
 
+       
+            var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
+            var usuarioEdit = dadosUsuario.Edit();
+            usuarioEdit.PutString("Usuario", txt_usuario.Text);
+            usuarioEdit.PutString("Senha", txt_senha.Text);
+            usuarioEdit.Commit();
+
+            var dadoToken = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
+            string token = dadoToken.GetString("Codigo", null);
+ 
 
             var intent = new Intent(this, typeof(Login));
             intent.SetFlags(ActivityFlags.NewTask);
 
             BancoLogin bancoLogin = new BancoLogin();
-           // bancoLogin.InserirDadosPessoais(txt_usuario.Text, Convert.ToInt32(txt_senha.Text), txt_email.Text, UserID2);
+            bancoLogin.InserirDadosPessoais(txt_usuario.Text, Convert.ToInt32(txt_senha.Text), txt_email.Text, token);
 
             Toast.MakeText(this, "Cadastro Realizado com sucesso!", ToastLength.Short).Show();
             //Navigation to SecondActivity

@@ -24,7 +24,9 @@ namespace Monitor_Energia_Solar
 
             SetContentView(Resource.Layout.cadastro);
             btn_token = FindViewById<EditText>(Resource.Id.token);
-          
+            
+         
+
 
             btn_proximo = FindViewById<Button>(Resource.Id.proximo);
             btn_proximo.Click += BtnProximo_Click;
@@ -44,6 +46,10 @@ namespace Monitor_Energia_Solar
         {
             if (VerificarToken(btn_token.Text) > 0)
             {
+                var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
+                var usuarioEdit = dadosUsuario.Edit();
+                usuarioEdit.PutString("Codigo", btn_token.Text);
+                usuarioEdit.Commit();
 
                 Toast.MakeText(this, "Token encontrado!", ToastLength.Short).Show();
                 var intent = new Intent(this, typeof(DadosPessoaisAtividade));
