@@ -67,7 +67,9 @@
     <Compile Include="Controller\MainActivityController.cs" />
     <Compile Include="Model\BancoLogin.cs" />
     <Compile Include="Controller\Bandeiras.cs" />
+    <Compile Include="Resources\values\StringsUrl.cs" />
     <Compile Include="Service\ArduinoDadosService.cs" />
+    <Compile Include="Service\BandeiraService.cs" />
     <Compile Include="ViewA\Bandeira_Atividade.cs" />
     <Compile Include="ViewA\Bussola_Atividade.cs" />
     <Compile Include="ViewA\CadastroTokenAtividade.cs" />
@@ -298,6 +300,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menu\navigation4.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Aguarde.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

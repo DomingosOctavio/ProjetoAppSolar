@@ -53,7 +53,7 @@ namespace Monitor_Energia_Solar
             //Navigation to SecondActivity
             StartActivity(intent);
             //delete main activity from navigation
-            //Finish();
+            Finish();
      
 
 

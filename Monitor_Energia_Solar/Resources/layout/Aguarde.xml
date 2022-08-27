@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250px">
+        
+        <TextView
+        android:id="@+id/dialogTitle"
+        android:textSize="40px"
+        android:layout_marginTop="90px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por favor, aguarde..."
+        android:layout_marginLeft="100px" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ProgressBar
+        android:layout_marginTop="35dp"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/progressBar3"
+        android:layout_marginLeft="470px" />
+        
+    </RelativeLayout>
+
+
+    
+  
+</LinearLayout>

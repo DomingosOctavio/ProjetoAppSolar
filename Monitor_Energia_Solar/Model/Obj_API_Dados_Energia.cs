@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Monitor_Energia_Solar
 {
-    class Obj_API_Dados_Energia
+    public class Obj_API_Dados_Energia
     {
         public class Bandeiras
         {

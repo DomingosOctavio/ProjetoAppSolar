@@ -88,12 +88,19 @@ namespace Monitor_Energia_Solar
 
         private void Btnsave_Click(object sender, EventArgs e)
         {
+            LayoutInflater layoutInflater = LayoutInflater.From(this);
+            View view = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+            Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
+            alertbuilder.SetView(view);
+            Android.Support.V7.App.AlertDialog dialog = alertbuilder.Create();
+            dialog.Show();
+
             Obj_Banco_Dados obj_Banco = new Obj_Banco_Dados();
             LoginController loginControler = new LoginController();
 
             obj_Banco = loginControler.BuscardadosLogin(usuario.Text, senha.Text);
 
-         
+
 
             try
             {
@@ -116,21 +123,22 @@ namespace Monitor_Energia_Solar
                         usuarioEdit.Commit();
 
 
-  
+
 
                         var intent = new Intent(this, typeof(MainActivity));
                         intent.SetFlags(ActivityFlags.NewTask);
                         //Navigation to SecondActivity
+                        alertbuilder.Dispose();
                         StartActivity(intent);
                         //delete main activity from navigation
                         Finish();
 
                     }
-                   
+
                 }
-               
+
             }
-            catch(NullReferenceException ex)
+            catch (NullReferenceException ex)
             {
 
                 Toast.MakeText(this, "Login ou Senha incorretos", ToastLength.Short).Show();
