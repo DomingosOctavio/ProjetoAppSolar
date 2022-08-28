@@ -10,6 +10,8 @@ using OxyPlot.Xamarin.Android;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Monitor_Energia_Solar.Controller;
+using Monitor_Energia_Solar.Model;
 
 namespace Monitor_Energia_Solar
 {
@@ -19,8 +21,8 @@ namespace Monitor_Energia_Solar
         Spinner spinner;
         ArrayAdapter adapter;
         ArrayList intervalo;
-   
-        PlotView view;
+
+        PlotView view2;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -28,41 +30,37 @@ namespace Monitor_Energia_Solar
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.plot_geracao);
 
+            view2 = FindViewById<PlotView>(Resource.Id.plot_view);
 
-
-            view = FindViewById<PlotView>(Resource.Id.plot_view);
-
-
-
-
+            view2.Model = GraficoPlotNovo();
             // Em seguida, escreva o Método  
-            try
-            {
-                view.Model = Grafico1();
-            }
-            catch (MySqlException ex)
-            {
-                string msg = ex.Message;
-            }
-            catch (Exception ex)
-            {
-                view.Model = Grafico2();
-                string msg = ex.Message;
-            }
+            //try
+            //{
+            //    view.Model = GraficoTensao(1);
+            //}
+            //catch (MySqlException ex)
+            //{
+            //    string msg = ex.Message;
+            //}
+            //catch (Exception ex)
+            //{
+
+            //    string msg = ex.Message;
+            //}
 
 
-
-            //preenche o arraylist com os dados
-            GetIntervalo();
-            //cria a instância do spinner declarado no arquivo Main
-            spinner = FindViewById<Spinner>(Resource.Id.drop_companhias);
-            //cria o adapter usando o leiaute SimpleListItem e o arraylist
-            adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, intervalo);
-            //vincula o adaptador ao controle spinner
-            spinner.Adapter = adapter;
-            //define o evento ItemSelected para exibir o item selecionado
-            spinner.ItemSelected += Spinner_ItemSelected;
         }
+        //    //preenche o arraylist com os dados
+        //    //GetIntervalo();
+        //    //cria a instância do spinner declarado no arquivo Main
+        //    spinner = FindViewById<Spinner>(Resource.Id.drop_dadosDiarios);
+        //    //cria o adapter usando o leiaute SimpleListItem e o arraylist
+        //    adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, intervalo);
+        //    //vincula o adaptador ao controle spinner
+        //    spinner.Adapter = adapter;
+        //    //define o evento ItemSelected para exibir o item selecionado
+        //    spinner.ItemSelected += Spinner_ItemSelected;
+        //}
 
 
 
@@ -71,187 +69,68 @@ namespace Monitor_Energia_Solar
         {
             Spinner spinner = (Spinner)sender;
             string toast = string.Format("Pedíodo selecionado: {0}", spinner.GetItemAtPosition(e.Position));
-            int posicao = e.Position;
 
-            if (posicao == 1) // Dados diarios
-            {
-                Grafico1();
-                Toast.MakeText(this, toast, ToastLength.Long).Show();
-            }
-            else if (posicao == 2) // Dados mensais
-            {
-                Toast.MakeText(this, toast, ToastLength.Long).Show();
-            }
+            var data = intervalo[e.Position];
+
+            //view.Model = GraficoPlot(1, data.ToString());
+            Toast.MakeText(this, toast, ToastLength.Long).Show();
 
         }
 
         private void GetIntervalo()
         {
             intervalo = new ArrayList();
-            intervalo.Add("--Selecione o intervalo de tempo--");
-            intervalo.Add("Dados Diários");
-            intervalo.Add("Dados Mensais");
+
+            GraficoController consulta_data = new GraficoController();
+            List<Obj_Plot> obj_Plot = new List<Obj_Plot>();
+
+            intervalo.Add("--Selecione a data para visualizar os dados");
+            var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
+            string token = dadosUsuario.GetString("Codigo", null);
+
+            obj_Plot = consulta_data.ConsultarDatas(token);
+
+            for (int i = 0; i < obj_Plot.Count; i++)
+            {
+                intervalo.Add(obj_Plot[i].Id_dia);
+
+            }
         }
-
-        public PlotModel Grafico1()
+        private static LinearBarSeries CreateExampleLinearBarSeries()
         {
-            Context mContext1 = Android.App.Application.Context;
-            //Session_Token ap2 = new Session_Token(mContext1);
-            //string token = ap2.getAccessKey().ToString();
-
-            Consulta_Dados_Banco_Dados consulta_grafico = new Consulta_Dados_Banco_Dados();
-            List<Obj_Dados_Grafico.Grafico> lista_objetos_grafico = new List<Obj_Dados_Grafico.Grafico>();
-
-            try
-            {
-                //lista_objetos_grafico = consulta_grafico.Consulta_dados_Grafico(token);
-            }
-            catch (MySqlException e)
-            {
-                string msg = e.Message;
-            }
-            catch (Exception e)
-            {
-                string msg = e.Message;
-            }
+            var linearBarSeries = new LinearBarSeries();
 
 
-            var plotModel = new PlotModel { Title = "Gráfico teste" };
-            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, Maximum = 23, Minimum = 0 }); //tensao
-            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 25, Minimum = 0 }); //hora
+            linearBarSeries.Points.Add(new DataPoint(0, 1));
+            linearBarSeries.Points.Add(new DataPoint(1, 2));
+            linearBarSeries.Points.Add(new DataPoint(2, 3));
+            linearBarSeries.Points.Add(new DataPoint(3, 4));
+            linearBarSeries.Points.Add(new DataPoint(4, 5));
+            linearBarSeries.Points.Add(new DataPoint(5, 6));
+            linearBarSeries.Points.Add(new DataPoint(6, 7));
+            linearBarSeries.Points.Add(new DataPoint(7, 8));
 
-            var series1 = new LineSeries
-            {
-                Color = OxyColors.DarkBlue,
-                MarkerType = MarkerType.Circle,
-                MarkerSize = 3,
-                MarkerStroke = OxyColors.DarkBlue,
-                MarkerFill = OxyColors.Black,
-                MarkerStrokeThickness = 4.0
-            };
-
-            var series2 = new LineSeries
-            {
-                Color = OxyColors.DarkOrange,
-                MarkerType = MarkerType.Circle,
-                MarkerSize = 3,
-                MarkerStroke = OxyColors.DarkRed,
-                MarkerFill = OxyColors.Black,
-                MarkerStrokeThickness = 4.0
-            };
-
-            var series3 = new LineSeries
-            {
-                Color = OxyColors.LightGreen,
-                MarkerType = MarkerType.Circle,
-                MarkerSize = 3,
-                MarkerStroke = OxyColors.YellowGreen,
-                MarkerFill = OxyColors.Black,
-                MarkerStrokeThickness = 4.0
-            };
-
-            DateTime s;
-            double hora;
-            String hora_string;
-
-            foreach (Obj_Dados_Grafico.Grafico lista in lista_objetos_grafico)
-            {
-                s = DateTime.Parse(lista.time);
-                hora_string = (s.ToString("HH"));
-                hora = Convert.ToDouble(hora_string);
-                series1.Points.Add(new DataPoint(hora, lista.tensao));
-                series2.Points.Add(new DataPoint(hora, lista.corrente));
-                series3.Points.Add(new DataPoint(hora, lista.luminosidade));
-            }
-
-            plotModel.Series.Add(series1);
-            plotModel.Series.Add(series2);
-            plotModel.Series.Add(series3);
-
-            return plotModel;
+            return linearBarSeries;
         }
-
-
-
-
-
-
-        public PlotModel Grafico2()
+        public PlotModel GraficoPlotNovo()
         {
-            Context mContext1 = Android.App.Application.Context;
-            //Session_Token ap2 = new Session_Token(mContext1);
-            //string token = ap2.getAccessKey().ToString();
 
-            Consulta_Dados_Banco_Dados consulta_grafico = new Consulta_Dados_Banco_Dados();
-            List<Obj_Dados_Grafico.Grafico> lista_objetos_grafico = new List<Obj_Dados_Grafico.Grafico>();
+            var model = new PlotModel { Title = "LinearBarSeries with stroke" };
+            model.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom });
+            model.Axes.Add(new LinearAxis { Position = AxisPosition.Left });
+            var linearBarSeries = CreateExampleLinearBarSeries();
+            linearBarSeries.Title = "LinearBarSeries";
+            linearBarSeries.FillColor = OxyColor.Parse("#454CAF50");
+            linearBarSeries.StrokeColor = OxyColor.Parse("#4CAF50");
+            linearBarSeries.StrokeThickness = 1;
+            model.Series.Add(linearBarSeries);
 
-            try
-            {
-               // lista_objetos_grafico = consulta_grafico.Consulta_dados_Grafico(token);
-            }
-            catch (MySqlException e)
-            {
-                string msg = e.Message;
-            }
-            catch (Exception e)
-            {
-                string msg = e.Message;
-            }
-
-
-            var plotModel = new PlotModel { Title = "Gráfico teste" };
-            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, Maximum = 23, Minimum = 0 }); //tensao
-            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 25, Minimum = 0 }); //hora
-
-            var series1 = new LineSeries
-            {
-                Color = OxyColors.DarkBlue,
-                MarkerType = MarkerType.Circle,
-                MarkerSize = 3,
-                MarkerStroke = OxyColors.DarkBlue,
-                MarkerFill = OxyColors.Black,
-                MarkerStrokeThickness = 4.0
-            };
-
-            var series2 = new LineSeries
-            {
-                Color = OxyColors.DarkOrange,
-                MarkerType = MarkerType.Circle,
-                MarkerSize = 3,
-                MarkerStroke = OxyColors.DarkRed,
-                MarkerFill = OxyColors.Black,
-                MarkerStrokeThickness = 4.0
-            };
-
-            var series3 = new LineSeries
-            {
-                Color = OxyColors.LightGreen,
-                MarkerType = MarkerType.Circle,
-                MarkerSize = 3,
-                MarkerStroke = OxyColors.YellowGreen,
-                MarkerFill = OxyColors.Black,
-                MarkerStrokeThickness = 4.0
-            };
-
-            DateTime s;
-            double hora;
-            String hora_string;
-
-            foreach (Obj_Dados_Grafico.Grafico lista in lista_objetos_grafico)
-            {
-                s = DateTime.Parse(lista.time);
-                hora_string = (s.ToString("HH"));
-                hora = Convert.ToDouble(hora_string);
-                series1.Points.Add(new DataPoint(hora, lista.tensao));
-                series2.Points.Add(new DataPoint(hora, lista.corrente));
-                series3.Points.Add(new DataPoint(hora, lista.luminosidade));
-            }
-
-            plotModel.Series.Add(series1);
-            plotModel.Series.Add(series2);
-            plotModel.Series.Add(series3);
-
-            return plotModel;
+            return model;
         }
     }
+
+
+
 }
+  
+

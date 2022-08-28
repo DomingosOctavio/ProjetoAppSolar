@@ -10,7 +10,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:layout_marginBottom="16.0dp"
-		android:id="@+id/drop_companhias" />
+		android:id="@+id/drop_dadosDiarios" />
 	
 	
 	<OxyPlot.Xamarin.Android.PlotView

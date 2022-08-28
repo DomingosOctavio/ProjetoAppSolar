@@ -2657,10 +2657,10 @@ namespace Monitor_Energia_Solar
 			public const int disableHome = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int drop_companhias = 2131230789;
+			public const int drop_companhias_energia = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int drop_companhias_energia = 2131230790;
+			public const int drop_dadosDiarios = 2131230790;
 			
 			// aapt resource value: 0x7F080047
 			public const int drop_tarifas = 2131230791;

@@ -100,6 +100,7 @@ namespace Monitor_Energia_Solar
             {
                 case Resource.Id.navigation_home:
                     StartActivity(typeof(GraficoAtividade));
+           
                     return true;
                 case Resource.Id.navigation_dashboard:
                     StartActivity(typeof(Escolha_Instrucao_Atividade));

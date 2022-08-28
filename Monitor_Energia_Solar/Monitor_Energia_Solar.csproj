@@ -63,9 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\API_Dados_Energia.cs" />
+    <Compile Include="Controller\GraficoController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\MainActivityController.cs" />
     <Compile Include="Model\BancoLogin.cs" />
+    <Compile Include="Model\Obj_Plot.cs" />
     <Compile Include="Resources\values\StringsUrl.cs" />
     <Compile Include="Service\ArduinoDadosService.cs" />
     <Compile Include="Service\BandeiraService.cs" />

@@ -813,8 +813,8 @@ int id design_navigation_view 0x7f080041
 int id determinateBar 0x7f080042
 int id dialogTitle 0x7f080043
 int id disableHome 0x7f080044
-int id drop_companhias 0x7f080045
-int id drop_companhias_energia 0x7f080046
+int id drop_companhias_energia 0x7f080045
+int id drop_dadosDiarios 0x7f080046
 int id drop_tarifas 0x7f080047
 int id editText 0x7f080048
 int id edit_query 0x7f080049
