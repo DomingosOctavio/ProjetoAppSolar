@@ -49,23 +49,23 @@ namespace Monitor_Energia_Solar
             //}
 
 
+        
+        //preenche o arraylist com os dados
+        GetIntervalo();
+        //cria a instância do spinner declarado no arquivo Main
+        spinner = FindViewById<Spinner>(Resource.Id.drop_dadosDiarios);
+            //cria o adapter usando o leiaute SimpleListItem e o arraylist
+        adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, intervalo);
+        //vincula o adaptador ao controle spinner
+        spinner.Adapter = adapter;
+            //define o evento ItemSelected para exibir o item selecionado
+            spinner.ItemSelected += Spinner_ItemSelected;
         }
-        //    //preenche o arraylist com os dados
-        //    //GetIntervalo();
-        //    //cria a instância do spinner declarado no arquivo Main
-        //    spinner = FindViewById<Spinner>(Resource.Id.drop_dadosDiarios);
-        //    //cria o adapter usando o leiaute SimpleListItem e o arraylist
-        //    adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, intervalo);
-        //    //vincula o adaptador ao controle spinner
-        //    spinner.Adapter = adapter;
-        //    //define o evento ItemSelected para exibir o item selecionado
-        //    spinner.ItemSelected += Spinner_ItemSelected;
-        //}
 
 
 
 
-        private void Spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+    private void Spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
             Spinner spinner = (Spinner)sender;
             string toast = string.Format("Pedíodo selecionado: {0}", spinner.GetItemAtPosition(e.Position));
@@ -115,17 +115,17 @@ namespace Monitor_Energia_Solar
         public PlotModel GraficoPlotNovo()
         {
 
-            var model = new PlotModel { Title = "LinearBarSeries with stroke" };
-            model.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom });
-            model.Axes.Add(new LinearAxis { Position = AxisPosition.Left });
+            var plotModel = new PlotModel { Title = "Gráfico representando a corrente 6h às 18h" };
+            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, Maximum = 18, Minimum = 0, Title = "X-axis" }); //tensao
+            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 12, Minimum =0, Title = "TEEE" }); //hora
             var linearBarSeries = CreateExampleLinearBarSeries();
-            linearBarSeries.Title = "LinearBarSeries";
-            linearBarSeries.FillColor = OxyColor.Parse("#454CAF50");
-            linearBarSeries.StrokeColor = OxyColor.Parse("#4CAF50");
+            linearBarSeries.Title = "Corrente";
+            linearBarSeries.FillColor = OxyColor.Parse("#ffbc01"); 
+            linearBarSeries.StrokeColor = OxyColor.Parse("#0026fd");
             linearBarSeries.StrokeThickness = 1;
-            model.Series.Add(linearBarSeries);
+            plotModel.Series.Add(linearBarSeries);
 
-            return model;
+            return plotModel;
         }
     }
 
