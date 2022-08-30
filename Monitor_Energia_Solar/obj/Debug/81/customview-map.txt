@@ -8,6 +8,7 @@ background;obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\81\res\layout\cadastro.xml
 Button;obj\Debug\81\res\layout\dadospessoais.xml
 Button;obj\Debug\81\res\layout\login.xml
+Button;obj\Debug\81\res\layout\plot_geracao.xml
 cache-path;C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\18\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\81\res\values\colors.xml
 color;obj\Debug\81\res\values\ic_launcher_background.xml
@@ -45,7 +46,6 @@ LinearLayout;obj\Debug\81\res\layout\cadastro.xml
 LinearLayout;obj\Debug\81\res\layout\dadospessoais.xml
 LinearLayout;obj\Debug\81\res\layout\inputbox_email.xml
 LinearLayout;obj\Debug\81\res\layout\login.xml
-LinearLayout;obj\Debug\81\res\layout\plot_geracao.xml
 menu;obj\Debug\81\res\menu\mymenu.xml
 menu;obj\Debug\81\res\menu\navigation.xml
 menu;obj\Debug\81\res\menu\navigation2.xml
@@ -77,6 +77,7 @@ RelativeLayout;obj\Debug\81\res\layout\inclinacao_tela.xml
 RelativeLayout;obj\Debug\81\res\layout\inicial.xml
 RelativeLayout;obj\Debug\81\res\layout\instrucao_tela.xml
 RelativeLayout;obj\Debug\81\res\layout\login.xml
+RelativeLayout;obj\Debug\81\res\layout\plot_geracao.xml
 RelativeLayout;obj\Debug\81\res\layout\tarifas.xml
 resources;obj\Debug\81\res\values\colors.xml
 resources;obj\Debug\81\res\values\dimens.xml
