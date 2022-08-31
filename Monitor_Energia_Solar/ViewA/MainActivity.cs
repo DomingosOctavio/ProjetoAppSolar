@@ -17,6 +17,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using Android.Graphics;
 
 namespace Monitor_Energia_Solar
 {
@@ -40,6 +41,8 @@ namespace Monitor_Energia_Solar
         {
             MenuInflater.Inflate(Resource.Menu.myMenu, menu);
             return base.OnPrepareOptionsMenu(menu);
+
+
         }
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
@@ -68,6 +71,7 @@ namespace Monitor_Energia_Solar
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
 
+
             // Get User ID
             Context mContext = Android.App.Application.Context;
 
@@ -77,6 +81,10 @@ namespace Monitor_Energia_Solar
             string codigo = dadosUsuario.GetString("Codigo", null);
             string ip = dadosUsuario.GetString("Ip", null);
             string senha = dadosUsuario.GetString("Senha", null);
+
+            //setar ip e usuario
+            TextView usuarioLog = FindViewById<TextView>(Resource.Id.session);
+            TextView ipLog = FindViewById<TextView>(Resource.Id.ip);
 
             MainActivityController controler = new MainActivityController();
             if (ip == null)
@@ -89,8 +97,11 @@ namespace Monitor_Energia_Solar
             {
                 IP_atual = ip;
             }
+           
 
             IP_atual = "http://" + IP_atual + "/";
+            usuarioLog.Text = "USUÁRIO: " + usuario;
+            ipLog.Text = "IP: " + IP_atual; ;
         }
 
 
@@ -156,51 +167,69 @@ namespace Monitor_Energia_Solar
         public void TimerProc(object state)
         {
 
-            TextView textView = FindViewById<TextView>(Resource.Id.tensao_atual);
+            TextView sincronizando_erro= FindViewById<TextView>(Resource.Id.sincronizando); //visivel
+
             TextView textView_corrente = FindViewById<TextView>(Resource.Id.corrente);
             TextView textView_luminosidade = FindViewById<TextView>(Resource.Id.lumisosidade);
             TextView textView_potencia = FindViewById<TextView>(Resource.Id.potencia);
             TextView textView_horario = FindViewById<TextView>(Resource.Id.horario);
+            TextView label_tensao = FindViewById<TextView>(Resource.Id.label_tensao);
+
+            RelativeLayout layoutMultimetro = FindViewById<RelativeLayout>(Resource.Id.rel_tensao);
+            RelativeLayout relativeTextos = FindViewById<RelativeLayout>(Resource.Id.rel_anything);
+
+            TextView textView_font = FindViewById<TextView>(Resource.Id.tensao);
+
+            Android.Graphics.Typeface tf = Android.Graphics.Typeface.CreateFromAsset(Assets, "Digital Display.ttf");
+            textView_font.SetTypeface(tf, TypefaceStyle.Normal);
 
             ProgressBar progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
-
-            RelativeLayout relative = FindViewById<RelativeLayout>(Resource.Id.rel_anything);
+     
 
 
             RunOnUiThread(async () =>
             {
 
-                Obj_Dados_WebServer retorno_tensao = await Executar();
+                Obj_Dados_WebServer retornoWebService = await Executar();
 
                 progress.Indeterminate = true;
 
-                if (String.Compare(retorno_tensao.mensagem, "Tentando Reconectar...") == 0 || String.Compare(retorno_tensao.mensagem, "Erro: Verifique a Conexão da internet...") == 0)
+                if (String.Compare(retornoWebService.mensagem, "Tentando Reconectar...") == 0 || String.Compare(retornoWebService.mensagem, "Erro: Verifique a Conexão da internet...") == 0)
                 {
-                    textView_corrente.Visibility = Android.Views.ViewStates.Invisible;
-                    textView_luminosidade.Visibility = Android.Views.ViewStates.Invisible;
-                    textView_potencia.Visibility = Android.Views.ViewStates.Invisible;
-                    textView_horario.Visibility = Android.Views.ViewStates.Invisible;
-                    relative.Visibility = Android.Views.ViewStates.Invisible;
+                    //textView_corrente.Visibility = Android.Views.ViewStates.Invisible;
+                    //textView_luminosidade.Visibility = Android.Views.ViewStates.Invisible;
+                    //textView_potencia.Visibility = Android.Views.ViewStates.Invisible;
+                    //textView_horario.Visibility = Android.Views.ViewStates.Invisible;
 
-                    textView.Text = retorno_tensao.mensagem;
+                    relativeTextos.Visibility = Android.Views.ViewStates.Invisible;
+                    layoutMultimetro.Visibility = Android.Views.ViewStates.Invisible;
+                    label_tensao.Visibility = ViewStates.Gone;
+
+                    sincronizando_erro.Text = retornoWebService.mensagem;
                     progress.Visibility = ViewStates.Visible;
                 }
                 else
                 {
-                    textView_corrente.Visibility = Android.Views.ViewStates.Visible;
-                    textView_luminosidade.Visibility = Android.Views.ViewStates.Visible;
-                    textView_potencia.Visibility = Android.Views.ViewStates.Visible;
-                    textView_horario.Visibility = Android.Views.ViewStates.Visible;
+                    //textView_corrente.Visibility = Android.Views.ViewStates.Visible;
+                    //textView_luminosidade.Visibility = Android.Views.ViewStates.Visible;
+                    //textView_potencia.Visibility = Android.Views.ViewStates.Visible;
+                    //textView_horario.Visibility = Android.Views.ViewStates.Visible;
+                    relativeTextos.Visibility = Android.Views.ViewStates.Visible;
+                    layoutMultimetro.Visibility = Android.Views.ViewStates.Visible;
+                    label_tensao.Visibility = ViewStates.Visible;
+                    sincronizando_erro.Visibility= ViewStates.Gone;
 
 
-                    textView_corrente.Text = "Corrente: " + retorno_tensao.Corrente.ToString();
-                    textView_luminosidade.Text = "Luminosidade" + retorno_tensao.Luminosidade.ToString();
-                    textView_potencia.Text = "Potência: " + (retorno_tensao.Tensao * retorno_tensao.Corrente).ToString() + " Watts";
-                    textView_horario.Text = retorno_tensao.Horario.ToString();
+                    textView_corrente.Text = "Corrente (A): " + retornoWebService.Corrente.ToString();
+                    textView_luminosidade.Text = "Luminosidade: " + retornoWebService.Luminosidade.ToString();
+                    textView_potencia.Text = "Potência (W): " + (retornoWebService.Tensao * retornoWebService.Corrente).ToString();
+                    textView_horario.Text = retornoWebService.Horario.ToString();
+                    textView_font.Text =  retornoWebService.Tensao.ToString();
 
                     progress.Visibility = ViewStates.Invisible;
-                    relative.Visibility = Android.Views.ViewStates.Visible;
-                    textView.Text = retorno_tensao.Tensao.ToString();
+              
+                  
+
                 }
             });
         }

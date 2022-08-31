@@ -23,6 +23,8 @@ EditText;obj\Debug\81\res\layout\inputbox_email.xml
 EditText;obj\Debug\81\res\layout\login.xml
 external-cache-path;C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\18\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\lp\18\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+font;obj\Debug\81\res\fonts\font.xml
+font-family;obj\Debug\81\res\fonts\font.xml
 foreground;obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageView;obj\Debug\81\res\layout\botoes_api_energia.xml
