@@ -71,6 +71,7 @@
     <Compile Include="Resources\values\StringsUrl.cs" />
     <Compile Include="Service\ArduinoDadosService.cs" />
     <Compile Include="Service\BandeiraService.cs" />
+    <Compile Include="Service\TarifasService.cs" />
     <Compile Include="ViewA\Bandeira_Atividade.cs" />
     <Compile Include="ViewA\Bussola_Atividade.cs" />
     <Compile Include="ViewA\CadastroTokenAtividade.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\SendEmailService.cs" />
     <Compile Include="ViewA\Sensor_Inclinacao_Atividade.cs" />
+    <Compile Include="ViewA\TarifasAtividade.cs" />
     <Compile Include="ViewA\Tarifas_Atividade.cs" />
     <Compile Include="ViewA\TelaInicial.cs" />
   </ItemGroup>

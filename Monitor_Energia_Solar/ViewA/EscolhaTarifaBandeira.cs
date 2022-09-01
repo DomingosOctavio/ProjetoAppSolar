@@ -29,7 +29,7 @@ namespace Monitor_Energia_Solar
 
                     return true;
                 case Resource.Id.tarifa:
-                    var intent2 = new Intent(this, typeof(Tarifas_Atividade));
+                    var intent2 = new Intent(this, typeof(TarifasAtividade));
                     intent2.SetFlags(ActivityFlags.NewTask);
                     //Navigation to SecondActivity
                     StartActivity(intent2);

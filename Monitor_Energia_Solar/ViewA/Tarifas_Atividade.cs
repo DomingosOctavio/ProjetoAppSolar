@@ -289,16 +289,21 @@ namespace Monitor_Energia_Solar
                         txtTarifa.Text = "Tarifa = " + (Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumote));
 
 
-                        decimal branca1 = Convert.ToDecimal(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDecimal(obj_api_tarifas[posicao].tarifaconsumote);
-                        txtbranca1.Text = branca1.ToString();
+                        if (num2 != 1000 || num3 != 1000)
+                        {
+                                decimal branca1 = Convert.ToDecimal(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDecimal(obj_api_tarifas[posicao].tarifaconsumote);
+                                txtbranca1.Text = branca1.ToString();
 
-                        decimal branca2 = Convert.ToDecimal(obj_api_tarifas[num2].tarifaconsumotusd) + Convert.ToDecimal(obj_api_tarifas[num2].tarifaconsumote);
-                        txtbranca2.Text = branca2.ToString();
+                                decimal branca2 = Convert.ToDecimal(obj_api_tarifas[num2].tarifaconsumotusd) + Convert.ToDecimal(obj_api_tarifas[num2].tarifaconsumote);
+                                txtbranca2.Text = branca2.ToString();
 
-                        decimal branca3 = Convert.ToDecimal(obj_api_tarifas[num3].tarifaconsumotusd) + Convert.ToDecimal(obj_api_tarifas[num3].tarifaconsumote);
-                        txtbranca3.Text = branca3.ToString();
-                        progress.Visibility = ViewStates.Invisible;
-                        break;
+                                decimal branca3 = Convert.ToDecimal(obj_api_tarifas[num3].tarifaconsumotusd) + Convert.ToDecimal(obj_api_tarifas[num3].tarifaconsumote);
+                                txtbranca3.Text = branca3.ToString();
+                                progress.Visibility = ViewStates.Invisible;
+                                break;
+
+                        }
+                      
 
                     }
                     validacao = false;
