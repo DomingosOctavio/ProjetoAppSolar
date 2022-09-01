@@ -10,10 +10,11 @@
   
   <string name="inclinacao">Inclinação</string>
   <string name="bussola">Bússola</string>
-  
+
   <string name="bandeira">bandeira</string>
   <string name="tarifa">tarifa</string>
+  <string name="data_prompt">Selecione uma data</string>
 
-  
+
 
 </resources>
