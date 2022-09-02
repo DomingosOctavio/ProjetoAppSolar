@@ -44,8 +44,14 @@ namespace Monitor_Energia_Solar
             btnCorrente.Click += BtnGraficoCorrente;
             btnLuz.Click += BtnLuz;
 
-         
 
+            LayoutInflater layoutInflater = LayoutInflater.From(this);
+            View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+            Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+            builder.SetTitle("");
+            builder.SetView(view3);
+            Android.App.AlertDialog alerta = builder.Create();
+            alerta.Show();
 
             //preenche o arraylist com os dados
             GetIntervalo();
@@ -57,7 +63,8 @@ namespace Monitor_Energia_Solar
         spinner.Adapter = adapter;
             //define o evento ItemSelected para exibir o item selecionado
         spinner.ItemSelected += Spinner_ItemSelected;
-         
+
+            
         }
         public override void OnBackPressed()
         {
@@ -131,6 +138,8 @@ namespace Monitor_Energia_Solar
 
             plotModel.Axes.Add(categoryAxis);
             plotModel.Axes.Add(valueAxis);
+
+           
 
             view2.Model = plotModel;
      
@@ -290,13 +299,10 @@ namespace Monitor_Energia_Solar
 
             var data = intervalo[e.Position];
             dataEscolhida = data.ToString();
-            
-            LayoutInflater layoutInflater = LayoutInflater.From(this);
-            View view = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
-            Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
-            alertbuilder.SetView(view);
-            Android.Support.V7.App.AlertDialog dialog = alertbuilder.Create();
-            dialog.Show();
+
+           
+
+
 
             var plotModel = new PlotModel {
                     
@@ -377,9 +383,9 @@ namespace Monitor_Energia_Solar
             view2.Model = plotModel;
 
 
-      
-            dialog.Dismiss();
-          
+
+            
+
             //view.Model = GraficoPlot(1, data.ToString());
             Toast.MakeText(this, toast, ToastLength.Long).Show();
         }

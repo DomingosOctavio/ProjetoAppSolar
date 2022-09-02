@@ -45,8 +45,9 @@ namespace Monitor_Energia_Solar
 
             SetContentView(Resource.Layout.tarifas);
 
+         
 
-      
+
 
             progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
       
@@ -69,11 +70,15 @@ namespace Monitor_Energia_Solar
 
             progress.Visibility = ViewStates.Invisible;
 
-          
+
+        
+
+
         }
 
         public void Companhia_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
+            
             var spinner = (Spinner)sender;
             selectedPosition = spinner.SelectedItemPosition;
             // countryIdByPosition = companhiasId[selectedPosition].ToString(); //"CERAL ARARUAMA", "CERCI", "CERES", "ENEL - RJ", "LIGHT", "ENF"};
@@ -148,6 +153,7 @@ namespace Monitor_Energia_Solar
             Boolean validacao = false;
 
 
+           
             try
             {
                 for (int i = 0; i < Urls.Length; i++)
@@ -213,6 +219,7 @@ namespace Monitor_Energia_Solar
                     }
                     validacao = false;
                     Thread.Sleep(100);
+                
                 }
 
 
@@ -241,15 +248,18 @@ namespace Monitor_Energia_Solar
             var spinner = (Spinner)sender;
             selectedPosition = spinner.SelectedItemPosition;
 
-            LayoutInflater layoutInflater = LayoutInflater.From(this);
-            View view = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
-            Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
-            alertbuilder.SetView(view);
-            Android.Support.V7.App.AlertDialog dialog = alertbuilder.Create();
-            dialog.Show();
+         
 
             if (Agente == "ENEL - RJ")
             {
+                LayoutInflater layoutInflater = LayoutInflater.From(this);
+                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+                builder.SetTitle("");
+                builder.SetView(view3);
+                Android.App.AlertDialog alerta = builder.Create();
+                alerta.Show();
+
                 //ENEL RJ
                 //convencional -  49
                 //branca nivel 1 - 45
@@ -261,28 +271,37 @@ namespace Monitor_Energia_Solar
                 if (selectedPosition == 1)
                 {
                     Tarifas_SyncAsync(49, 0, 0, "ENEL RJ");
-
+                
                 }
                 else if (selectedPosition == 2)
                 {
                     Tarifas_SyncAsync(45, 46, 47, "ENEL RJ");
-
-
+                 
                 }
                 else if (selectedPosition == 3)
                 {
                     Tarifas_SyncAsync(48, 0, 0, "ENEL RJ");
+                   
 
                 }
                 else if (selectedPosition == 4)
                 {
                     Tarifas_SyncAsync(62, 0, 0, "ENEL RJ");
+                    
 
                 }
-
+                builder.Dispose();
             }
             else if (Agente == "LIGHT")
             {
+                LayoutInflater layoutInflater = LayoutInflater.From(this);
+                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+                builder.SetTitle("");
+                builder.SetView(view3);
+                Android.App.AlertDialog alerta = builder.Create();
+                alerta.Show();
+
                 //    LIGHT
                 //    tarifas.Add("B1 Residencial Comum"); //58
                 //    tarifas.Add("B1 Residencial-Tarifa Branca");//54//55//56
@@ -310,10 +329,17 @@ namespace Monitor_Energia_Solar
                     Tarifas_SyncAsync(71, 0, 0, "LIGHT");
 
                 }
-
+                builder.Dispose();
             }
             else if (Agente == "ENF")
             {
+                LayoutInflater layoutInflater = LayoutInflater.From(this);
+                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+                builder.SetTitle("");
+                builder.SetView(view3);
+                Android.App.AlertDialog alerta = builder.Create();
+                alerta.Show();
 
                 //ENF
                 //convencional -  26
@@ -344,9 +370,9 @@ namespace Monitor_Energia_Solar
                     Tarifas_SyncAsync(39, 0, 0, "ENF");
 
                 }
-
+                builder.Dispose();
             }
-            dialog.Dismiss();
+          
         }
 
     }

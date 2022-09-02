@@ -19,6 +19,9 @@ namespace Monitor_Energia_Solar.Service
     {
         public async Task <List<Obj_API_Dados_Energia.TarifasArray>> GetTarifasAPI(String url)
         {
+
+            
+
             List<Obj_API_Dados_Energia.TarifasArray> ListDadosTarifas = new List<Obj_API_Dados_Energia.TarifasArray>();
             try
             {
