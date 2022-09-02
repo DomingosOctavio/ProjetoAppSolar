@@ -25,8 +25,8 @@ namespace Monitor_Energia_Solar
         public static string Agente = "";
 
         String[] Urls = { "https://apise.way2.com.br/v1/tarifas?apikey=ad55f064ab884c6d8157fe4de92bd1ef&ano=", "https://apise.way2.com.br/v1/tarifas?apikey=9c544b41cf934fbd8d8657a4dcd997bd&ano=", "https://apise.way2.com.br/v1/tarifas?apikey=ea6ffddc84024d269cc660121835a91a&ano=", "https://apise.way2.com.br/v1/tarifas?apikey=ef061b3334da4721b330af853a39f73a&ano=" };
-        String[] Companhias = { "Select", "ENEL - RJ", "LIGHT", "ENF" };
-        String[] Tarifas = { "Select", "B1 Residencial Convencional", "B1 Residencial Tarifa Branca", "B1 Residencial Baixa Renda", "B2 Rural Convencional" };
+        String[] Companhias = { "","ENEL - RJ", "LIGHT", "ENF" };
+        String[] Tarifas = {  "","B1 Residencial Convencional", "B1 Residencial Tarifa Branca", "B1 Residencial Baixa Renda", "B2 Rural Convencional" };
         ArrayAdapter<String> TiposTarifasAdapter;
 
         int selectedPosition;
@@ -46,18 +46,26 @@ namespace Monitor_Energia_Solar
             SetContentView(Resource.Layout.tarifas);
 
 
+      
 
             progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
+      
+            progress.Visibility = ViewStates.Visible;
 
             spinner = FindViewById<Spinner>(Resource.Id.drop_companhias_energia);
             spinner_tarifas = FindViewById<Spinner>(Resource.Id.drop_tarifas);
 
-            spinner_tarifas.Enabled = false;
+            spinner_tarifas.Enabled = true;
             adapter_companhias = new ArrayAdapter<string>(this, Resource.Layout.support_simple_spinner_dropdown_item, Companhias);
             spinner.Adapter = adapter_companhias;
 
             spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(Companhia_ItemSelected);
             spinner_tarifas.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(Tarifas_ItemSelected);
+
+            spinner_tarifas.Enabled = false;
+            TiposTarifasAdapter = new ArrayAdapter<string>(this, Resource.Layout.support_simple_spinner_dropdown_item, Tarifas);
+            spinner_tarifas.Adapter = TiposTarifasAdapter;
+
 
             progress.Visibility = ViewStates.Invisible;
 
@@ -88,27 +96,22 @@ namespace Monitor_Energia_Solar
             {
                 Agente = "ENF";
             }
-            else
+
+            if (Agente == "")
             {
                 spinner_tarifas.Enabled = false;
+               
             }
-
-            if (Agente != "")
+            else
             {
                 spinner_tarifas.Enabled = true;
-                TiposTarifasAdapter = new ArrayAdapter<string>(this, Resource.Layout.support_simple_spinner_dropdown_item, Tarifas);
-                spinner_tarifas.Adapter = TiposTarifasAdapter;
             }
         }
 
-       
-
-
-      
 
         private async System.Threading.Tasks.Task Tarifas_SyncAsync(int posicao, int num2, int num3, string Agente)
         {
-            TextView txtValidadede = FindViewById<TextView>(Resource.Id.txtValidadede);
+            TextView txtValidadede = FindViewById<TextView>(Resource.Id.txtValidade);
             TextView txtSubgrupo = FindViewById<TextView>(Resource.Id.txtSubgrupo);
             TextView txtModalidade = FindViewById<TextView>(Resource.Id.txtModalidade);
             TextView txtClasse = FindViewById<TextView>(Resource.Id.txtClasse);
@@ -150,22 +153,31 @@ namespace Monitor_Energia_Solar
                 for (int i = 0; i < Urls.Length; i++)
                 {
 
-                    string url1 = Urls[i] + (ano - 2) + "&agente=" + Agente;
+                    string url1 = Urls[i] + ano + "&agente=" + Agente;
                     var apiTask = tarifasService.GetTarifasAPI(url1);
-                 
-
                     obj_api_tarifas = await apiTask;// traz
 
                     if (obj_api_tarifas.Count > 0)
                     {
                         validacao = true;
                     }
-                    else
+                    else if(obj_api_tarifas.Count == 0)
                     {
-                        url1 = Urls[i] + ano + "&agente=" + Agente;
+                        url1 = Urls[i] + (ano - 1) + "&agente=" + Agente;
                         var apiTask2 = tarifasService.GetTarifasAPI(url1);
                         obj_api_tarifas = await apiTask2;// tr
                     
+                        if (obj_api_tarifas.Count > 0)
+                        {
+                            validacao = true;
+                        }
+                    }
+                    else if (obj_api_tarifas.Count == 0)
+                    {
+                        url1 = Urls[i] + (ano - 2) + "&agente=" + Agente;
+                        var apiTask2 = tarifasService.GetTarifasAPI(url1);
+                        obj_api_tarifas = await apiTask2;// tr
+
                         if (obj_api_tarifas.Count > 0)
                         {
                             validacao = true;
@@ -228,6 +240,13 @@ namespace Monitor_Energia_Solar
         {
             var spinner = (Spinner)sender;
             selectedPosition = spinner.SelectedItemPosition;
+
+            LayoutInflater layoutInflater = LayoutInflater.From(this);
+            View view = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+            Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
+            alertbuilder.SetView(view);
+            Android.Support.V7.App.AlertDialog dialog = alertbuilder.Create();
+            dialog.Show();
 
             if (Agente == "ENEL - RJ")
             {
@@ -327,7 +346,7 @@ namespace Monitor_Energia_Solar
                 }
 
             }
-
+            dialog.Dismiss();
         }
 
     }

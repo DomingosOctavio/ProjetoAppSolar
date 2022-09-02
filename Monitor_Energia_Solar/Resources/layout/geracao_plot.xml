@@ -12,9 +12,10 @@
         android:layout_height="100px"
         android:minWidth="50px"
         android:minHeight="50px"
+        android:spinnerMode="dialog"
         android:id="@+id/drop_dadosDiarios"
         android:prompt="@string/data_prompt"
-        android:spinnerMode="dialog" />
+         />
 
     <LinearLayout
       android:layout_centerInParent="true"

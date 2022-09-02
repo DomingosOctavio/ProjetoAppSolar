@@ -378,7 +378,7 @@ namespace Monitor_Energia_Solar
 
 
       
-            dialog.Cancel();
+            dialog.Dismiss();
           
             //view.Model = GraficoPlot(1, data.ToString());
             Toast.MakeText(this, toast, ToastLength.Long).Show();

@@ -79,7 +79,6 @@
     <Compile Include="Model\Conexao_Banco_Dados.cs" />
     <Compile Include="Model\Consulta_Banco_Dados.cs" />
     <Compile Include="ViewA\DadosPessoaisAtividade.cs" />
-    <Compile Include="Controller\Dados_Json_WebServer_Arduino.cs" />
     <Compile Include="ViewA\EscolhaTarifaBandeira.cs" />
     <Compile Include="ViewA\GraficoAtividade.cs" />
     <Compile Include="ViewA\Escolha_Instrucao_Atividade.cs" />
@@ -95,7 +94,6 @@
     <Compile Include="Service\SendEmailService.cs" />
     <Compile Include="ViewA\Sensor_Inclinacao_Atividade.cs" />
     <Compile Include="ViewA\TarifasAtividade.cs" />
-    <Compile Include="ViewA\Tarifas_Atividade.cs" />
     <Compile Include="ViewA\TelaInicial.cs" />
   </ItemGroup>
   <ItemGroup>

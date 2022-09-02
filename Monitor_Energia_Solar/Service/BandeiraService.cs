@@ -48,25 +48,75 @@ namespace Monitor_Energia_Solar.Service
 
         }
 
-        public String PrimeiroDiaMes(DateTime dataAtual)
+        public String DefinirData()
         {
-            if (dataAtual.Month == 1)
+
+            string  dataFinal;
+
+            int  mesAnterior =0;
+
+            DateTime hoje = DateTime.Now;
+
+            dataFinal = DateTime.Now.ToString("yyyy/MM/dd");
+
+            if (hoje.Month == 01)
             {
-                return new DateTime(dataAtual.Year, 12, 1).ToString("yyyy/MM/dd");
+                mesAnterior = 10;
             }
-            else
+            else if (hoje.Month == 02)
             {
-                return new DateTime(dataAtual.Year, dataAtual.Month - 2, 1).ToString("yyyy/MM/dd");
+                mesAnterior = 11;
             }
+            else if (hoje.Month == 03)
+            {
+                mesAnterior = 12;
+            }
+            else if (hoje.Month == 04)
+            {
+                mesAnterior = 01;
+            }
+            else if (hoje.Month == 05)
+            {
+                mesAnterior = 02;
+            }
+            else if (hoje.Month == 06)
+            {
+                mesAnterior = 03;
+            }
+            else if (hoje.Month == 07)
+            {
+                mesAnterior = 04;
+            }
+            else if (hoje.Month == 08)
+            {
+                mesAnterior = 05;
+            }
+            else if (hoje.Month == 09)
+            {
+                mesAnterior = 06;
+            }
+            else if (hoje.Month == 10)
+            {
+                mesAnterior = 07;
+            }
+            else if (hoje.Month == 11)
+            {
+                mesAnterior = 08;
+            }
+            else if (hoje.Month == 12)
+            {
+                mesAnterior = 09;
+            }
+
+            string dia = DateTime.Now.ToString("dd");
+
+            return "&datainicial=" + hoje.Year.ToString() + "/" + mesAnterior.ToString() + "/" + dia + "&datafinal=" + dataFinal;
+
         }
 
+      
 
-        public String UltimoDiaMes(DateTime dataAtual)
-        {
-  
-            return  new DateTime(dataAtual.Year, dataAtual.Month, DateTime.DaysInMonth(dataAtual.Year, dataAtual.Month - 1)).ToString("yyyy/MM/dd");
-    
-        }
+   
 
         public void DefinirBandeira(TextView txtID, TextView txtMes, ImageView imagem, Obj_API_Dados_Energia.Root_Bandeiras objBandeiras)
         {
