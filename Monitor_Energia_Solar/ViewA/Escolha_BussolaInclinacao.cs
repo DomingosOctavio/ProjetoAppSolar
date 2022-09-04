@@ -63,7 +63,7 @@ namespace Monitor_Energia_Solar
             progressBar = FindViewById<ProgressBar>(Resource.Id.progressBar2);
 
             textoBussola = FindViewById<TextView>(Resource.Id.textoBussola);
-            textoInclinacao = FindViewById<TextView>(Resource.Id.textoInclinacao);
+            textoInclinacao = FindViewById<TextView>(Resource.Id.textoinclinacao);
 
             TelaInstrucaoSensoresAPIController textoInstrucao = new TelaInstrucaoSensoresAPIController();
 
