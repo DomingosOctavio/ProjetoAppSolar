@@ -51,7 +51,7 @@ namespace Monitor_Energia_Solar
 
             progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
       
-            progress.Visibility = ViewStates.Visible;
+       
 
             spinner = FindViewById<Spinner>(Resource.Id.drop_companhias_energia);
             spinner_tarifas = FindViewById<Spinner>(Resource.Id.drop_tarifas);
@@ -68,7 +68,7 @@ namespace Monitor_Energia_Solar
             spinner_tarifas.Adapter = TiposTarifasAdapter;
 
 
-            progress.Visibility = ViewStates.Invisible;
+       
 
 
         

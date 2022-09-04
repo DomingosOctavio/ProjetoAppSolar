@@ -1111,7 +1111,7 @@ application_config:
 
 	.type	.L.autostr.6, %object
 .L.autostr.6:
-	.asciz	"1bb0f717-9fbd-4524-b668-2a09928e9f97"
+	.asciz	"a95bdb2d-9cb6-45b2-b937-1147d2414953"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, %object

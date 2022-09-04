@@ -66,6 +66,7 @@
     <Compile Include="Controller\GraficoController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\MainActivityController.cs" />
+    <Compile Include="Controller\TelaInstrucaoSensoresAPIController.cs" />
     <Compile Include="Model\BancoLogin.cs" />
     <Compile Include="Model\Obj_Plot.cs" />
     <Compile Include="Resources\values\StringsUrl.cs" />
@@ -81,7 +82,7 @@
     <Compile Include="ViewA\DadosPessoaisAtividade.cs" />
     <Compile Include="ViewA\EscolhaTarifaBandeira.cs" />
     <Compile Include="ViewA\GraficoAtividade.cs" />
-    <Compile Include="ViewA\Escolha_Instrucao_Atividade.cs" />
+    <Compile Include="ViewA\Escolha_BussolaInclinacao.cs" />
     <Compile Include="ViewA\Login.cs" />
     <Compile Include="ViewA\MainActivity.cs" />
     <Compile Include="Model\Obj_API_Dados_Energia.cs" />
@@ -203,7 +204,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\instrucao_tela.axml">
+    <AndroidResource Include="Resources\layout\instrucao_bussolaInclinacao.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -293,7 +294,7 @@
     <AndroidResource Include="Resources\drawable\bandeira_icon.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\ExplicacaoTarifaBandeira.xml" />
+    <AndroidResource Include="Resources\layout\InstrucaoTarifaBandeira.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menu\navigation4.xml" />
@@ -308,6 +309,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\geracao_plot.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\GIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\regua.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

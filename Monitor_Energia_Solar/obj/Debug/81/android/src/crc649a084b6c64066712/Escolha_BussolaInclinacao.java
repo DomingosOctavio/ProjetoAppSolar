@@ -1,7 +1,7 @@
 package crc649a084b6c64066712;
 
 
-public class Escolha_Instrucao_Atividade
+public class Escolha_BussolaInclinacao
 	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer,
@@ -15,15 +15,15 @@ public class Escolha_Instrucao_Atividade
 			"n_onBackPressed:()V:GetOnBackPressedHandler\n" +
 			"n_onNavigationItemSelected:(Landroid/view/MenuItem;)Z:GetOnNavigationItemSelected_Landroid_view_MenuItem_Handler:Android.Support.Design.Widget.BottomNavigationView/IOnNavigationItemSelectedListenerInvoker, Xamarin.Android.Support.Design\n" +
 			"";
-		mono.android.Runtime.register ("Monitor_Energia_Solar.Escolha_Instrucao_Atividade, Monitor_Energia_Solar", Escolha_Instrucao_Atividade.class, __md_methods);
+		mono.android.Runtime.register ("Monitor_Energia_Solar.Escolha_BussolaInclinacao, Monitor_Energia_Solar", Escolha_BussolaInclinacao.class, __md_methods);
 	}
 
 
-	public Escolha_Instrucao_Atividade ()
+	public Escolha_BussolaInclinacao ()
 	{
 		super ();
-		if (getClass () == Escolha_Instrucao_Atividade.class)
-			mono.android.TypeManager.Activate ("Monitor_Energia_Solar.Escolha_Instrucao_Atividade, Monitor_Energia_Solar", "", this, new java.lang.Object[] {  });
+		if (getClass () == Escolha_BussolaInclinacao.class)
+			mono.android.TypeManager.Activate ("Monitor_Energia_Solar.Escolha_BussolaInclinacao, Monitor_Energia_Solar", "", this, new java.lang.Object[] {  });
 	}
 
 

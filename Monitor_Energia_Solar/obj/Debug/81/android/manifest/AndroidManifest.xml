@@ -16,7 +16,7 @@
     <activity android:label="DadosPessoaisAtividade" android:name="crc649a084b6c64066712.DadosPessoaisAtividade" />
     <activity android:icon="@drawable/icon" android:theme="@style/AppThemeNoAction" android:name="crc649a084b6c64066712.EscolhaTarifaBandeira" />
     <activity android:label="DropdownEmpresasAtividade" android:name="crc649a084b6c64066712.GraficoAtividade" />
-    <activity android:icon="@drawable/icon" android:theme="@style/AppThemeNoAction" android:name="crc649a084b6c64066712.Escolha_Instrucao_Atividade" />
+    <activity android:icon="@drawable/icon" android:theme="@style/AppThemeNoAction" android:name="crc649a084b6c64066712.Escolha_BussolaInclinacao" />
     <activity android:label="Login" android:name="crc649a084b6c64066712.Login" />
     <activity android:icon="@drawable/icon" android:label="" android:theme="@style/AppTheme" android:name="crc649a084b6c64066712.MainActivity" />
     <activity android:configChanges="orientation|screenSize" android:label="@string/sensor_inclinacao" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="crc649a084b6c64066712.Sensor_Inclinacao_Atividade" />

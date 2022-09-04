@@ -11,11 +11,15 @@ using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using Monitor_Energia_Solar.Controller;
+
 namespace Monitor_Energia_Solar
 {
     [Activity(Theme = "@style/AppThemeNoAction", Icon = "@drawable/icon")]
     public class EscolhaTarifaBandeira : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
+        private TextView textobandeira;
+        private TextView textoTarifa;
         public bool OnNavigationItemSelected(IMenuItem item)
         {
             switch (item.ItemId)
@@ -46,10 +50,20 @@ namespace Monitor_Energia_Solar
         {
             base.OnCreate(bundle);
             // Set our view from the "main" layout resource  
-            SetContentView(Resource.Layout.ExplicacaoTarifaBandeira);
+            SetContentView(Resource.Layout.InstrucaoTarifaBandeira);
 
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation3);
             navigation.SetOnNavigationItemSelectedListener(this);
+
+            textobandeira = FindViewById<TextView>(Resource.Id.textoBandeira);
+            textoTarifa = FindViewById<TextView>(Resource.Id.textoTarifa);
+
+            TelaInstrucaoSensoresAPIController textoInstrucao = new TelaInstrucaoSensoresAPIController();
+
+            textobandeira.Text = textoInstrucao.ConsultarTextoBandeira();
+            textoTarifa.Text = textoInstrucao.ConsultarTextoTarifas();
+
+
 
         }
         public override void OnBackPressed()

@@ -18,6 +18,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using Android.Graphics;
+using AlertDialog = Android.App.AlertDialog;
 
 namespace Monitor_Energia_Solar
 {
@@ -32,9 +33,23 @@ namespace Monitor_Energia_Solar
 
         public override void OnBackPressed()
         {
-      
-            Finish();
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.SetTitle("Atenção");
+            alert.SetIcon(Resource.Drawable.Sol_anim);
+            alert.SetMessage("Deseja realmente sair da aplicação?");
 
+            alert.SetPositiveButton("sim", (senderAlert, args) =>
+            {
+                this.FinishAffinity();
+            });
+
+            alert.SetNegativeButton("Não", (senderAlert, args) =>
+            {
+                return;
+            });
+
+            Dialog dialog = alert.Create();
+            dialog.Show();
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
@@ -114,7 +129,7 @@ namespace Monitor_Energia_Solar
            
                     return true;
                 case Resource.Id.navigation_dashboard:
-                    StartActivity(typeof(Escolha_Instrucao_Atividade));
+                    StartActivity(typeof(Escolha_BussolaInclinacao));
                     return true;
                 case Resource.Id.navigation_notifications:
                     StartActivity(typeof(EscolhaTarifaBandeira));

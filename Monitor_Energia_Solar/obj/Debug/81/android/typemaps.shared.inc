@@ -23068,8 +23068,8 @@
 
 	.type	.L.java_type_name.4613, @object
 .L.java_type_name.4613:
-	.asciz	"crc649a084b6c64066712/Escolha_Instrucao_Atividade"
-	.size	.L.java_type_name.4613, 50
+	.asciz	"crc649a084b6c64066712/Escolha_BussolaInclinacao"
+	.size	.L.java_type_name.4613, 48
 
 	.type	.L.java_type_name.4614, @object
 .L.java_type_name.4614:
@@ -71457,8 +71457,8 @@
 
 	.type	.L.managed_type_name.6810, @object
 .L.managed_type_name.6810:
-	.asciz	"Monitor_Energia_Solar.Escolha_Instrucao_Atividade, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.6810, 73
+	.asciz	"Monitor_Energia_Solar.Escolha_BussolaInclinacao, Monitor_Energia_Solar"
+	.size	.L.managed_type_name.6810, 71
 
 	.type	.L.managed_type_name.6811, @object
 .L.managed_type_name.6811:

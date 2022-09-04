@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView1">
+
+
+<RelativeLayout 
+    android:id="@+id/container7"
     android:layout_width="match_parent"
 	android:background="#FFFFFF"
     android:layout_height="match_parent">
 	
-		<ProgressBar
-		style="?android:attr/progressBarStyle"
-		android:layout_width="200dp"
-		android:layout_height="50dp"
-		android:layout_marginTop="400dp"
-		android:layout_centerHorizontal="true"
-		android:id="@+id/progressBar1"
-		android:indeterminate="true" />
+
 	<TextView
 		android:gravity="center_horizontal"
 		android:layout_marginTop="25dp"
@@ -58,7 +57,7 @@
 		android:id="@+id/drop_tarifas" />
 	<TextView
 		android:textColor="#ff0000"
-		android:layout_marginTop="280dp"
+		android:layout_marginTop="250dp"
 		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
@@ -68,7 +67,7 @@
 		android:id="@+id/tarifa" />
 	<TextView
 		android:textColor="#ff0000"
-		android:layout_marginTop="340dp"
+		android:layout_marginTop="300dp"
 		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
@@ -78,7 +77,7 @@
 		android:id="@+id/branca1" />
 	<TextView
 		android:textColor="#ff0000"
-		android:layout_marginTop="370dp"
+		android:layout_marginTop="340dp"
 		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
@@ -89,7 +88,7 @@
 	<TextView	
 		android:textColor="#ff0000"
 		android:paddingLeft="20dp"
-		android:layout_marginTop="400dp"
+		android:layout_marginTop="380dp"
 		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
@@ -97,7 +96,7 @@
 		android:textSize="50px"
 		android:id="@+id/branca3" />
 	<TextView
-		android:layout_marginTop="480dp"
+		android:layout_marginTop="450dp"
 		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
@@ -106,7 +105,7 @@
 		android:paddingLeft="20dp"
 		android:id="@+id/txtPosto" />
 	<TextView
-		android:layout_marginTop="510dp"
+		android:layout_marginTop="490dp"
 		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
@@ -115,7 +114,7 @@
 		android:paddingLeft="20dp"
 		android:id="@+id/txtSubgrupo" />
 	<TextView
-		android:layout_marginTop="540dp"
+		android:layout_marginTop="530dp"
 		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
@@ -133,7 +132,7 @@
 		android:paddingLeft="20dp"
 		android:id="@+id/txtClasse" />
 	<TextView
-		android:layout_marginTop="600dp"
+		android:layout_marginTop="610dp"
 		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
@@ -142,7 +141,7 @@
 		android:paddingLeft="20dp"
 		android:id="@+id/txtSubClasse" />
 	<TextView
-		android:layout_marginTop="700dp"
+		android:layout_marginTop="650dp"
 		android:text=""
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
@@ -151,7 +150,7 @@
 		android:paddingLeft="20dp"
 		android:id="@+id/txtValidade" />
 	
-
-   
-
+	
 </RelativeLayout>
+	
+</ScrollView>
