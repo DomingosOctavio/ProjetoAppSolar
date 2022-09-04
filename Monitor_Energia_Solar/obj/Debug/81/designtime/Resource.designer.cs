@@ -3109,11 +3109,11 @@ namespace Monitor_Energia_Solar
 			// aapt resource value: 0x7F0800D9
 			public const int textoBussola = 2131230937;
 			
-			// aapt resource value: 0x7F0800DA
-			public const int textoInclinacao = 2131230938;
-			
 			// aapt resource value: 0x7F0800DB
-			public const int textoTarifa = 2131230939;
+			public const int textoinclinacao = 2131230939;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int textoTarifa = 2131230938;
 			
 			// aapt resource value: 0x7F0800D2
 			public const int textSpacerNoButtons = 2131230930;

@@ -964,8 +964,8 @@ int id textinput_counter 0x7f0800d6
 int id textinput_error 0x7f0800d7
 int id textoBandeira 0x7f0800d8
 int id textoBussola 0x7f0800d9
-int id textoInclinacao 0x7f0800da
-int id textoTarifa 0x7f0800db
+int id textoTarifa 0x7f0800da
+int id textoinclinacao 0x7f0800db
 int id time 0x7f0800dc
 int id title 0x7f0800dd
 int id titleDividerNoCustom 0x7f0800de

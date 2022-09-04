@@ -28,6 +28,8 @@ foreground;obj\Debug\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageView;obj\Debug\81\res\layout\botoes_api_energia.xml
 ImageView;obj\Debug\81\res\layout\bussola.xml
 ImageView;obj\Debug\81\res\layout\dados_api_energia.xml
+ImageView;obj\Debug\81\res\layout\instrucao_bussolainclinacao.xml
+ImageView;obj\Debug\81\res\layout\instrucaotarifabandeira.xml
 ImageView;obj\Debug\81\res\layout\login.xml
 item;obj\Debug\81\res\drawable\layout_shadow_white.xml
 item;obj\Debug\81\res\drawable\sombra_menu.xml
