@@ -35,7 +35,7 @@ namespace Monitor_Energia_Solar
         {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.SetTitle("Atenção");
-            alert.SetIcon(Resource.Drawable.Sol_anim);
+            alert.SetIcon(Resource.Drawable.sair);
             alert.SetMessage("Deseja realmente sair da aplicação?");
 
             alert.SetPositiveButton("sim", (senderAlert, args) =>

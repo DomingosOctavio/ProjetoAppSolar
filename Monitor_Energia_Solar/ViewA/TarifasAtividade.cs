@@ -17,11 +17,12 @@ namespace Monitor_Energia_Solar
     [Activity(Label = "Tarifas_Atividade")]
     public class TarifasAtividade : AppCompatActivity
     {
-        CancellationTokenSource _tokenSource = null;
+     
         Spinner spinner;
         Spinner spinner_tarifas;
         ArrayAdapter adapter_companhias;
         ProgressBar progress;
+        Button btn_calcular;
         public static string Agente = "";
 
         String[] Urls = { "https://apise.way2.com.br/v1/tarifas?apikey=ad55f064ab884c6d8157fe4de92bd1ef&ano=", "https://apise.way2.com.br/v1/tarifas?apikey=9c544b41cf934fbd8d8657a4dcd997bd&ano=", "https://apise.way2.com.br/v1/tarifas?apikey=ea6ffddc84024d269cc660121835a91a&ano=", "https://apise.way2.com.br/v1/tarifas?apikey=ef061b3334da4721b330af853a39f73a&ano=" };
@@ -38,23 +39,154 @@ namespace Monitor_Energia_Solar
             Finish();
 
         }
+        private void Btnsave_Click(object sender, EventArgs e)
+        {
+            if (Agente == "" || Agente == null)
+            {
+                Toast.MakeText(this, "Por favor, prencha o campo Companhia de Energia", ToastLength.Short).Show();
+                return;
+            }
+            if (selectedPosition == 0 || selectedPosition == null)
+            {
+                Toast.MakeText(this, "Por favor, prencha o campo Tipo de tarifa", ToastLength.Short).Show();
+                return;
+            }
+            if (Agente == "ENEL - RJ")
+            {
+                LayoutInflater layoutInflater = LayoutInflater.From(this);
+                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+                builder.SetTitle("");
+                builder.SetView(view3);
+                Android.App.AlertDialog alerta = builder.Create();
+                alerta.Show();
 
+                //ENEL RJ
+                //convencional -  49
+                //branca nivel 1 - 45
+                //branca nivel 2 - 46
+                //branca nivel 3 - 47
+                //baixa renda - 48
+                //rural convencional - 62
+
+                if (selectedPosition == 1)
+                {
+                    Tarifas_SyncAsync(49, 0, 0, "ENEL RJ");
+
+                }
+                else if (selectedPosition == 2)
+                {
+                    Tarifas_SyncAsync(45, 46, 47, "ENEL RJ");
+
+                }
+                else if (selectedPosition == 3)
+                {
+                    Tarifas_SyncAsync(48, 0, 0, "ENEL RJ");
+
+
+                }
+                else if (selectedPosition == 4)
+                {
+                    Tarifas_SyncAsync(55, 0, 0, "ENEL RJ");
+
+
+                }
+                builder.Dispose();
+            }
+            else if (Agente == "LIGHT")
+            {
+                LayoutInflater layoutInflater = LayoutInflater.From(this);
+                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+                builder.SetTitle("");
+                builder.SetView(view3);
+                Android.App.AlertDialog alerta = builder.Create();
+                alerta.Show();
+
+                //    LIGHT
+                //    tarifas.Add("B1 Residencial Comum"); //58
+                //    tarifas.Add("B1 Residencial-Tarifa Branca");//54//55//56
+                //    tarifas.Add("B1 Residencial Baixa Renda");//57
+                //    tarifas.Add("B2 Rural Convencional"); //71  
+
+                if (selectedPosition == 1)
+                {
+                    Tarifas_SyncAsync(52, 0, 0, "LIGHT");
+
+                }
+                else if (selectedPosition == 2)
+                {
+                    Tarifas_SyncAsync(48, 49, 50, "LIGHT");
+
+
+                }
+                else if (selectedPosition == 3)
+                {
+                    Tarifas_SyncAsync(51, 0, 0, "LIGHT");
+
+                }
+                else if (selectedPosition == 4)
+                {
+                    Tarifas_SyncAsync(58, 0, 0, "LIGHT");
+
+                }
+                builder.Dispose();
+            }
+            else if (Agente == "ENF")
+            {
+                LayoutInflater layoutInflater = LayoutInflater.From(this);
+                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+                builder.SetTitle("");
+                builder.SetView(view3);
+                Android.App.AlertDialog alerta = builder.Create();
+                alerta.Show();
+
+                //ENF
+                //convencional -  26
+                //branca nivel 1 - 22
+                //branca nivel 2 - 23
+                //branca nivel 3 - 24
+                //baixa renda - 25
+                //rural convencional - 39
+
+                if (selectedPosition == 1)
+                {
+                    Tarifas_SyncAsync(26, 0, 0, "ENF");
+
+                }
+                else if (selectedPosition == 2)
+                {
+                    Tarifas_SyncAsync(22, 23, 24, "ENF");
+
+
+                }
+                else if (selectedPosition == 3)
+                {
+                    Tarifas_SyncAsync(25, 0, 0, "ENF");
+
+                }
+                else if (selectedPosition == 4)
+                {
+                    Tarifas_SyncAsync(39, 0, 0, "ENF");
+
+                }
+                builder.Dispose();
+            }
+
+        }
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.tarifas);
 
-         
-
-
-
             progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
       
-       
-
+      
             spinner = FindViewById<Spinner>(Resource.Id.drop_companhias_energia);
             spinner_tarifas = FindViewById<Spinner>(Resource.Id.drop_tarifas);
+
 
             spinner_tarifas.Enabled = true;
             adapter_companhias = new ArrayAdapter<string>(this, Resource.Layout.support_simple_spinner_dropdown_item, Companhias);
@@ -67,16 +199,12 @@ namespace Monitor_Energia_Solar
             TiposTarifasAdapter = new ArrayAdapter<string>(this, Resource.Layout.support_simple_spinner_dropdown_item, Tarifas);
             spinner_tarifas.Adapter = TiposTarifasAdapter;
 
-
-       
-
-
-        
-
+            btn_calcular = FindViewById<Button>(Resource.Id.calcular);
+            btn_calcular.Click += Btnsave_Click;
 
         }
-
-        public void Companhia_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+       
+public void Companhia_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
             
             var spinner = (Spinner)sender;
@@ -125,7 +253,10 @@ namespace Monitor_Energia_Solar
             TextView txtbranca1 = FindViewById<TextView>(Resource.Id.branca1);
             TextView txtbranca2 = FindViewById<TextView>(Resource.Id.branca2);
             TextView txtbranca3 = FindViewById<TextView>(Resource.Id.branca3);
-            TextView txtTarifa = FindViewById<TextView>(Resource.Id.tarifa);
+            TextView txttarifaTotal = FindViewById<TextView>(Resource.Id.txttarifa);
+            TextView txtTotalKwh = FindViewById<TextView>(Resource.Id.txtTotalKwh);
+            EditText editTexttarifa = FindViewById<EditText>(Resource.Id.editTexttarifa);
+
 
             txtbranca1.Visibility = ViewStates.Visible;
             txtbranca2.Visibility = ViewStates.Visible;
@@ -137,10 +268,11 @@ namespace Monitor_Energia_Solar
             txtSubClasse.Text = "";
             txtModalidade.Text = "";
             txtPosto.Text = "";
-            txtTarifa.Text = "";
+            txttarifaTotal.Text = "";
             txtbranca1.Text = "";
             txtbranca2.Text = "";
             txtbranca3.Text = "";
+            txtTotalKwh.Text = "";
 
 
             TarifasService tarifasService = new TarifasService();
@@ -192,28 +324,42 @@ namespace Monitor_Energia_Solar
 
                     if (validacao == true)
                     {
-                        txtValidadede.Text = "Validade = " + obj_api_tarifas[posicao].validadesde.ToString();
+                        string validade = obj_api_tarifas[posicao].validadesde.ToString();
+                      
+                        txtValidadede.Text = "Validade = " + validade.Substring(0, 10);
                         txtSubgrupo.Text = "Subgrupo = " + obj_api_tarifas[posicao].subgrupo.ToString();
                         txtClasse.Text = "Classe = " + obj_api_tarifas[posicao].classe.ToString();
                         txtSubClasse.Text = "SubClasse = " + obj_api_tarifas[posicao].subclasse.ToString();
                         txtModalidade.Text = "Modalidade = " + obj_api_tarifas[posicao].subclasse.ToString();
                         txtPosto.Text = "Posto = " + obj_api_tarifas[posicao].posto.ToString();
-                        txtTarifa.Text = "Tarifa = " + (Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumote));
+                        
+                       
 
 
+                        double total = Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumote);
+                        double def = (total * 0.00001);
+                        txttarifaTotal.Text = "Tarifa de energia *TE + *TUSD = " + def.ToString();
+
+                        txtTotalKwh.Text = "Valor da conta R$: " + (def * Convert.ToDouble(editTexttarifa.Text)).ToString();
+                       
                         if (num2 != 0 || num3 != 0)
                         {
-                            decimal branca1 = Convert.ToDecimal(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDecimal(obj_api_tarifas[posicao].tarifaconsumote);
-                            txtbranca1.Text = branca1.ToString();
+                            double total1 = Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumote);
+                            double def1 = (total1 * 0.00001);
+                            txtbranca1.Text = "Tarifa de energia(1) *TE + *TUSD = " + def1.ToString();
 
-                            decimal branca2 = Convert.ToDecimal(obj_api_tarifas[num2].tarifaconsumotusd) + Convert.ToDecimal(obj_api_tarifas[num2].tarifaconsumote);
-                            txtbranca2.Text = branca2.ToString();
 
-                            decimal branca3 = Convert.ToDecimal(obj_api_tarifas[num3].tarifaconsumotusd) + Convert.ToDecimal(obj_api_tarifas[num3].tarifaconsumote);
-                            txtbranca3.Text = branca3.ToString();
+                            double total2 = Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumote);
+                            double def2 = (total2 * 0.00001);
+                            txtbranca2.Text = "Tarifa de energia(2) *TE + *TUSD = " + def2.ToString();
+
+                            double total3 = Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumotusd) + Convert.ToDouble(obj_api_tarifas[posicao].tarifaconsumote);
+                            double def3 = (total3 * 0.00001);
+                            txtbranca3.Text = "Tarifa de energia(3) *TE + *TUSD = " + def3.ToString();
+                          
+                           
                             progress.Visibility = ViewStates.Invisible;
                             break;
-
                         }
                         break;
                     }
@@ -221,9 +367,6 @@ namespace Monitor_Energia_Solar
                     Thread.Sleep(100);
                 
                 }
-
-
-
             }
             catch (Newtonsoft.Json.JsonSerializationException e)
             {
@@ -236,7 +379,6 @@ namespace Monitor_Energia_Solar
             }
 
         }
-
         protected override void OnDestroy()
         {
             base.OnDestroy();
@@ -250,128 +392,7 @@ namespace Monitor_Energia_Solar
 
          
 
-            if (Agente == "ENEL - RJ")
-            {
-                LayoutInflater layoutInflater = LayoutInflater.From(this);
-                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
-                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
-                builder.SetTitle("");
-                builder.SetView(view3);
-                Android.App.AlertDialog alerta = builder.Create();
-                alerta.Show();
-
-                //ENEL RJ
-                //convencional -  49
-                //branca nivel 1 - 45
-                //branca nivel 2 - 46
-                //branca nivel 3 - 47
-                //baixa renda - 48
-                //rural convencional - 62
-
-                if (selectedPosition == 1)
-                {
-                    Tarifas_SyncAsync(49, 0, 0, "ENEL RJ");
-                
-                }
-                else if (selectedPosition == 2)
-                {
-                    Tarifas_SyncAsync(45, 46, 47, "ENEL RJ");
-                 
-                }
-                else if (selectedPosition == 3)
-                {
-                    Tarifas_SyncAsync(48, 0, 0, "ENEL RJ");
-                   
-
-                }
-                else if (selectedPosition == 4)
-                {
-                    Tarifas_SyncAsync(62, 0, 0, "ENEL RJ");
-                    
-
-                }
-                builder.Dispose();
-            }
-            else if (Agente == "LIGHT")
-            {
-                LayoutInflater layoutInflater = LayoutInflater.From(this);
-                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
-                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
-                builder.SetTitle("");
-                builder.SetView(view3);
-                Android.App.AlertDialog alerta = builder.Create();
-                alerta.Show();
-
-                //    LIGHT
-                //    tarifas.Add("B1 Residencial Comum"); //58
-                //    tarifas.Add("B1 Residencial-Tarifa Branca");//54//55//56
-                //    tarifas.Add("B1 Residencial Baixa Renda");//57
-                //    tarifas.Add("B2 Rural Convencional"); //71  
-
-                if (selectedPosition == 1)
-                {
-                    Tarifas_SyncAsync(58, 0, 0, "LIGHT");
-
-                }
-                else if (selectedPosition == 2)
-                {
-                    Tarifas_SyncAsync(54, 55, 56, "LIGHT");
-
-
-                }
-                else if (selectedPosition == 3)
-                {
-                    Tarifas_SyncAsync(57, 0, 0, "LIGHT");
-
-                }
-                else if (selectedPosition == 4)
-                {
-                    Tarifas_SyncAsync(71, 0, 0, "LIGHT");
-
-                }
-                builder.Dispose();
-            }
-            else if (Agente == "ENF")
-            {
-                LayoutInflater layoutInflater = LayoutInflater.From(this);
-                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
-                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
-                builder.SetTitle("");
-                builder.SetView(view3);
-                Android.App.AlertDialog alerta = builder.Create();
-                alerta.Show();
-
-                //ENF
-                //convencional -  26
-                //branca nivel 1 - 22
-                //branca nivel 2 - 23
-                //branca nivel 3 - 24
-                //baixa renda - 25
-                //rural convencional - 39
-
-                if (selectedPosition == 1)
-                {
-                    Tarifas_SyncAsync(26, 0, 0, "ENF");
-
-                }
-                else if (selectedPosition == 2)
-                {
-                    Tarifas_SyncAsync(22, 23, 24, "ENF");
-
-
-                }
-                else if (selectedPosition == 3)
-                {
-                    Tarifas_SyncAsync(25, 0, 0, "ENF");
-
-                }
-                else if (selectedPosition == 4)
-                {
-                    Tarifas_SyncAsync(39, 0, 0, "ENF");
-
-                }
-                builder.Dispose();
-            }
+         
           
         }
 
