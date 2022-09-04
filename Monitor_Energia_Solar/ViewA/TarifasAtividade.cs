@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace Monitor_Energia_Solar
 {
-    [Activity(Label = "Tarifas_Atividade")]
+    [Activity(Label = "")]
     public class TarifasAtividade : AppCompatActivity
     {
      
