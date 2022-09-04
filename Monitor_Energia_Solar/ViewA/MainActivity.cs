@@ -61,9 +61,19 @@ namespace Monitor_Energia_Solar
         }
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-            if (item.ItemId == Resource.Id.file_settings)
+            if (item.ItemId == Resource.Id.about_app)
             {
-                // do something here... 
+                AlertDialog.Builder alert = new AlertDialog.Builder(this);
+                alert.SetTitle("DOMINGOS OCTAVIO DIAS FERRAN SOUZA");
+                alert.SetIcon(Resource.Drawable.pessoa);
+                alert.SetMessage("Aplicativo para apresentação do TCC 2022 // FAETERJ -RJ");
+
+                alert.SetPositiveButton("OK", (senderAlert, args) =>
+                {
+                    alert.Dispose();
+                });
+                Dialog dialog = alert.Create();
+                dialog.Show();
                 return true;
             }
             return base.OnOptionsItemSelected(item);
@@ -166,14 +176,14 @@ namespace Monitor_Energia_Solar
             catch (NoRouteToHostException e)
             #pragma warning restore CS0168 // A variável foi declarada, mas nunca foi usada
             {
-                obj_Dados.mensagem = "Tentando Reconectar...";
+                obj_Dados.mensagem = "Erro de conexão ao endereço remoto...";
                 return obj_Dados;
             }
             #pragma warning disable CS0168 // A variável foi declarada, mas nunca foi usada
             catch (Exception e)
             #pragma warning restore CS0168 // A variável foi declarada, mas nunca foi usada
             {
-                obj_Dados.mensagem = "Erro: Verifique a Conexão da internet...";
+                obj_Dados.mensagem = "Sem conexão com o Arduino...";
                 return obj_Dados;
             }
 
@@ -209,7 +219,7 @@ namespace Monitor_Energia_Solar
 
                 progress.Indeterminate = true;
 
-                if (String.Compare(retornoWebService.mensagem, "Tentando Reconectar...") == 0 || String.Compare(retornoWebService.mensagem, "Erro: Verifique a Conexão da internet...") == 0)
+                if (String.Compare(retornoWebService.mensagem, "Erro de conexão ao endereço remoto...") == 0 || String.Compare(retornoWebService.mensagem, "Sem conexão com o Arduino...") == 0)
                 {
                     //textView_corrente.Visibility = Android.Views.ViewStates.Invisible;
                     //textView_luminosidade.Visibility = Android.Views.ViewStates.Invisible;

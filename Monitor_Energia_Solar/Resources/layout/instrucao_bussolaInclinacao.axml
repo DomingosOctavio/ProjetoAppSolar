@@ -36,7 +36,7 @@ android:layout_height="match_parent">
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="40px"
+                android:textSize="30px"
                 android:id="@+id/textoBussola" />
 
             <ImageView
@@ -53,7 +53,7 @@ android:layout_height="match_parent">
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="40px"
+                android:textSize="30px"
                 android:id="@+id/textoinclinacao" />
 
             <ImageView

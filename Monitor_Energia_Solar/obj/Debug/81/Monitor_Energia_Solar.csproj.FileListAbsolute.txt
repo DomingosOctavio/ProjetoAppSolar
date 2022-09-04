@@ -1350,3 +1350,4 @@ C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Sola
 C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\norte.png
 C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\bandeiras.png
 C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\dinheirotarifas.jpg
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\pessoa.png
