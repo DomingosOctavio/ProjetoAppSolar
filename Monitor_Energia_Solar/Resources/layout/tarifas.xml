@@ -62,7 +62,6 @@ android:layout_height="match_parent">
 		android:hint="KWh consumidos" 
 		android:background="@layout/rounded_border_edittext"  
 		android:padding="15dp"
-		android:focusable="false"
 		android:layout_marginBottom="10dp"
 		android:layout_gravity="center"/>
 
