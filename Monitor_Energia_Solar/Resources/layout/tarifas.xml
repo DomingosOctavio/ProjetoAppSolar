@@ -62,6 +62,7 @@ android:layout_height="match_parent">
 		android:hint="KWh consumidos" 
 		android:background="@layout/rounded_border_edittext"  
 		android:padding="15dp"
+		android:inputType="number"
 		android:layout_marginBottom="10dp"
 		android:layout_gravity="center"/>
 
@@ -184,6 +185,7 @@ android:layout_height="match_parent">
 		android:id="@+id/observacao" />
     </LinearLayout>
 </ScrollView>
+   
   <Button
             android:id="@+id/calcular"
             android:layout_width="fill_parent"

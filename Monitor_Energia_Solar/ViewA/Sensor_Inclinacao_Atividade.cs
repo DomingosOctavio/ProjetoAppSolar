@@ -49,13 +49,15 @@ namespace Monitor_Energia_Solar
                     if (incl == 12)
                     {
                         textView_estacao.Text = "Posição ideal para o verão";
+                        checkOK.Checked = true;
                     }
                     else
                     {
+                        checkOK.Checked = false;
                         textView_estacao.Text = "";
                     }
                     progressBarIndeterminado.ProgressDrawable.
-                  SetColorFilter(Android.Graphics.Color.Orange, Android.Graphics.PorterDuff.Mode.Multiply);
+                  SetColorFilter(Android.Graphics.Color.DarkOrange, Android.Graphics.PorterDuff.Mode.Multiply);
 
                 }
                 if (incl > 12 && incl <= 27)
@@ -64,17 +66,20 @@ namespace Monitor_Energia_Solar
                     if (incl == 27)
                     {
                         textView_estacao.Text = "Posição ideal para o inverno";
+                        checkOK.Checked = true;
                     }
                     else
                     {
                         textView_estacao.Text = "";
+                        checkOK.Checked = false;
                     }
                     progressBarIndeterminado.ProgressDrawable.
-                    SetColorFilter(Android.Graphics.Color.Aqua, Android.Graphics.PorterDuff.Mode.Multiply);
+                    SetColorFilter(Android.Graphics.Color.LightSkyBlue, Android.Graphics.PorterDuff.Mode.Multiply);
                 }
                
                 else if (incl > 27 || incl < 0)
                 {
+                    checkOK.Checked = false;
                     textView_estacao.Text = "";
                     progressBarIndeterminado.ProgressDrawable.
                     SetColorFilter(Android.Graphics.Color.Gray, Android.Graphics.PorterDuff.Mode.Multiply);
@@ -92,6 +97,7 @@ namespace Monitor_Energia_Solar
         SensorManager _sensorManager;
         TextView _sensorTextView;
         TextView textView_estacao;
+        CheckBox checkOK;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -102,7 +108,7 @@ namespace Monitor_Energia_Solar
             _sensorManager = (SensorManager)GetSystemService(SensorService);
             _sensorTextView = FindViewById<TextView>(Resource.Id.inclinacao_t);
             progressBarIndeterminado = FindViewById<ProgressBar>(Resource.Id.determinateBar);
-
+            checkOK = FindViewById<CheckBox>(Resource.Id.checkBox1);
             textView_estacao = FindViewById<TextView>(Resource.Id.estacao);
 
 

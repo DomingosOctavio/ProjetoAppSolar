@@ -209,47 +209,57 @@ namespace Monitor_Energia_Solar
             textView_font.SetTypeface(tf, TypefaceStyle.Normal);
 
             ProgressBar progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
-     
+
 
 
             RunOnUiThread(async () =>
             {
 
-                Obj_Dados_WebServer retornoWebService = await Executar();
+            Obj_Dados_WebServer retornoWebService = await Executar();
 
-                progress.Indeterminate = true;
+            progress.Indeterminate = true;
 
-                if (String.Compare(retornoWebService.mensagem, "Erro de conexão ao endereço remoto...") == 0 || String.Compare(retornoWebService.mensagem, "Sem conexão com o Arduino...") == 0)
-                {
-                    //textView_corrente.Visibility = Android.Views.ViewStates.Invisible;
-                    //textView_luminosidade.Visibility = Android.Views.ViewStates.Invisible;
-                    //textView_potencia.Visibility = Android.Views.ViewStates.Invisible;
-                    //textView_horario.Visibility = Android.Views.ViewStates.Invisible;
+            if (String.Compare(retornoWebService.mensagem, "Erro de conexão ao endereço remoto...") == 0 || String.Compare(retornoWebService.mensagem, "Sem conexão com o Arduino...") == 0)
+            {
+                //textView_corrente.Visibility = Android.Views.ViewStates.Invisible;
+                //textView_luminosidade.Visibility = Android.Views.ViewStates.Invisible;
+                //textView_potencia.Visibility = Android.Views.ViewStates.Invisible;
+                //textView_horario.Visibility = Android.Views.ViewStates.Invisible;
 
-                    relativeTextos.Visibility = Android.Views.ViewStates.Invisible;
-                    layoutMultimetro.Visibility = Android.Views.ViewStates.Invisible;
-                    label_tensao.Visibility = ViewStates.Gone;
+                relativeTextos.Visibility = Android.Views.ViewStates.Invisible;
+                layoutMultimetro.Visibility = Android.Views.ViewStates.Invisible;
+                label_tensao.Visibility = ViewStates.Gone;
 
-                    sincronizando_erro.Text = retornoWebService.mensagem;
-                    progress.Visibility = ViewStates.Visible;
-                }
-                else
-                {
-                    //textView_corrente.Visibility = Android.Views.ViewStates.Visible;
-                    //textView_luminosidade.Visibility = Android.Views.ViewStates.Visible;
-                    //textView_potencia.Visibility = Android.Views.ViewStates.Visible;
-                    //textView_horario.Visibility = Android.Views.ViewStates.Visible;
-                    relativeTextos.Visibility = Android.Views.ViewStates.Visible;
-                    layoutMultimetro.Visibility = Android.Views.ViewStates.Visible;
-                    label_tensao.Visibility = ViewStates.Visible;
-                    sincronizando_erro.Visibility= ViewStates.Gone;
+                sincronizando_erro.Text = retornoWebService.mensagem;
+                progress.Visibility = ViewStates.Visible;
+            }
+            else
+            {
+                //textView_corrente.Visibility = Android.Views.ViewStates.Visible;
+                //textView_luminosidade.Visibility = Android.Views.ViewStates.Visible;
+                //textView_potencia.Visibility = Android.Views.ViewStates.Visible;
+                //textView_horario.Visibility = Android.Views.ViewStates.Visible;
+                relativeTextos.Visibility = Android.Views.ViewStates.Visible;
+                layoutMultimetro.Visibility = Android.Views.ViewStates.Visible;
+                label_tensao.Visibility = ViewStates.Visible;
+                sincronizando_erro.Visibility = ViewStates.Gone;
 
 
-                    textView_corrente.Text = "Corrente (A): " + retornoWebService.Corrente.ToString();
-                    textView_luminosidade.Text = "Luminosidade: " + retornoWebService.Luminosidade.ToString();
-                    textView_potencia.Text = "Potência (W): " + (retornoWebService.Tensao * retornoWebService.Corrente).ToString();
+                textView_corrente.Text = "Corrente (A): " + retornoWebService.Corrente.ToString();
+                textView_luminosidade.Text = "Luminosidade: " + retornoWebService.Luminosidade.ToString();
+
+                float potencia = retornoWebService.Tensao * retornoWebService.Corrente;
+                textView_potencia.Text = "Potência (W): " + String.Format("{0:0.00}", potencia);
+
+                    //teste
+
+                 
+
+
                     textView_horario.Text = retornoWebService.Horario.ToString();
-                    textView_font.Text =  retornoWebService.Tensao.ToString();
+                    
+                    float texto_tensao = retornoWebService.Tensao;
+                    textView_font.Text = String.Format("{0:0.00}", texto_tensao);
 
                     progress.Visibility = ViewStates.Invisible;
               

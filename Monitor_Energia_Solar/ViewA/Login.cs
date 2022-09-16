@@ -108,17 +108,14 @@ namespace Monitor_Energia_Solar
                 alert.SetIcon(Resource.Drawable.sair);
                 alert.SetMessage("Ocorreu um erro ao acessar o banco de dados. Erro: " + ex.Message);
 
-                alert.SetPositiveButton("sim", (senderAlert, args) =>
+                alert.SetPositiveButton("OK", (senderAlert, args) =>
                 {
-                    this.FinishAffinity();
+                    return;
                 });
 
               
             }
           
-
-
-
             try
             {
                 if (obj_Banco.Usuario.Equals("") || obj_Banco.Senha.Equals(""))

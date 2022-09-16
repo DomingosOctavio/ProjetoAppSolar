@@ -9,8 +9,7 @@ using Android.Widget;
 using Monitor_Energia_Solar.Service;
 using System;
 using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
+
 
 namespace Monitor_Energia_Solar
 {
@@ -53,13 +52,13 @@ namespace Monitor_Energia_Solar
             }
             if (Agente == "ENEL - RJ")
             {
-                LayoutInflater layoutInflater = LayoutInflater.From(this);
-                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
-                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
-                builder.SetTitle("");
-                builder.SetView(view3);
-                Android.App.AlertDialog alerta = builder.Create();
-                alerta.Show();
+                //LayoutInflater layoutInflater = LayoutInflater.From(this);
+                //View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+                //Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+                //builder.SetTitle("");
+                //builder.SetView(view3);
+                //Android.App.AlertDialog alerta = builder.Create();
+                //alerta.Show();
 
                 //ENEL RJ
                 //convencional -  49
@@ -91,17 +90,17 @@ namespace Monitor_Energia_Solar
 
 
                 }
-                builder.Dispose();
+                //builder.Dispose();
             }
             else if (Agente == "LIGHT")
             {
-                LayoutInflater layoutInflater = LayoutInflater.From(this);
-                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
-                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
-                builder.SetTitle("");
-                builder.SetView(view3);
-                Android.App.AlertDialog alerta = builder.Create();
-                alerta.Show();
+                //LayoutInflater layoutInflater = LayoutInflater.From(this);
+                //View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+                //Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+                //builder.SetTitle("");
+                //builder.SetView(view3);
+                //Android.App.AlertDialog alerta = builder.Create();
+                //alerta.Show();
 
                 //    LIGHT
                 //    tarifas.Add("B1 Residencial Comum"); //58
@@ -130,17 +129,17 @@ namespace Monitor_Energia_Solar
                     Tarifas_SyncAsync(58, 0, 0, "LIGHT");
 
                 }
-                builder.Dispose();
+                //builder.Dispose();
             }
             else if (Agente == "ENF")
             {
-                LayoutInflater layoutInflater = LayoutInflater.From(this);
-                View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
-                Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
-                builder.SetTitle("");
-                builder.SetView(view3);
-                Android.App.AlertDialog alerta = builder.Create();
-                alerta.Show();
+                //LayoutInflater layoutInflater = LayoutInflater.From(this);
+                //View view3 = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+                //Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
+                //builder.SetTitle("");
+                //builder.SetView(view3);
+                //Android.App.AlertDialog alerta = builder.Create();
+                //alerta.Show();
 
                 //ENF
                 //convencional -  26
@@ -171,7 +170,7 @@ namespace Monitor_Energia_Solar
                     Tarifas_SyncAsync(39, 0, 0, "ENF");
 
                 }
-                builder.Dispose();
+                //builder.Dispose();
             }
 
         }
@@ -364,7 +363,7 @@ public void Companhia_ItemSelected(object sender, AdapterView.ItemSelectedEventA
                         break;
                     }
                     validacao = false;
-                    Thread.Sleep(100);
+                  
                 
                 }
             }

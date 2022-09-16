@@ -1352,3 +1352,4 @@ C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Sola
 C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
 C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Debug\81\res\drawable\exclamacao.jpg
