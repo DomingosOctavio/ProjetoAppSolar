@@ -19,40 +19,36 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid81"
+          "monoandroid12.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid81": {
+          "monoandroid12.0": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "monoandroid81": {
+        "monoandroid12.0": {
           "dependencies": {
             "Json.Net": {
               "target": "Package",
-              "version": "[1.0.25, )"
-            },
-            "MailKit": {
-              "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[1.0.33, )"
             },
             "MimeKit": {
               "target": "Package",
-              "version": "[3.4.0, )"
+              "version": "[3.4.1, )"
             },
             "MySqlConnector": {
               "target": "Package",
-              "version": "[1.2.1, )"
+              "version": "[2.1.13, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.1, )"
             },
             "OxyPlot.Xamarin.Android": {
               "target": "Package",
@@ -60,7 +56,7 @@
             },
             "Plugin.Fingerprint": {
               "target": "Package",
-              "version": "[2.1.3, )"
+              "version": "[2.1.5, )"
             },
             "Refractored.GifImageView": {
               "target": "Package",
@@ -68,7 +64,7 @@
             },
             "System.Memory": {
               "target": "Package",
-              "version": "[4.5.4, )"
+              "version": "[4.5.5, )"
             },
             "System.Net.Http": {
               "target": "Package",
@@ -78,21 +74,53 @@
               "target": "Package",
               "version": "[28.0.0.3, )"
             },
+            "Xamarin.Android.Support.Core.UI": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
               "version": "[28.0.0.3, )"
             },
             "Xamarin.Android.Support.Design": {
               "target": "Package",
-              "version": "[27.0.2.1, )"
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.Fragment": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Android.Support.Vector.Drawable": {
               "target": "Package",
               "version": "[28.0.0.3, )"
             },
+            "Xamarin.AndroidX.Legacy.Support.Core.UI": {
+              "target": "Package",
+              "version": "[1.0.0.15, )"
+            },
+            "Xamarin.AndroidX.Lifecycle.LiveData": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            },
+            "Xamarin.AndroidX.Media": {
+              "target": "Package",
+              "version": "[1.6.0.1, )"
+            },
+            "Xamarin.AndroidX.RecyclerView": {
+              "target": "Package",
+              "version": "[1.2.1.7, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.3, )"
+            },
+            "Xamarin.Firebase.Database": {
+              "target": "Package",
+              "version": "[120.0.6, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.2.1, )"
             }
           }
         }

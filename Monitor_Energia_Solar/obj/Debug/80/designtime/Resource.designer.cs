@@ -14,7 +14,7 @@ namespace Monitor_Energia_Solar
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.3.31")]
 	public partial class Resource
 	{
 		
@@ -300,86 +300,125 @@ namespace Monitor_Energia_Solar
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7F050001
-			public const int aguarde = 2131034113;
-			
-			// aapt resource value: 0x7F050002
-			public const int bandeira_amarela = 2131034114;
-			
 			// aapt resource value: 0x7F050003
-			public const int bandeira_verde = 2131034115;
-			
-			// aapt resource value: 0x7F050004
-			public const int bandeira_vermelha = 2131034116;
-			
-			// aapt resource value: 0x7F050005
-			public const int bandeira_vermelha2 = 2131034117;
-			
-			// aapt resource value: 0x7F050006
-			public const int bussola = 2131034118;
-			
-			// aapt resource value: 0x7F050007
-			public const int bussola1 = 2131034119;
-			
-			// aapt resource value: 0x7F05000C
-			public const int icon = 2131034124;
-			
-			// aapt resource value: 0x7F050008
-			public const int ic_dashboard_black_24dp = 2131034120;
+			public const int aguarde = 2131034115;
 			
 			// aapt resource value: 0x7F050009
-			public const int ic_home_black_24dp = 2131034121;
+			public const int bandeiras = 2131034121;
+			
+			// aapt resource value: 0x7F050004
+			public const int bandeira_amarela = 2131034116;
+			
+			// aapt resource value: 0x7F050005
+			public const int bandeira_icon = 2131034117;
+			
+			// aapt resource value: 0x7F050006
+			public const int bandeira_verde = 2131034118;
+			
+			// aapt resource value: 0x7F050007
+			public const int bandeira_vermelha = 2131034119;
+			
+			// aapt resource value: 0x7F050008
+			public const int bandeira_vermelha2 = 2131034120;
 			
 			// aapt resource value: 0x7F05000A
-			public const int ic_launcher_background = 2131034122;
+			public const int bussola = 2131034122;
 			
 			// aapt resource value: 0x7F05000B
-			public const int ic_notifications_black_24dp = 2131034123;
+			public const int bussola1 = 2131034123;
+			
+			// aapt resource value: 0x7F05000C
+			public const int dinheiroTarifas = 2131034124;
 			
 			// aapt resource value: 0x7F05000D
-			public const int layout_shadow_white = 2131034125;
+			public const int economia_icon = 2131034125;
 			
 			// aapt resource value: 0x7F05000E
-			public const int notification_action_background = 2131034126;
-			
-			// aapt resource value: 0x7F05000F
-			public const int notification_bg = 2131034127;
-			
-			// aapt resource value: 0x7F050010
-			public const int notification_bg_low = 2131034128;
-			
-			// aapt resource value: 0x7F050011
-			public const int notification_bg_low_normal = 2131034129;
-			
-			// aapt resource value: 0x7F050012
-			public const int notification_bg_low_pressed = 2131034130;
-			
-			// aapt resource value: 0x7F050013
-			public const int notification_bg_normal = 2131034131;
-			
-			// aapt resource value: 0x7F050014
-			public const int notification_bg_normal_pressed = 2131034132;
-			
-			// aapt resource value: 0x7F050015
-			public const int notification_icon_background = 2131034133;
-			
-			// aapt resource value: 0x7F050016
-			public const int notification_template_icon_bg = 2131034134;
-			
-			// aapt resource value: 0x7F050017
-			public const int notification_template_icon_low_bg = 2131034135;
-			
-			// aapt resource value: 0x7F050018
-			public const int notification_tile_bg = 2131034136;
-			
-			// aapt resource value: 0x7F050019
-			public const int notify_panel_notification_icon_bg = 2131034137;
+			public const int exclamacao = 2131034126;
 			
 			// aapt resource value: 0x7F050000
-			public const int Sol_anim = 2131034112;
+			public const int GIF = 2131034112;
+			
+			// aapt resource value: 0x7F050013
+			public const int icon = 2131034131;
+			
+			// aapt resource value: 0x7F050014
+			public const int icon_inclinacao = 2131034132;
+			
+			// aapt resource value: 0x7F05000F
+			public const int ic_dashboard_black_24dp = 2131034127;
+			
+			// aapt resource value: 0x7F050010
+			public const int ic_home_black_24dp = 2131034128;
+			
+			// aapt resource value: 0x7F050011
+			public const int ic_launcher_background = 2131034129;
+			
+			// aapt resource value: 0x7F050012
+			public const int ic_notifications_black_24dp = 2131034130;
+			
+			// aapt resource value: 0x7F050015
+			public const int inclinacaoPGN = 2131034133;
+			
+			// aapt resource value: 0x7F050016
+			public const int layout_shadow_white = 2131034134;
+			
+			// aapt resource value: 0x7F050017
+			public const int norte = 2131034135;
+			
+			// aapt resource value: 0x7F050018
+			public const int notification_action_background = 2131034136;
+			
+			// aapt resource value: 0x7F050019
+			public const int notification_bg = 2131034137;
 			
 			// aapt resource value: 0x7F05001A
-			public const int sombra_menu = 2131034138;
+			public const int notification_bg_low = 2131034138;
+			
+			// aapt resource value: 0x7F05001B
+			public const int notification_bg_low_normal = 2131034139;
+			
+			// aapt resource value: 0x7F05001C
+			public const int notification_bg_low_pressed = 2131034140;
+			
+			// aapt resource value: 0x7F05001D
+			public const int notification_bg_normal = 2131034141;
+			
+			// aapt resource value: 0x7F05001E
+			public const int notification_bg_normal_pressed = 2131034142;
+			
+			// aapt resource value: 0x7F05001F
+			public const int notification_icon_background = 2131034143;
+			
+			// aapt resource value: 0x7F050020
+			public const int notification_template_icon_bg = 2131034144;
+			
+			// aapt resource value: 0x7F050021
+			public const int notification_template_icon_low_bg = 2131034145;
+			
+			// aapt resource value: 0x7F050022
+			public const int notification_tile_bg = 2131034146;
+			
+			// aapt resource value: 0x7F050023
+			public const int notify_panel_notification_icon_bg = 2131034147;
+			
+			// aapt resource value: 0x7F050024
+			public const int pessoa = 2131034148;
+			
+			// aapt resource value: 0x7F050001
+			public const int PGNInclinacao = 2131034113;
+			
+			// aapt resource value: 0x7F050025
+			public const int regua = 2131034149;
+			
+			// aapt resource value: 0x7F050026
+			public const int sair = 2131034150;
+			
+			// aapt resource value: 0x7F050002
+			public const int Sol_anim = 2131034114;
+			
+			// aapt resource value: 0x7F050027
+			public const int sombra_menu = 2131034151;
 			
 			static Drawable()
 			{
@@ -394,230 +433,314 @@ namespace Monitor_Energia_Solar
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F060000
-			public const int about_app = 2131099648;
-			
-			// aapt resource value: 0x7F060005
-			public const int actions = 2131099653;
-			
 			// aapt resource value: 0x7F060001
-			public const int action_container = 2131099649;
-			
-			// aapt resource value: 0x7F060002
-			public const int action_divider = 2131099650;
-			
-			// aapt resource value: 0x7F060003
-			public const int action_image = 2131099651;
-			
-			// aapt resource value: 0x7F060004
-			public const int action_text = 2131099652;
+			public const int about_app = 2131099649;
 			
 			// aapt resource value: 0x7F060006
-			public const int async = 2131099654;
+			public const int actions = 2131099654;
+			
+			// aapt resource value: 0x7F060002
+			public const int action_container = 2131099650;
+			
+			// aapt resource value: 0x7F060003
+			public const int action_divider = 2131099651;
+			
+			// aapt resource value: 0x7F060004
+			public const int action_image = 2131099652;
+			
+			// aapt resource value: 0x7F060005
+			public const int action_text = 2131099653;
 			
 			// aapt resource value: 0x7F060007
-			public const int band = 2131099655;
+			public const int async = 2131099655;
 			
 			// aapt resource value: 0x7F060008
-			public const int barras = 2131099656;
+			public const int band = 2131099656;
 			
 			// aapt resource value: 0x7F060009
-			public const int blocking = 2131099657;
+			public const int bandeira = 2131099657;
 			
 			// aapt resource value: 0x7F06000A
-			public const int branca1 = 2131099658;
+			public const int blocking = 2131099658;
 			
 			// aapt resource value: 0x7F06000B
-			public const int branca2 = 2131099659;
+			public const int branca1 = 2131099659;
 			
 			// aapt resource value: 0x7F06000C
-			public const int branca3 = 2131099660;
+			public const int branca2 = 2131099660;
 			
 			// aapt resource value: 0x7F06000D
-			public const int bussola = 2131099661;
+			public const int branca3 = 2131099661;
 			
 			// aapt resource value: 0x7F06000E
-			public const int chronometer = 2131099662;
+			public const int btnCorrente = 2131099662;
 			
 			// aapt resource value: 0x7F06000F
-			public const int container = 2131099663;
+			public const int btnLuz = 2131099663;
 			
 			// aapt resource value: 0x7F060010
-			public const int corrente = 2131099664;
+			public const int btnTensao = 2131099664;
 			
 			// aapt resource value: 0x7F060011
-			public const int determinateBar = 2131099665;
+			public const int bussola = 2131099665;
 			
 			// aapt resource value: 0x7F060012
-			public const int drop_companhias = 2131099666;
+			public const int calcular = 2131099666;
 			
 			// aapt resource value: 0x7F060013
-			public const int drop_companhias_energia = 2131099667;
+			public const int checkBox1 = 2131099667;
 			
 			// aapt resource value: 0x7F060014
-			public const int drop_tarifas = 2131099668;
+			public const int chronometer = 2131099668;
 			
 			// aapt resource value: 0x7F060015
-			public const int entrar = 2131099669;
+			public const int concluir = 2131099669;
+			
+			// aapt resource value: 0x7F060000
+			public const int Configuracoes = 2131099648;
 			
 			// aapt resource value: 0x7F060016
-			public const int file_settings = 2131099670;
+			public const int container = 2131099670;
 			
 			// aapt resource value: 0x7F060017
-			public const int forever = 2131099671;
+			public const int corrente = 2131099671;
 			
 			// aapt resource value: 0x7F060018
-			public const int get = 2131099672;
+			public const int determinateBar = 2131099672;
 			
 			// aapt resource value: 0x7F060019
-			public const int help = 2131099673;
+			public const int dialogTitle = 2131099673;
 			
 			// aapt resource value: 0x7F06001A
-			public const int horario = 2131099674;
+			public const int drop_companhias_energia = 2131099674;
 			
 			// aapt resource value: 0x7F06001B
-			public const int icon = 2131099675;
+			public const int drop_dadosDiarios = 2131099675;
 			
 			// aapt resource value: 0x7F06001C
-			public const int icon_group = 2131099676;
+			public const int drop_tarifas = 2131099676;
 			
 			// aapt resource value: 0x7F06001D
-			public const int inclinacao = 2131099677;
+			public const int editText = 2131099677;
 			
 			// aapt resource value: 0x7F06001E
-			public const int inclinacao_t = 2131099678;
+			public const int editTexttarifa = 2131099678;
 			
 			// aapt resource value: 0x7F06001F
-			public const int info = 2131099679;
+			public const int email = 2131099679;
 			
 			// aapt resource value: 0x7F060020
-			public const int italic = 2131099680;
+			public const int entrar = 2131099680;
 			
 			// aapt resource value: 0x7F060021
-			public const int line1 = 2131099681;
+			public const int estacao = 2131099681;
 			
 			// aapt resource value: 0x7F060022
-			public const int line3 = 2131099682;
+			public const int forever = 2131099682;
 			
 			// aapt resource value: 0x7F060023
-			public const int linha = 2131099683;
+			public const int horario = 2131099683;
 			
 			// aapt resource value: 0x7F060024
-			public const int lumisosidade = 2131099684;
+			public const int icon = 2131099684;
 			
 			// aapt resource value: 0x7F060025
-			public const int mask = 2131099685;
+			public const int icon_group = 2131099685;
 			
 			// aapt resource value: 0x7F060026
-			public const int myGIFImage = 2131099686;
+			public const int inclinacao = 2131099686;
 			
 			// aapt resource value: 0x7F060027
-			public const int navigation = 2131099687;
+			public const int inclinacao_t = 2131099687;
 			
 			// aapt resource value: 0x7F060028
-			public const int navigation2 = 2131099688;
+			public const int info = 2131099688;
 			
 			// aapt resource value: 0x7F060029
-			public const int navigation_dashboard = 2131099689;
+			public const int ip = 2131099689;
 			
 			// aapt resource value: 0x7F06002A
-			public const int navigation_home = 2131099690;
+			public const int italic = 2131099690;
 			
 			// aapt resource value: 0x7F06002B
-			public const int navigation_notifications = 2131099691;
+			public const int label_tensao = 2131099691;
 			
 			// aapt resource value: 0x7F06002C
-			public const int new_game1 = 2131099692;
+			public const int line1 = 2131099692;
 			
 			// aapt resource value: 0x7F06002D
-			public const int normal = 2131099693;
+			public const int line3 = 2131099693;
 			
 			// aapt resource value: 0x7F06002E
-			public const int notification_background = 2131099694;
+			public const int linearLayout2 = 2131099694;
 			
 			// aapt resource value: 0x7F06002F
-			public const int notification_main_column = 2131099695;
+			public const int lumisosidade = 2131099695;
 			
 			// aapt resource value: 0x7F060030
-			public const int notification_main_column_container = 2131099696;
+			public const int mask = 2131099696;
 			
 			// aapt resource value: 0x7F060031
-			public const int plot_view = 2131099697;
+			public const int myGIFImage = 2131099697;
 			
 			// aapt resource value: 0x7F060032
-			public const int potencia = 2131099698;
+			public const int navigation = 2131099698;
 			
 			// aapt resource value: 0x7F060033
-			public const int progressBar1 = 2131099699;
+			public const int navigation2 = 2131099699;
 			
 			// aapt resource value: 0x7F060034
-			public const int progressBar2 = 2131099700;
+			public const int navigation3 = 2131099700;
 			
 			// aapt resource value: 0x7F060035
-			public const int radioGroup1 = 2131099701;
+			public const int navigation_dashboard = 2131099701;
 			
 			// aapt resource value: 0x7F060036
-			public const int rel_anything = 2131099702;
+			public const int navigation_home = 2131099702;
 			
 			// aapt resource value: 0x7F060037
-			public const int right_icon = 2131099703;
+			public const int navigation_notifications = 2131099703;
 			
 			// aapt resource value: 0x7F060038
-			public const int right_side = 2131099704;
+			public const int normal = 2131099704;
 			
 			// aapt resource value: 0x7F060039
-			public const int senha = 2131099705;
+			public const int notification_background = 2131099705;
 			
 			// aapt resource value: 0x7F06003A
-			public const int session = 2131099706;
+			public const int notification_main_column = 2131099706;
 			
 			// aapt resource value: 0x7F06003B
-			public const int tarifa = 2131099707;
+			public const int notification_main_column_container = 2131099707;
 			
 			// aapt resource value: 0x7F06003C
-			public const int tensao_atual = 2131099708;
+			public const int novo_usuario = 2131099708;
 			
 			// aapt resource value: 0x7F06003D
-			public const int text = 2131099709;
+			public const int observacao = 2131099709;
 			
 			// aapt resource value: 0x7F06003E
-			public const int text2 = 2131099710;
+			public const int plot_view = 2131099710;
 			
 			// aapt resource value: 0x7F06003F
-			public const int time = 2131099711;
+			public const int potencia = 2131099711;
 			
 			// aapt resource value: 0x7F060040
-			public const int title = 2131099712;
+			public const int progressBar1 = 2131099712;
 			
 			// aapt resource value: 0x7F060041
-			public const int titulo = 2131099713;
+			public const int progressBar2 = 2131099713;
 			
 			// aapt resource value: 0x7F060042
-			public const int txtClasse = 2131099714;
+			public const int progressBar3 = 2131099714;
 			
 			// aapt resource value: 0x7F060043
-			public const int txtID = 2131099715;
+			public const int proximo = 2131099715;
 			
 			// aapt resource value: 0x7F060044
-			public const int txtMes = 2131099716;
+			public const int recuperar = 2131099716;
 			
 			// aapt resource value: 0x7F060045
-			public const int txtModalidade = 2131099717;
+			public const int rel_anything = 2131099717;
 			
 			// aapt resource value: 0x7F060046
-			public const int txtPosto = 2131099718;
+			public const int rel_tensao = 2131099718;
 			
 			// aapt resource value: 0x7F060047
-			public const int txtSubClasse = 2131099719;
+			public const int right_icon = 2131099719;
 			
 			// aapt resource value: 0x7F060048
-			public const int txtSubgrupo = 2131099720;
+			public const int right_side = 2131099720;
 			
 			// aapt resource value: 0x7F060049
-			public const int txtValidadede = 2131099721;
+			public const int selecione = 2131099721;
 			
 			// aapt resource value: 0x7F06004A
-			public const int usuario = 2131099722;
+			public const int selecionetipo = 2131099722;
+			
+			// aapt resource value: 0x7F06004B
+			public const int senha = 2131099723;
+			
+			// aapt resource value: 0x7F06004C
+			public const int session = 2131099724;
+			
+			// aapt resource value: 0x7F06004D
+			public const int sincronizando = 2131099725;
+			
+			// aapt resource value: 0x7F06004E
+			public const int tarifa = 2131099726;
+			
+			// aapt resource value: 0x7F06004F
+			public const int tensao = 2131099727;
+			
+			// aapt resource value: 0x7F060050
+			public const int text = 2131099728;
+			
+			// aapt resource value: 0x7F060051
+			public const int text2 = 2131099729;
+			
+			// aapt resource value: 0x7F060053
+			public const int textoBandeira = 2131099731;
+			
+			// aapt resource value: 0x7F060054
+			public const int textoBussola = 2131099732;
+			
+			// aapt resource value: 0x7F060056
+			public const int textoinclinacao = 2131099734;
+			
+			// aapt resource value: 0x7F060055
+			public const int textoTarifa = 2131099733;
+			
+			// aapt resource value: 0x7F060052
+			public const int textView1 = 2131099730;
+			
+			// aapt resource value: 0x7F060057
+			public const int time = 2131099735;
+			
+			// aapt resource value: 0x7F060058
+			public const int title = 2131099736;
+			
+			// aapt resource value: 0x7F060059
+			public const int titulo = 2131099737;
+			
+			// aapt resource value: 0x7F06005A
+			public const int token = 2131099738;
+			
+			// aapt resource value: 0x7F06005B
+			public const int txtClasse = 2131099739;
+			
+			// aapt resource value: 0x7F06005C
+			public const int txtID = 2131099740;
+			
+			// aapt resource value: 0x7F06005D
+			public const int txtMes = 2131099741;
+			
+			// aapt resource value: 0x7F06005E
+			public const int txtModalidade = 2131099742;
+			
+			// aapt resource value: 0x7F06005F
+			public const int txtPosto = 2131099743;
+			
+			// aapt resource value: 0x7F060060
+			public const int txtSubClasse = 2131099744;
+			
+			// aapt resource value: 0x7F060061
+			public const int txtSubgrupo = 2131099745;
+			
+			// aapt resource value: 0x7F060065
+			public const int txttarifa = 2131099749;
+			
+			// aapt resource value: 0x7F060062
+			public const int txtTotalKwh = 2131099746;
+			
+			// aapt resource value: 0x7F060063
+			public const int txtValidade = 2131099747;
+			
+			// aapt resource value: 0x7F060064
+			public const int txtValidadede = 2131099748;
+			
+			// aapt resource value: 0x7F060066
+			public const int usuario = 2131099750;
 			
 			static Id()
 			{
@@ -648,50 +771,74 @@ namespace Monitor_Energia_Solar
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F080000
-			public const int activity_main = 2131230720;
-			
-			// aapt resource value: 0x7F080001
-			public const int bussola = 2131230721;
-			
-			// aapt resource value: 0x7F080002
-			public const int dados_API_Energia = 2131230722;
-			
-			// aapt resource value: 0x7F080003
-			public const int inclinacao_tela = 2131230723;
-			
 			// aapt resource value: 0x7F080004
-			public const int inicial = 2131230724;
+			public const int activity_main = 2131230724;
+			
+			// aapt resource value: 0x7F080000
+			public const int Aguarde = 2131230720;
 			
 			// aapt resource value: 0x7F080005
-			public const int instrucao_tela = 2131230725;
+			public const int botoes_api_energia = 2131230725;
 			
 			// aapt resource value: 0x7F080006
-			public const int login = 2131230726;
+			public const int bussola = 2131230726;
 			
 			// aapt resource value: 0x7F080007
-			public const int notification_action = 2131230727;
+			public const int cadastro = 2131230727;
+			
+			// aapt resource value: 0x7F080001
+			public const int DadosPessoais = 2131230721;
 			
 			// aapt resource value: 0x7F080008
-			public const int notification_action_tombstone = 2131230728;
+			public const int dados_API_Energia = 2131230728;
 			
 			// aapt resource value: 0x7F080009
-			public const int notification_template_custom_big = 2131230729;
+			public const int geracao_plot = 2131230729;
 			
 			// aapt resource value: 0x7F08000A
-			public const int notification_template_icon_group = 2131230730;
+			public const int inclinacao_tela = 2131230730;
 			
 			// aapt resource value: 0x7F08000B
-			public const int notification_template_part_chronometer = 2131230731;
+			public const int inicial = 2131230731;
+			
+			// aapt resource value: 0x7F080002
+			public const int InputBox_Email = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int InstrucaoTarifaBandeira = 2131230723;
 			
 			// aapt resource value: 0x7F08000C
-			public const int notification_template_part_time = 2131230732;
+			public const int instrucao_bussolaInclinacao = 2131230732;
 			
 			// aapt resource value: 0x7F08000D
-			public const int plot_geracao = 2131230733;
+			public const int login = 2131230733;
 			
 			// aapt resource value: 0x7F08000E
-			public const int rounded_border_edittext = 2131230734;
+			public const int notification_action = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int notification_action_tombstone = 2131230735;
+			
+			// aapt resource value: 0x7F080010
+			public const int notification_template_custom_big = 2131230736;
+			
+			// aapt resource value: 0x7F080011
+			public const int notification_template_icon_group = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int notification_template_part_chronometer = 2131230738;
+			
+			// aapt resource value: 0x7F080013
+			public const int notification_template_part_time = 2131230739;
+			
+			// aapt resource value: 0x7F080014
+			public const int rounded_border_edittext = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int tarifas = 2131230741;
+			
+			// aapt resource value: 0x7F080016
+			public const int tela_login = 2131230742;
 			
 			static Layout()
 			{
@@ -716,7 +863,13 @@ namespace Monitor_Energia_Solar
 			public const int navigation2 = 2131296258;
 			
 			// aapt resource value: 0x7F090003
-			public const int popMenu = 2131296259;
+			public const int navigation3 = 2131296259;
+			
+			// aapt resource value: 0x7F090004
+			public const int navigation4 = 2131296260;
+			
+			// aapt resource value: 0x7F090005
+			public const int popMenu = 2131296261;
 			
 			static Menu()
 			{
@@ -763,22 +916,34 @@ namespace Monitor_Energia_Solar
 			public const int app_name = 2131427328;
 			
 			// aapt resource value: 0x7F0B0001
-			public const int bussola = 2131427329;
+			public const int bandeira = 2131427329;
 			
 			// aapt resource value: 0x7F0B0002
-			public const int inclinacao = 2131427330;
+			public const int bussola = 2131427330;
 			
 			// aapt resource value: 0x7F0B0003
-			public const int status_bar_notification_info_overflow = 2131427331;
+			public const int data_prompt = 2131427331;
 			
 			// aapt resource value: 0x7F0B0004
-			public const int title_dashboard = 2131427332;
+			public const int inclinacao = 2131427332;
 			
 			// aapt resource value: 0x7F0B0005
-			public const int title_home = 2131427333;
+			public const int sensor_inclinacao = 2131427333;
 			
 			// aapt resource value: 0x7F0B0006
-			public const int title_notifications = 2131427334;
+			public const int status_bar_notification_info_overflow = 2131427334;
+			
+			// aapt resource value: 0x7F0B0007
+			public const int tarifa = 2131427335;
+			
+			// aapt resource value: 0x7F0B0008
+			public const int title_dashboard = 2131427336;
+			
+			// aapt resource value: 0x7F0B0009
+			public const int title_home = 2131427337;
+			
+			// aapt resource value: 0x7F0B000A
+			public const int title_notifications = 2131427338;
 			
 			static String()
 			{

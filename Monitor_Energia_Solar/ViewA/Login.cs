@@ -159,10 +159,6 @@ namespace Monitor_Energia_Solar
                 usuario.Text = "";
                 senha.Text = "";
             }
-
-
-
-
         }
         private void Btnnovo_usuario_Click(object sender, EventArgs e)
         {
@@ -174,17 +170,12 @@ namespace Monitor_Energia_Solar
             Finish();
             //Toast.MakeText(this, "Botão de Login foi clicado!", ToastLength.Short).Show();
 
-
         }
-
-     
         private void Btnreset_Click(object sender, EventArgs e)
         {
             ISharedPreferences pref = PreferenceManager.GetDefaultSharedPreferences(this);
             ISharedPreferencesEditor editer = pref.Edit();
             editer.Remove("PREFERENCE_ACCESS_KEY").Commit(); ////Remove Spec key values  
-        }
-
-       
+        }  
     }
 }

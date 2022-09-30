@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using Felipecsl.GifImageViewLibrary;
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -11,11 +11,14 @@ using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using System.Timers;
+using System.IO;
 using Monitor_Energia_Solar.Controller;
+
 
 namespace Monitor_Energia_Solar
 {
-    [Activity(Theme = "@style/AppThemeNoAction", Icon = "@drawable/icon")]
+    [Activity]
     public class EscolhaTarifaBandeira : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         private TextView textobandeira;
@@ -54,6 +57,7 @@ namespace Monitor_Energia_Solar
 
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation3);
             navigation.SetOnNavigationItemSelectedListener(this);
+
 
             textobandeira = FindViewById<TextView>(Resource.Id.textoBandeira);
             textoTarifa = FindViewById<TextView>(Resource.Id.textoTarifa);
