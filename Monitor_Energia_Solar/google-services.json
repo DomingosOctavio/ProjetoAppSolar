@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "432451659631",
+    "firebase_url": "https://apppainelsolar-496a7-default-rtdb.firebaseio.com",
+    "project_id": "apppainelsolar-496a7",
+    "storage_bucket": "apppainelsolar-496a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432451659631:android:46e9f1fd8419119f326a9a",
+        "android_client_info": {
+          "package_name": "br.net.Monitor_Energia_Solar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432451659631-v6grjg7lg58jjliq19iupmugid2gl7kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGn6grzSRKsClmWfY3gIEymUK4nws8CFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432451659631-v6grjg7lg58jjliq19iupmugid2gl7kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

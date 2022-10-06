@@ -11,7 +11,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Monitor_Energia_Solar</RootNamespace>
-    <AssemblyName>Monitor_Energia_Solar</AssemblyName>
+    <AssemblyName>br.net.Monitor_Energia_Solar</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -100,6 +100,7 @@
   <ItemGroup>
     <AndroidAsset Include="Assets\Digital Display.ttf" />
     <AndroidAsset Include="Assets\Open 24 Display St.ttf" />
+    <GoogleServicesJson Include="google-services.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>

@@ -97,6 +97,7 @@ namespace Monitor_Energia_Solar
 
             Obj_Banco_Dados obj_Banco = new Obj_Banco_Dados();
             LoginController loginControler = new LoginController();
+            loginControler.BuscarLogin("teste", "teste");
             try
             {
                 obj_Banco = loginControler.BuscardadosLogin(usuario.Text, senha.Text);

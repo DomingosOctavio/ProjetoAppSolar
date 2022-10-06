@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj",
-        "projectName": "Monitor_Energia_Solar",
+        "projectName": "br.net.Monitor_Energia_Solar",
         "projectPath": "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\Monitor_Energia_Solar.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Desktop\\2022 TCC\\tccult\\Monitor_Energia_Solar\\Monitor_Energia_Solar\\obj\\",
@@ -34,6 +34,10 @@
       "frameworks": {
         "monoandroid12.0": {
           "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Json.Net": {
               "target": "Package",
               "version": "[1.0.33, )"

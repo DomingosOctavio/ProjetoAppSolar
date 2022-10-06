@@ -2353,7 +2353,7 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
-	.asciz	"4953e8d5-131d-48fc-a4c3-3f30d86a463f"
+	.asciz	"f3495407-3b0d-497a-b6f3-e54066f80435"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object
@@ -2528,8 +2528,8 @@ application_config:
 
 	.type	.L.autostr.41, @object
 .L.autostr.41:
-	.asciz	"Monitor_Energia_Solar.Monitor_Energia_Solar"
-	.size	.L.autostr.41, 44
+	.asciz	"br.net.Monitor_Energia_Solar"
+	.size	.L.autostr.41, 29
 
 
 	.ident	"Xamarin.Android remotes/origin/d17-2 @ 4e061b739747f624ccb03c98940d8900548a98ad"

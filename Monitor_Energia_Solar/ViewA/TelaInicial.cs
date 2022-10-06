@@ -5,6 +5,7 @@ using Android.Content;
 using Android.OS;
 using Android.Widget;
 using Felipecsl.GifImageViewLibrary;
+using Monitor_Energia_Solar.Controller;
 
 namespace Monitor_Energia_Solar
 {
@@ -37,7 +38,7 @@ namespace Monitor_Energia_Solar
             timer.AutoReset = false;
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
-
+     
         }
         
 

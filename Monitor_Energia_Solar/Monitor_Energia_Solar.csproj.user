@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>Android Emulator</SelectedDevice>
+    <SelectedDevice>LGE LG-M400</SelectedDevice>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>pixel_3a_xl</AndroidDesignerPreferredDevice>
-    <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
+    <ActiveDebugProfile>LGE LG-M400</ActiveDebugProfile>
     <DefaultDevice>Android_Accelerated_x86_Oreo</DefaultDevice>
-    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
 </Project>

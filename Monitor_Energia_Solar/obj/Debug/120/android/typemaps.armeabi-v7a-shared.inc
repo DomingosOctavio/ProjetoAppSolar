@@ -38008,108 +38008,108 @@
 
 	.type	.L.java_type_name.7601, %object
 .L.java_type_name.7601:
-	.asciz	"crc6434af9c19aa01b597/GoogleApiClientConnectionCallbacksImpl"
-	.size	.L.java_type_name.7601, 61
+	.asciz	"crc6400ab163d65634223/Bandeira_Atividade"
+	.size	.L.java_type_name.7601, 41
 
 	.type	.L.java_type_name.7602, %object
 .L.java_type_name.7602:
-	.asciz	"crc6434af9c19aa01b597/GoogleApiClientOnConnectionFailedListenerImpl"
-	.size	.L.java_type_name.7602, 68
+	.asciz	"crc6400ab163d65634223/Bussola_Atividade"
+	.size	.L.java_type_name.7602, 40
 
 	.type	.L.java_type_name.7603, %object
 .L.java_type_name.7603:
-	.asciz	"crc64396a3fe5f8138e3f/CustomTabsServiceConnectionImpl"
-	.size	.L.java_type_name.7603, 54
+	.asciz	"crc6400ab163d65634223/CadastroTokenAtividade"
+	.size	.L.java_type_name.7603, 45
 
 	.type	.L.java_type_name.7604, %object
 .L.java_type_name.7604:
-	.asciz	"crc64396a3fe5f8138e3f/KeepAliveService"
-	.size	.L.java_type_name.7604, 39
+	.asciz	"crc6400ab163d65634223/Compass_Atividade"
+	.size	.L.java_type_name.7604, 40
 
 	.type	.L.java_type_name.7605, %object
 .L.java_type_name.7605:
-	.asciz	"crc6450e07d0e82e86181/AwaitableResultCallback_1"
-	.size	.L.java_type_name.7605, 48
+	.asciz	"crc6400ab163d65634223/DadosPessoaisAtividade"
+	.size	.L.java_type_name.7605, 45
 
 	.type	.L.java_type_name.7606, %object
 .L.java_type_name.7606:
-	.asciz	"crc6450e07d0e82e86181/ResultCallback_1"
-	.size	.L.java_type_name.7606, 39
+	.asciz	"crc6400ab163d65634223/EscolhaTarifaBandeira"
+	.size	.L.java_type_name.7606, 44
 
 	.type	.L.java_type_name.7607, %object
 .L.java_type_name.7607:
-	.asciz	"crc6456e6f71a0b54d12a/PlotView"
-	.size	.L.java_type_name.7607, 31
+	.asciz	"crc6400ab163d65634223/Escolha_BussolaInclinacao"
+	.size	.L.java_type_name.7607, 48
 
 	.type	.L.java_type_name.7608, %object
 .L.java_type_name.7608:
-	.asciz	"crc6495d4f5d63cc5c882/AwaitableTaskCompleteListener_1"
-	.size	.L.java_type_name.7608, 54
+	.asciz	"crc6400ab163d65634223/GraficoAtividade"
+	.size	.L.java_type_name.7608, 39
 
 	.type	.L.java_type_name.7609, %object
 .L.java_type_name.7609:
-	.asciz	"crc649a084b6c64066712/Bandeira_Atividade"
-	.size	.L.java_type_name.7609, 41
+	.asciz	"crc6400ab163d65634223/Login"
+	.size	.L.java_type_name.7609, 28
 
 	.type	.L.java_type_name.7610, %object
 .L.java_type_name.7610:
-	.asciz	"crc649a084b6c64066712/Bussola_Atividade"
-	.size	.L.java_type_name.7610, 40
+	.asciz	"crc6400ab163d65634223/MainActivity"
+	.size	.L.java_type_name.7610, 35
 
 	.type	.L.java_type_name.7611, %object
 .L.java_type_name.7611:
-	.asciz	"crc649a084b6c64066712/CadastroTokenAtividade"
-	.size	.L.java_type_name.7611, 45
+	.asciz	"crc6400ab163d65634223/Sensor_Inclinacao_Atividade"
+	.size	.L.java_type_name.7611, 50
 
 	.type	.L.java_type_name.7612, %object
 .L.java_type_name.7612:
-	.asciz	"crc649a084b6c64066712/Compass_Atividade"
-	.size	.L.java_type_name.7612, 40
+	.asciz	"crc6400ab163d65634223/TarifasAtividade"
+	.size	.L.java_type_name.7612, 39
 
 	.type	.L.java_type_name.7613, %object
 .L.java_type_name.7613:
-	.asciz	"crc649a084b6c64066712/DadosPessoaisAtividade"
-	.size	.L.java_type_name.7613, 45
+	.asciz	"crc6400ab163d65634223/Telainicial"
+	.size	.L.java_type_name.7613, 34
 
 	.type	.L.java_type_name.7614, %object
 .L.java_type_name.7614:
-	.asciz	"crc649a084b6c64066712/EscolhaTarifaBandeira"
-	.size	.L.java_type_name.7614, 44
+	.asciz	"crc6434af9c19aa01b597/GoogleApiClientConnectionCallbacksImpl"
+	.size	.L.java_type_name.7614, 61
 
 	.type	.L.java_type_name.7615, %object
 .L.java_type_name.7615:
-	.asciz	"crc649a084b6c64066712/Escolha_BussolaInclinacao"
-	.size	.L.java_type_name.7615, 48
+	.asciz	"crc6434af9c19aa01b597/GoogleApiClientOnConnectionFailedListenerImpl"
+	.size	.L.java_type_name.7615, 68
 
 	.type	.L.java_type_name.7616, %object
 .L.java_type_name.7616:
-	.asciz	"crc649a084b6c64066712/GraficoAtividade"
-	.size	.L.java_type_name.7616, 39
+	.asciz	"crc64396a3fe5f8138e3f/CustomTabsServiceConnectionImpl"
+	.size	.L.java_type_name.7616, 54
 
 	.type	.L.java_type_name.7617, %object
 .L.java_type_name.7617:
-	.asciz	"crc649a084b6c64066712/Login"
-	.size	.L.java_type_name.7617, 28
+	.asciz	"crc64396a3fe5f8138e3f/KeepAliveService"
+	.size	.L.java_type_name.7617, 39
 
 	.type	.L.java_type_name.7618, %object
 .L.java_type_name.7618:
-	.asciz	"crc649a084b6c64066712/MainActivity"
-	.size	.L.java_type_name.7618, 35
+	.asciz	"crc6450e07d0e82e86181/AwaitableResultCallback_1"
+	.size	.L.java_type_name.7618, 48
 
 	.type	.L.java_type_name.7619, %object
 .L.java_type_name.7619:
-	.asciz	"crc649a084b6c64066712/Sensor_Inclinacao_Atividade"
-	.size	.L.java_type_name.7619, 50
+	.asciz	"crc6450e07d0e82e86181/ResultCallback_1"
+	.size	.L.java_type_name.7619, 39
 
 	.type	.L.java_type_name.7620, %object
 .L.java_type_name.7620:
-	.asciz	"crc649a084b6c64066712/TarifasAtividade"
-	.size	.L.java_type_name.7620, 39
+	.asciz	"crc6456e6f71a0b54d12a/PlotView"
+	.size	.L.java_type_name.7620, 31
 
 	.type	.L.java_type_name.7621, %object
 .L.java_type_name.7621:
-	.asciz	"crc649a084b6c64066712/Telainicial"
-	.size	.L.java_type_name.7621, 34
+	.asciz	"crc6495d4f5d63cc5c882/AwaitableTaskCompleteListener_1"
+	.size	.L.java_type_name.7621, 54
 
 	.type	.L.java_type_name.7622, %object
 .L.java_type_name.7622:
@@ -109572,68 +109572,68 @@
 
 	.type	.L.managed_type_name.10534, %object
 .L.managed_type_name.10534:
-	.asciz	"Monitor_Energia_Solar.Bandeira_Atividade, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10534, 64
+	.asciz	"Monitor_Energia_Solar.Bandeira_Atividade, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10534, 71
 
 	.type	.L.managed_type_name.10535, %object
 .L.managed_type_name.10535:
-	.asciz	"Monitor_Energia_Solar.Bussola_Atividade, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10535, 63
+	.asciz	"Monitor_Energia_Solar.Bussola_Atividade, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10535, 70
 
 	.type	.L.managed_type_name.10536, %object
 .L.managed_type_name.10536:
-	.asciz	"Monitor_Energia_Solar.CadastroTokenAtividade, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10536, 68
+	.asciz	"Monitor_Energia_Solar.CadastroTokenAtividade, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10536, 75
 
 	.type	.L.managed_type_name.10537, %object
 .L.managed_type_name.10537:
-	.asciz	"Monitor_Energia_Solar.Compass_Atividade, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10537, 63
+	.asciz	"Monitor_Energia_Solar.Compass_Atividade, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10537, 70
 
 	.type	.L.managed_type_name.10538, %object
 .L.managed_type_name.10538:
-	.asciz	"Monitor_Energia_Solar.DadosPessoaisAtividade, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10538, 68
+	.asciz	"Monitor_Energia_Solar.DadosPessoaisAtividade, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10538, 75
 
 	.type	.L.managed_type_name.10539, %object
 .L.managed_type_name.10539:
-	.asciz	"Monitor_Energia_Solar.EscolhaTarifaBandeira, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10539, 67
+	.asciz	"Monitor_Energia_Solar.EscolhaTarifaBandeira, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10539, 74
 
 	.type	.L.managed_type_name.10540, %object
 .L.managed_type_name.10540:
-	.asciz	"Monitor_Energia_Solar.Escolha_BussolaInclinacao, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10540, 71
+	.asciz	"Monitor_Energia_Solar.Escolha_BussolaInclinacao, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10540, 78
 
 	.type	.L.managed_type_name.10541, %object
 .L.managed_type_name.10541:
-	.asciz	"Monitor_Energia_Solar.GraficoAtividade, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10541, 62
+	.asciz	"Monitor_Energia_Solar.GraficoAtividade, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10541, 69
 
 	.type	.L.managed_type_name.10542, %object
 .L.managed_type_name.10542:
-	.asciz	"Monitor_Energia_Solar.Login, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10542, 51
+	.asciz	"Monitor_Energia_Solar.Login, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10542, 58
 
 	.type	.L.managed_type_name.10543, %object
 .L.managed_type_name.10543:
-	.asciz	"Monitor_Energia_Solar.MainActivity, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10543, 58
+	.asciz	"Monitor_Energia_Solar.MainActivity, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10543, 65
 
 	.type	.L.managed_type_name.10544, %object
 .L.managed_type_name.10544:
-	.asciz	"Monitor_Energia_Solar.Sensor_Inclinacao_Atividade, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10544, 73
+	.asciz	"Monitor_Energia_Solar.Sensor_Inclinacao_Atividade, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10544, 80
 
 	.type	.L.managed_type_name.10545, %object
 .L.managed_type_name.10545:
-	.asciz	"Monitor_Energia_Solar.TarifasAtividade, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10545, 62
+	.asciz	"Monitor_Energia_Solar.TarifasAtividade, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10545, 69
 
 	.type	.L.managed_type_name.10546, %object
 .L.managed_type_name.10546:
-	.asciz	"Monitor_Energia_Solar.Telainicial, Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10546, 57
+	.asciz	"Monitor_Energia_Solar.Telainicial, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10546, 64
 
 	.type	.L.managed_type_name.10547, %object
 .L.managed_type_name.10547:
