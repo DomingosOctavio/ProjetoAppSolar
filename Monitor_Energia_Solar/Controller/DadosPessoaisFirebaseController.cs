@@ -44,7 +44,7 @@ namespace Monitor_Energia_Solar.Controller
             return "Erro ao inserir dados no Firebase.";
         }
 
-        public Obj_Banco_Dados RetrieveLogin(string token)
+        public Obj_Banco_Dados RetrieveLogin(string token, string usuario, string senha, string email)
         {
             client = new FirebaseClient(config);
             loginList = new List<Obj_Banco_Dados>();
@@ -65,15 +65,15 @@ namespace Monitor_Energia_Solar.Controller
                     }
                     if (valor.Key.Equals("Usuario"))
                     {
-                        obj.Usuario = valor.Value.ToString();
+                        obj.Usuario = usuario;
                     }
                     if (valor.Key.Equals("Senha"))
                     {
-                        obj.Senha = valor.Value.ToString();
+                        obj.Senha = senha;
                     }
                     if (valor.Key.Equals("Email"))
                     {
-                        obj.Email = valor.Value.ToString();
+                        obj.Email = email;
                     }
                     if (valor.Key.Equals("Token"))
                     {
@@ -83,11 +83,7 @@ namespace Monitor_Energia_Solar.Controller
                     {
                         obj.IP_conexao = valor.Value.ToString();
                     }
-
-
                 }
-
-
             }
             return obj;
         }

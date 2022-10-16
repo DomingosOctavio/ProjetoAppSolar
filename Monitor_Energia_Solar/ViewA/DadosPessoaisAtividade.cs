@@ -60,17 +60,7 @@ namespace Monitor_Energia_Solar
 
             //connection.AddLogin(objDadosPessoais);
 
-            objDadosPessoais =connection.RetrieveLogin(token);
-
-            objDadosPessoais.Id = token;
-            objDadosPessoais.Usuario = txt_usuario.Text;
-            objDadosPessoais.Senha = txt_senha.Text;
-            objDadosPessoais.Email = txt_email.Text;
-            objDadosPessoais.Token = token;
-            objDadosPessoais.IP_conexao = objDadosPessoais.IP_conexao;
-
-
-
+            objDadosPessoais =connection.RetrieveLogin(token, txt_usuario.Text, txt_senha.Text, txt_email.Text);
 
             connection.UpdateDadosPessoais(objDadosPessoais);
          
