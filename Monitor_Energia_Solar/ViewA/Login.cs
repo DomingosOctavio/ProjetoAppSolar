@@ -12,7 +12,7 @@ using Monitor_Energia_Solar.Controller;
 namespace Monitor_Energia_Solar
 {
     [Activity(Label = "Login")]
-    public class Login : Activity
+    public class Obj_Login : Activity
     {
         EditText usuario;
         EditText senha;
@@ -132,9 +132,9 @@ namespace Monitor_Energia_Solar
                         var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
                         var usuarioEdit = dadosUsuario.Edit();
                         usuarioEdit.PutString("Usuario", obj_Banco.Usuario);
-                        usuarioEdit.PutString("Codigo", obj_Banco.Cod);
+                        usuarioEdit.PutString("Codigo", obj_Banco.Token);
                         usuarioEdit.PutString("Ip", obj_Banco.IP_conexao);
-                        usuarioEdit.PutString("Senha", obj_Banco.Cod);
+                        usuarioEdit.PutString("Senha", obj_Banco.Token);
                         usuarioEdit.Commit();
 
 

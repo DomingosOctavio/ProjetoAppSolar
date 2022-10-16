@@ -18,7 +18,7 @@
     <activity android:name="crc6400ab163d65634223.EscolhaTarifaBandeira" />
     <activity android:label="DropdownEmpresasAtividade" android:name="crc6400ab163d65634223.GraficoAtividade" />
     <activity android:icon="@drawable/icon" android:theme="@style/AppThemeNoAction" android:name="crc6400ab163d65634223.Escolha_BussolaInclinacao" />
-    <activity android:label="Login" android:name="crc6400ab163d65634223.Login" />
+    <activity android:label="Login" android:name="crc6400ab163d65634223.Obj_Login" />
     <activity android:icon="@drawable/icon" android:label="" android:theme="@style/AppTheme" android:name="crc6400ab163d65634223.MainActivity" />
     <activity android:configChanges="orientation|screenSize" android:label="@string/sensor_inclinacao" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="crc6400ab163d65634223.Sensor_Inclinacao_Atividade" />
     <activity android:label="" android:name="crc6400ab163d65634223.TarifasAtividade" />

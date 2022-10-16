@@ -34,9 +34,9 @@
       "frameworks": {
         "monoandroid12.0": {
           "dependencies": {
-            "FirebaseDatabase.net": {
+            "FireSharp": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[2.0.4, )"
             },
             "Json.Net": {
               "target": "Package",

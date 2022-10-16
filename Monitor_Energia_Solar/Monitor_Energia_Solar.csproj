@@ -57,22 +57,27 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Net" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcessoFirebase.cs" />
     <Compile Include="Controller\API_Dados_Energia.cs" />
+    <Compile Include="Controller\CadastroTokenFirebaseController.cs" />
     <Compile Include="Controller\GraficoController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\MainActivityController.cs" />
     <Compile Include="Controller\TelaInstrucaoSensoresAPIController.cs" />
-    <Compile Include="Model\BancoLogin.cs" />
+    <Compile Include="CredencialFirebase.cs" />
+    <Compile Include="Controller\BancoLogin.cs" />
     <Compile Include="Model\Obj_Plot.cs" />
     <Compile Include="Resources\values\StringsUrl.cs" />
     <Compile Include="Service\ArduinoDadosService.cs" />
     <Compile Include="Service\BandeiraService.cs" />
     <Compile Include="Service\TarifasService.cs" />
+    <Compile Include="Student1.cs" />
     <Compile Include="ViewA\Bandeira_Atividade.cs" />
     <Compile Include="ViewA\Bussola_Atividade.cs" />
     <Compile Include="ViewA\CadastroTokenAtividade.cs" />
@@ -139,6 +144,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FireSharp">
+      <Version>2.0.4</Version>
+    </PackageReference>
     <PackageReference Include="Json.Net">
       <Version>1.0.33</Version>
     </PackageReference>

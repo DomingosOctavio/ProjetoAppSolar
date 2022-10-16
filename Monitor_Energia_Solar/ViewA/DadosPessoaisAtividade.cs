@@ -51,7 +51,7 @@ namespace Monitor_Energia_Solar
             string token = dadoToken.GetString("Codigo", null);
  
 
-            var intent = new Intent(this, typeof(Login));
+            var intent = new Intent(this, typeof(Obj_Login));
             intent.SetFlags(ActivityFlags.NewTask);
 
             BancoLogin bancoLogin = new BancoLogin();

@@ -13,15 +13,13 @@ using System.Data;
 
 namespace Monitor_Energia_Solar
 {
-    class Obj_Banco_Dados
+    public class Obj_Banco_Dados
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Usuario { get; set; }
         public string Senha { get; set; }
-
         public string IP_conexao { get; set; }
-        public string Cod { get; set; }
-
+        public string Token { get; set; }
         public string Email { get; set; }
 
 

@@ -5,13 +5,30 @@ using Android.Content;
 using Android.OS;
 using Android.Widget;
 using Felipecsl.GifImageViewLibrary;
-using Monitor_Energia_Solar.Controller;
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Text;
+using System.Threading.Tasks;
+using FireSharp;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+using Newtonsoft.Json;
 
 namespace Monitor_Energia_Solar
 {
     [Activity(Theme = "@style/AppThemeNoAction", MainLauncher = true, Icon = "@drawable/icon", NoHistory = true)]
     public class Telainicial : Activity
     {
+        private AcessoFirebase connection = new AcessoFirebase();
         private GifImageView myGIFImage;
         private ProgressBar progressBar;
 
@@ -33,6 +50,16 @@ namespace Monitor_Energia_Solar
             myGIFImage.SetBytes(bytes);
             myGIFImage.StartAnimation();
 
+
+            //Student1 student = new Student1();
+
+            ////student.Id = "22222";
+            ////student.Name = "tttt";
+            ////student.Surname = "eeeeeeeee";
+            ////student.Grade = "ddddddd";
+
+            //connection.AddStudent(student);
+
             Timer timer = new Timer();
             timer.Interval = 2900;
             timer.AutoReset = false;
@@ -44,7 +71,7 @@ namespace Monitor_Energia_Solar
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            var intent = new Intent(this, typeof(Login));
+            var intent = new Intent(this, typeof(Obj_Login));
             intent.SetFlags(ActivityFlags.NewTask);
             //Navigation to SecondActivity
             StartActivity(intent);

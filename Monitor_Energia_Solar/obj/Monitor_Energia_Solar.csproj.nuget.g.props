@@ -16,4 +16,7 @@
     <Import Project="$(NuGetPackageRoot)xamarin.build.download\0.11.3\buildTransitive\Xamarin.Build.Download.props" Condition="Exists('$(NuGetPackageRoot)xamarin.build.download\0.11.3\buildTransitive\Xamarin.Build.Download.props')" />
     <Import Project="$(NuGetPackageRoot)xamarin.androidx.migration\1.0.10\buildTransitive\monoandroid120\Xamarin.AndroidX.Migration.props" Condition="Exists('$(NuGetPackageRoot)xamarin.androidx.migration\1.0.10\buildTransitive\monoandroid120\Xamarin.AndroidX.Migration.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Bcl_Build Condition=" '$(PkgMicrosoft_Bcl_Build)' == '' ">C:\Users\User\.nuget\packages\microsoft.bcl.build\1.0.14</PkgMicrosoft_Bcl_Build>
+  </PropertyGroup>
 </Project>
