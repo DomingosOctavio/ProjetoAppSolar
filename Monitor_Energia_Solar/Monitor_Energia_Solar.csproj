@@ -66,6 +66,7 @@
     <Compile Include="AcessoFirebase.cs" />
     <Compile Include="Controller\API_Dados_Energia.cs" />
     <Compile Include="Controller\CadastroTokenFirebaseController.cs" />
+    <Compile Include="Controller\DadosPessoaisFirebaseController.cs" />
     <Compile Include="Controller\GraficoController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\MainActivityController.cs" />

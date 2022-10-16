@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Monitor_Energia_Solar.Controller;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Monitor_Energia_Solar
 
 
 
-
+        private DadosPessoaisFirebaseController connection = new DadosPessoaisFirebaseController();
         Button btn_concluir;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -53,19 +54,32 @@ namespace Monitor_Energia_Solar
 
             var intent = new Intent(this, typeof(Obj_Login));
             intent.SetFlags(ActivityFlags.NewTask);
+                
+            Obj_Banco_Dados objDadosPessoais = new Obj_Banco_Dados();
+  
 
-            BancoLogin bancoLogin = new BancoLogin();
-            bancoLogin.InserirDadosPessoais(txt_usuario.Text, Convert.ToInt32(txt_senha.Text), txt_email.Text, token);
+            //connection.AddLogin(objDadosPessoais);
 
+            objDadosPessoais =connection.RetrieveLogin(token);
+
+            objDadosPessoais.Id = token;
+            objDadosPessoais.Usuario = txt_usuario.Text;
+            objDadosPessoais.Senha = txt_senha.Text;
+            objDadosPessoais.Email = txt_email.Text;
+            objDadosPessoais.Token = token;
+            objDadosPessoais.IP_conexao = objDadosPessoais.IP_conexao;
+
+
+
+
+            connection.UpdateDadosPessoais(objDadosPessoais);
+         
             Toast.MakeText(this, "Cadastro Realizado com sucesso!", ToastLength.Short).Show();
             //Navigation to SecondActivity
             StartActivity(intent);
             //delete main activity from navigation
             Finish();
      
-
-
         }
-
     }
 }

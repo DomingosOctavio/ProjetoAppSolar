@@ -22,16 +22,17 @@ using FireSharp.Config;
 using FireSharp.Interfaces;
 using FireSharp.Response;
 using Newtonsoft.Json;
+using Monitor_Energia_Solar.Controller;
 
 namespace Monitor_Energia_Solar
 {
     [Activity(Theme = "@style/AppThemeNoAction", MainLauncher = true, Icon = "@drawable/icon", NoHistory = true)]
     public class Telainicial : Activity
     {
-        private AcessoFirebase connection = new AcessoFirebase();
+   
         private GifImageView myGIFImage;
         private ProgressBar progressBar;
-
+        private DadosPessoaisFirebaseController connection = new DadosPessoaisFirebaseController();
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -51,14 +52,16 @@ namespace Monitor_Energia_Solar
             myGIFImage.StartAnimation();
 
 
-            //Student1 student = new Student1();
 
-            ////student.Id = "22222";
-            ////student.Name = "tttt";
-            ////student.Surname = "eeeeeeeee";
-            ////student.Grade = "ddddddd";
+            Obj_Banco_Dados objDadosPessoais = new Obj_Banco_Dados();
+            objDadosPessoais.Id = "1";
+            objDadosPessoais.Usuario = "teste";
+            objDadosPessoais.Senha = "teste";
+            objDadosPessoais.Email = "teste";
+            objDadosPessoais.Token = "100";
+            objDadosPessoais.IP_conexao = "1234568";
 
-            //connection.AddStudent(student);
+            connection.AddLogin(objDadosPessoais);
 
             Timer timer = new Timer();
             timer.Interval = 2900;
