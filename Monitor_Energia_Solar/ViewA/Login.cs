@@ -12,7 +12,7 @@ using Monitor_Energia_Solar.Controller;
 namespace Monitor_Energia_Solar
 {
     [Activity(Label = "Login")]
-    public class Obj_Login : Activity
+    public class Login : Activity
     {
         EditText usuario;
         EditText senha;
@@ -20,7 +20,7 @@ namespace Monitor_Energia_Solar
         Button btn_novo_usuario;
         Button btn_login;
         Button btn_novo_recuperar;
-       
+        private LoginFirebaseController connection = new LoginFirebaseController();
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -41,7 +41,7 @@ namespace Monitor_Energia_Solar
 
             btn_login.Click += Btnsave_Click;
             btn_novo_usuario.Click += Btnnovo_usuario_Click;
-           
+
             btn_novo_recuperar.Click += delegate {
 
 
@@ -50,7 +50,7 @@ namespace Monitor_Energia_Solar
                 View view = layoutInflater.Inflate(Resource.Layout.InputBox_Email, null);
                 Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
                 alertbuilder.SetView(view);
-               // var userdata = view.FindViewById<EditText>(Resource.Id.editText);
+                // var userdata = view.FindViewById<EditText>(Resource.Id.editText);
                 alertbuilder.SetCancelable(false)
                 .SetPositiveButton("Enviar", delegate
                 {
@@ -69,7 +69,7 @@ namespace Monitor_Energia_Solar
                         Toast.MakeText(Application.Context, "TOKEN Inválido", ToastLength.Short).Show();
                         return;
                     }
-                  
+
 
                     //select no banco procurando usuario e senha atraves do email
                     Toast.MakeText(this, "Submit Input: " + userdata, ToastLength.Short).Show();
@@ -84,25 +84,26 @@ namespace Monitor_Energia_Solar
 
 
         }
-        
+
 
         private void Btnsave_Click(object sender, EventArgs e)
-       {
-        //    LayoutInflater layoutInflater = LayoutInflater.From(this);
-        //    View view = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
-        //    Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
-        //    alertbuilder.SetView(view);
-        //    Android.Support.V7.App.AlertDialog dialog = alertbuilder.Create();
-        //    dialog.Show();
+        {
+            //    LayoutInflater layoutInflater = LayoutInflater.From(this);
+            //    View view = layoutInflater.Inflate(Resource.Layout.Aguarde, null);
+            //    Android.Support.V7.App.AlertDialog.Builder alertbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
+            //    alertbuilder.SetView(view);
+            //    Android.Support.V7.App.AlertDialog dialog = alertbuilder.Create();
+            //    dialog.Show();
 
             Obj_Banco_Dados obj_Banco = new Obj_Banco_Dados();
             LoginController loginControler = new LoginController();
-            loginControler.BuscarLogin("teste", "teste");
             try
             {
-                obj_Banco = loginControler.BuscardadosLogin(usuario.Text, senha.Text);
+                connection.RetrieveLogin(usuario.Text, senha.Text);
+
+               // obj_Banco = loginControler.BuscardadosLogin(usuario.Text, senha.Text);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Android.App.AlertDialog.Builder alert = new Android.App.AlertDialog.Builder(this);
                 alert.SetTitle("Atenção");
@@ -114,9 +115,9 @@ namespace Monitor_Energia_Solar
                     return;
                 });
 
-              
+
             }
-          
+
             try
             {
                 if (obj_Banco.Usuario.Equals("") || obj_Banco.Senha.Equals(""))
@@ -160,6 +161,10 @@ namespace Monitor_Energia_Solar
                 usuario.Text = "";
                 senha.Text = "";
             }
+
+
+
+
         }
         private void Btnnovo_usuario_Click(object sender, EventArgs e)
         {
@@ -171,12 +176,17 @@ namespace Monitor_Energia_Solar
             Finish();
             //Toast.MakeText(this, "Botão de Login foi clicado!", ToastLength.Short).Show();
 
+
         }
+
+
         private void Btnreset_Click(object sender, EventArgs e)
         {
             ISharedPreferences pref = PreferenceManager.GetDefaultSharedPreferences(this);
             ISharedPreferencesEditor editer = pref.Edit();
             editer.Remove("PREFERENCE_ACCESS_KEY").Commit(); ////Remove Spec key values  
-        }  
+        }
+
+
     }
 }

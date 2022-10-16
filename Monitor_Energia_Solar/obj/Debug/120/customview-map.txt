@@ -18,6 +18,7 @@ com.google.android.material.bottomnavigation.BottomNavigationView;obj\Debug\120\
 corners;obj\Debug\120\res\drawable\layout_shadow_white.xml
 corners;obj\Debug\120\res\drawable\sombra_menu.xml
 corners;obj\Debug\120\res\layout\rounded_border_edittext.xml
+crc6456e6f71a0b54d12a.PlotView;obj\Debug\120\res\layout\geracao_plot.xml
 dimen;obj\Debug\120\res\values\dimens.xml
 EditText;obj\Debug\120\res\layout\cadastro.xml
 EditText;obj\Debug\120\res\layout\dadospessoais.xml

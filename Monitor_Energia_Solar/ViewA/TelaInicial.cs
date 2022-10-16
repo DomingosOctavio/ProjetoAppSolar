@@ -5,34 +5,15 @@ using Android.Content;
 using Android.OS;
 using Android.Widget;
 using Felipecsl.GifImageViewLibrary;
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using FireSharp;
-using FireSharp.Config;
-using FireSharp.Interfaces;
-using FireSharp.Response;
-using Newtonsoft.Json;
-using Monitor_Energia_Solar.Controller;
 
 namespace Monitor_Energia_Solar
 {
     [Activity(Theme = "@style/AppThemeNoAction", MainLauncher = true, Icon = "@drawable/icon", NoHistory = true)]
     public class Telainicial : Activity
     {
-   
         private GifImageView myGIFImage;
         private ProgressBar progressBar;
-        private DadosPessoaisFirebaseController connection = new DadosPessoaisFirebaseController();
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -51,36 +32,24 @@ namespace Monitor_Energia_Solar
             myGIFImage.SetBytes(bytes);
             myGIFImage.StartAnimation();
 
-
-
-            Obj_Banco_Dados objDadosPessoais = new Obj_Banco_Dados();
-            objDadosPessoais.Id = "1";
-            objDadosPessoais.Usuario = "teste";
-            objDadosPessoais.Senha = "teste";
-            objDadosPessoais.Email = "teste";
-            objDadosPessoais.Token = "100";
-            objDadosPessoais.IP_conexao = "1234568";
-
-            connection.AddLogin(objDadosPessoais);
-
             Timer timer = new Timer();
             timer.Interval = 2900;
             timer.AutoReset = false;
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
-     
+
         }
-        
+
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            var intent = new Intent(this, typeof(Obj_Login));
+            var intent = new Intent(this, typeof(Login));
             intent.SetFlags(ActivityFlags.NewTask);
             //Navigation to SecondActivity
             StartActivity(intent);
             //delete main activity from navigation
             Finish();
-           
+
         }
 
         private byte[] ConvertByteArray(Stream input)

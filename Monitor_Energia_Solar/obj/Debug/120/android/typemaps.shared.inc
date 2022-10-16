@@ -38048,13 +38048,13 @@
 
 	.type	.L.java_type_name.7609, @object
 .L.java_type_name.7609:
-	.asciz	"crc6400ab163d65634223/MainActivity"
-	.size	.L.java_type_name.7609, 35
+	.asciz	"crc6400ab163d65634223/Login"
+	.size	.L.java_type_name.7609, 28
 
 	.type	.L.java_type_name.7610, @object
 .L.java_type_name.7610:
-	.asciz	"crc6400ab163d65634223/Obj_Login"
-	.size	.L.java_type_name.7610, 32
+	.asciz	"crc6400ab163d65634223/MainActivity"
+	.size	.L.java_type_name.7610, 35
 
 	.type	.L.java_type_name.7611, @object
 .L.java_type_name.7611:
@@ -109612,13 +109612,13 @@
 
 	.type	.L.managed_type_name.10542, @object
 .L.managed_type_name.10542:
-	.asciz	"Monitor_Energia_Solar.MainActivity, br.net.Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10542, 65
+	.asciz	"Monitor_Energia_Solar.Login, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10542, 58
 
 	.type	.L.managed_type_name.10543, @object
 .L.managed_type_name.10543:
-	.asciz	"Monitor_Energia_Solar.Obj_Login, br.net.Monitor_Energia_Solar"
-	.size	.L.managed_type_name.10543, 62
+	.asciz	"Monitor_Energia_Solar.MainActivity, br.net.Monitor_Energia_Solar"
+	.size	.L.managed_type_name.10543, 65
 
 	.type	.L.managed_type_name.10544, @object
 .L.managed_type_name.10544:

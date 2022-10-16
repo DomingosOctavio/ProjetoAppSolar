@@ -52,7 +52,7 @@ namespace Monitor_Energia_Solar
             string token = dadoToken.GetString("Codigo", null);
  
 
-            var intent = new Intent(this, typeof(Obj_Login));
+            var intent = new Intent(this, typeof(Login));
             intent.SetFlags(ActivityFlags.NewTask);
                 
             Obj_Banco_Dados objDadosPessoais = new Obj_Banco_Dados();
