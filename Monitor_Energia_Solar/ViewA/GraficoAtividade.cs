@@ -423,7 +423,6 @@ namespace Monitor_Energia_Solar
 
 
             Obj_Plot obj_Plot = new Obj_Plot();
-            
            obj_Plot = connection.ConsultarDadosPlot2(token, tipo, dataEscolhida);
             
             //obj_Plot = consulta_dados.ConsultarDadosPlot(token, tipo, dataEscolhida);
@@ -445,12 +444,8 @@ namespace Monitor_Energia_Solar
                 LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezesete));
                 LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezoito));
 
-            
-
-
+        
             return LineSeries;
-
-
 
         }
 
@@ -458,68 +453,61 @@ namespace Monitor_Energia_Solar
         {
 
             GraficoController consulta_dados = new GraficoController();
-            List<Obj_Plot> obj_Plot = new List<Obj_Plot>();
+           
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
             string token = dadosUsuario.GetString("Token", null);
 
-            obj_Plot = consulta_dados.ConsultarDadosPlot(token, tipo, dataEscolhida);
+            Obj_Plot obj_Plot = new Obj_Plot();
+            obj_Plot = connection.ConsultarDadosPlot2(token, tipo, dataEscolhida);
 
             var LineSeries = new OxyPlot.Series.ColumnSeries();
 
+         
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Seis));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Sete));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Oito));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Nove));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dez));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Onze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Doze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Treze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Catorze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Quinze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezeseis));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezesete));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezoito));
 
-            for (int i = 0; i < obj_Plot.Count; i++)
-            {
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Seis));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Sete));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Oito));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Nove));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dez));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Onze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Doze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Treze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Catorze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Quinze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dezeseis));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dezesete));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dezoito));
-
-            }
+            
             return LineSeries;
         }
         private static ColumnSeries CreateColunaCorrente(string dataEscolhida, int tipo)
         {
 
             GraficoController consulta_dados = new GraficoController();
-            List<Obj_Plot> obj_Plot = new List<Obj_Plot>();
+           
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
             string token = dadosUsuario.GetString("Token", null);
 
-            obj_Plot =consulta_dados.ConsultarDadosPlot(token, tipo, dataEscolhida);
+            Obj_Plot obj_Plot = new Obj_Plot();
+            obj_Plot = connection.ConsultarDadosPlot2(token, tipo, dataEscolhida);
 
             var LineSeries = new OxyPlot.Series.ColumnSeries();
-
-
-            for(int i=0;i< obj_Plot.Count; i++)
-            {
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Seis));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Sete));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Oito));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Nove));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dez));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Onze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Doze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Treze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Catorze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Quinze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dezeseis));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dezesete));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dezoito));
+         
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Seis));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Sete));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Oito));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Nove));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dez));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Onze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Doze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Treze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Catorze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Quinze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezeseis));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezesete));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezoito));
                
-            }
-
-
-
-
+           
             return LineSeries;
         }
 
