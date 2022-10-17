@@ -86,6 +86,7 @@ RelativeLayout;obj\Release\120\res\layout\instrucao_bussolainclinacao.xml
 RelativeLayout;obj\Release\120\res\layout\instrucaotarifabandeira.xml
 RelativeLayout;obj\Release\120\res\layout\login.xml
 RelativeLayout;obj\Release\120\res\layout\tarifas.xml
+resources;C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Release\120\googsvcsjson\values\goog_svcs_json.xml
 resources;obj\Release\120\res\values\colors.xml
 resources;obj\Release\120\res\values\dimens.xml
 resources;obj\Release\120\res\values\ic_launcher_background.xml
@@ -104,6 +105,7 @@ solid;obj\Release\120\res\layout\rounded_border_edittext.xml
 Spinner;obj\Release\120\res\layout\dados_api_energia.xml
 Spinner;obj\Release\120\res\layout\geracao_plot.xml
 Spinner;obj\Release\120\res\layout\tarifas.xml
+string;C:\Users\User\Desktop\2022 TCC\tccult\Monitor_Energia_Solar\Monitor_Energia_Solar\obj\Release\120\googsvcsjson\values\goog_svcs_json.xml
 string;obj\Release\120\res\values\strings.xml
 stroke;obj\Release\120\res\layout\rounded_border_edittext.xml
 style;obj\Release\120\res\values\styles.xml

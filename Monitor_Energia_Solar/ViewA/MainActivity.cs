@@ -103,7 +103,7 @@ namespace Monitor_Energia_Solar
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
 
             string usuario = dadosUsuario.GetString("Usuario", null);
-            string codigo = dadosUsuario.GetString("Codigo", null);
+            string token = dadosUsuario.GetString("Token", null);
             string ip = dadosUsuario.GetString("Ip", null);
             string senha = dadosUsuario.GetString("Senha", null);
 
@@ -111,10 +111,10 @@ namespace Monitor_Energia_Solar
             TextView usuarioLog = FindViewById<TextView>(Resource.Id.session);
             TextView ipLog = FindViewById<TextView>(Resource.Id.ip);
 
-            MainActivityController controler = new MainActivityController();
+            MainActivityFirebaseController controler = new MainActivityFirebaseController();
             if (ip == null)
             {
-                IP_atual = controler.BuscarIp(codigo);
+                IP_atual = controler.RetrieveIP(token);
                 var usuarioEdit = dadosUsuario.Edit();
                 usuarioEdit.PutString("Ip", IP_atual);
             }

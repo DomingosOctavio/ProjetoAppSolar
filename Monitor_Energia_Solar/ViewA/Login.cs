@@ -8,6 +8,7 @@ using Android.Content;
 using Android.Preferences;
 using SendEmailService;
 using Monitor_Energia_Solar.Controller;
+using System.Collections.Generic;
 
 namespace Monitor_Energia_Solar
 {
@@ -95,11 +96,11 @@ namespace Monitor_Energia_Solar
             //    Android.Support.V7.App.AlertDialog dialog = alertbuilder.Create();
             //    dialog.Show();
 
+            List<Obj_Banco_Dados> loginList = new List<Obj_Banco_Dados>();
             Obj_Banco_Dados obj_Banco = new Obj_Banco_Dados();
-            LoginController loginControler = new LoginController();
             try
             {
-                connection.RetrieveLogin(usuario.Text, senha.Text);
+                obj_Banco = connection.RetrieveLogin(usuario.Text, senha.Text);
 
                // obj_Banco = loginControler.BuscardadosLogin(usuario.Text, senha.Text);
             }
@@ -133,9 +134,9 @@ namespace Monitor_Energia_Solar
                         var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
                         var usuarioEdit = dadosUsuario.Edit();
                         usuarioEdit.PutString("Usuario", obj_Banco.Usuario);
-                        usuarioEdit.PutString("Codigo", obj_Banco.Token);
+                        usuarioEdit.PutString("Token", obj_Banco.Token);
                         usuarioEdit.PutString("Ip", obj_Banco.IP_conexao);
-                        usuarioEdit.PutString("Senha", obj_Banco.Token);
+                        usuarioEdit.PutString("Senha", obj_Banco.Senha);
                         usuarioEdit.Commit();
 
 

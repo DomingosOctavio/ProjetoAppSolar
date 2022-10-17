@@ -26,6 +26,9 @@ namespace Monitor_Energia_Solar
         Button btnCorrente;
         Button btnLuz;
         PlotView view2;
+
+        public static GraficoFirebaseController connection = new GraficoFirebaseController();
+
         private static string dataEscolhida;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -395,17 +398,18 @@ namespace Monitor_Energia_Solar
             intervalo = new ArrayList();
 
             GraficoController consulta_data = new GraficoController();
-            List<Obj_Plot> obj_Plot = new List<Obj_Plot>();
+            List<String> obj_Plot = new List<String>();
 
 
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
-            string token = dadosUsuario.GetString("Codigo", null);
+            string token = dadosUsuario.GetString("Token", null);
 
-            obj_Plot = consulta_data.ConsultarDatas(token);
+
+            obj_Plot = connection.ConsultarDatas(token); 
 
             for (int i = 0; i < obj_Plot.Count; i++)
             {
-                intervalo.Add(obj_Plot[i].Id_dia);
+                intervalo.Add(obj_Plot[i]);
 
             }
         }
@@ -413,31 +417,35 @@ namespace Monitor_Energia_Solar
         {
       
             GraficoController consulta_dados = new GraficoController();
-            List<Obj_Plot> obj_Plot = new List<Obj_Plot>();
+           
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
-            string token = dadosUsuario.GetString("Codigo", null);
+            string token = dadosUsuario.GetString("Token", null);
 
-            obj_Plot = consulta_dados.ConsultarDadosPlot(token, tipo, dataEscolhida);
+
+            Obj_Plot obj_Plot = new Obj_Plot();
+            
+           obj_Plot = connection.ConsultarDadosPlot2(token, tipo, dataEscolhida);
+            
+            //obj_Plot = consulta_dados.ConsultarDadosPlot(token, tipo, dataEscolhida);
 
             var LineSeries = new OxyPlot.Series.ColumnSeries();
 
-            for (int i = 0; i < obj_Plot.Count; i++)
-            {
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Seis));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Sete));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Oito));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Nove));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dez));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Onze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Doze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Treze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Catorze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Quinze));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dezeseis));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dezesete));
-                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot[i].Dezoito));
+         
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Seis));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Sete));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Oito));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Nove));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dez));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Onze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Doze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Treze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Catorze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Quinze));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezeseis));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezesete));
+                LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezoito));
 
-            }
+            
 
 
             return LineSeries;
@@ -452,7 +460,7 @@ namespace Monitor_Energia_Solar
             GraficoController consulta_dados = new GraficoController();
             List<Obj_Plot> obj_Plot = new List<Obj_Plot>();
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
-            string token = dadosUsuario.GetString("Codigo", null);
+            string token = dadosUsuario.GetString("Token", null);
 
             obj_Plot = consulta_dados.ConsultarDadosPlot(token, tipo, dataEscolhida);
 
@@ -484,7 +492,7 @@ namespace Monitor_Energia_Solar
             GraficoController consulta_dados = new GraficoController();
             List<Obj_Plot> obj_Plot = new List<Obj_Plot>();
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
-            string token = dadosUsuario.GetString("Codigo", null);
+            string token = dadosUsuario.GetString("Token", null);
 
             obj_Plot =consulta_dados.ConsultarDadosPlot(token, tipo, dataEscolhida);
 

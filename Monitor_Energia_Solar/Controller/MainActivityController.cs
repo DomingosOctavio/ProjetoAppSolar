@@ -16,11 +16,11 @@ namespace Monitor_Energia_Solar.Controller
     {
         public static string IP_atual;
 
-        public String BuscarIp(string Cod)
+        public String BuscarIp(string Token)
         {
         
             BancoLogin banco = new BancoLogin();
-            IP_atual = "http://" + banco.ConsultarIp(Cod) + "/";
+            IP_atual = "http://" + banco.ConsultarIp(Token) + "/";
 
             return IP_atual;
         }

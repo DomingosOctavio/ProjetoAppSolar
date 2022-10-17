@@ -16,6 +16,7 @@ namespace Monitor_Energia_Solar.Controller
     {
         public List<Obj_Plot> ConsultarDadosPlot(string token, int Cod_procedure, string dia)
         {
+
             Consulta_Dados_Banco_Dados consulta_grafico = new Consulta_Dados_Banco_Dados();
             return consulta_grafico.Consulta_dados_Grafico(token, Cod_procedure, dia);
         }

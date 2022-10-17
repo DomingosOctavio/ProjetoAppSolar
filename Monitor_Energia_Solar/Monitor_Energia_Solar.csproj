@@ -68,9 +68,11 @@
     <Compile Include="Controller\CadastroTokenFirebaseController.cs" />
     <Compile Include="Controller\DadosPessoaisFirebaseController.cs" />
     <Compile Include="Controller\GraficoController.cs" />
+    <Compile Include="Controller\GraficoFirebaseController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\LoginFirebaseController.cs" />
     <Compile Include="Controller\MainActivityController.cs" />
+    <Compile Include="Controller\MainActivityFirebaseController.cs" />
     <Compile Include="Controller\TelaInstrucaoSensoresAPIController.cs" />
     <Compile Include="CredencialFirebase.cs" />
     <Compile Include="Controller\BancoLogin.cs" />

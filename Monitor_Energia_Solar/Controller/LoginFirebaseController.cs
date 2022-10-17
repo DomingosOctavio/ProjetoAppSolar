@@ -29,6 +29,33 @@ namespace Monitor_Energia_Solar.Controller
             BasePath = CredencialFirebase.DboAnahtar.BasePath
         };
 
+
+        public Obj_Banco_Dados RetrieveLoginEmail(string token)
+        {
+            client = new FirebaseClient(config);
+            List<Obj_Banco_Dados> loginList = new List<Obj_Banco_Dados>();
+            response_ = client.Get("Login");
+
+            Obj_Banco_Dados obj = new Obj_Banco_Dados();
+            if (!response_.Body.Equals("null"))
+            {
+                var result = response_.Body;
+                var values = JsonConvert.DeserializeObject<Dictionary<string, Obj_Banco_Dados>>(result);
+
+
+                foreach (var valor in values)
+                {
+
+                    obj = valor.Value;
+                    if (obj.Token.Equals(token))
+                    {
+                        return obj;
+                    }
+
+                }
+            }
+            return null;
+        }
         public Obj_Banco_Dados RetrieveLogin(string usuario, string senha)
         {
             client = new FirebaseClient(config);
@@ -39,18 +66,21 @@ namespace Monitor_Energia_Solar.Controller
             if (!response_.Body.Equals("null"))
             {
                 var result = response_.Body;
-                var values = JsonConvert.DeserializeObject<Dictionary<string, List<Obj_Banco_Dados>>>(result);
+                var values = JsonConvert.DeserializeObject<Dictionary<string, Obj_Banco_Dados>>(result);
 
 
                 foreach (var valor in values)
                 {
-                    if (valor.Key.Equals("Id"))
+
+                    obj = valor.Value;
+                    if(obj.Usuario.Equals(usuario) && obj.Senha.Equals(senha))
                     {
-                        obj.Id = valor.Value.ToString();
+                        return obj;
                     }
+                       
                 }
             }
-            return obj;
+            return null;
         }
     }
 }

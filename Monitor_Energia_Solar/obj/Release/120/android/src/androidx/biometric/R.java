@@ -886,18 +886,18 @@ public final class R {
 		public static final int abc_toolbar_collapse_description = 0x7f11001a;
 		public static final int confirm_device_credential_password = 0x7f110037;
 		public static final int default_error_msg = 0x7f11003a;
-		public static final int fingerprint_dialog_touch_sensor = 0x7f110042;
-		public static final int fingerprint_error_hw_not_available = 0x7f110043;
-		public static final int fingerprint_error_hw_not_present = 0x7f110044;
-		public static final int fingerprint_error_lockout = 0x7f110045;
-		public static final int fingerprint_error_no_fingerprints = 0x7f110046;
-		public static final int fingerprint_error_user_canceled = 0x7f110047;
-		public static final int fingerprint_not_recognized = 0x7f110048;
-		public static final int generic_error_no_device_credential = 0x7f110049;
-		public static final int generic_error_no_keyguard = 0x7f11004a;
-		public static final int generic_error_user_canceled = 0x7f11004b;
-		public static final int search_menu_title = 0x7f11007a;
-		public static final int status_bar_notification_info_overflow = 0x7f11007c;
+		public static final int fingerprint_dialog_touch_sensor = 0x7f110043;
+		public static final int fingerprint_error_hw_not_available = 0x7f110044;
+		public static final int fingerprint_error_hw_not_present = 0x7f110045;
+		public static final int fingerprint_error_lockout = 0x7f110046;
+		public static final int fingerprint_error_no_fingerprints = 0x7f110047;
+		public static final int fingerprint_error_user_canceled = 0x7f110048;
+		public static final int fingerprint_not_recognized = 0x7f110049;
+		public static final int generic_error_no_device_credential = 0x7f11004c;
+		public static final int generic_error_no_keyguard = 0x7f11004d;
+		public static final int generic_error_user_canceled = 0x7f11004e;
+		public static final int search_menu_title = 0x7f110082;
+		public static final int status_bar_notification_info_overflow = 0x7f110084;
 	}
 	public static final class style {
 		public static final int AlertDialog_AppCompat = 0x7f120000;

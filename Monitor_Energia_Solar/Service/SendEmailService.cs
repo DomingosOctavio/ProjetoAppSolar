@@ -21,15 +21,15 @@ namespace SendEmailService
 {
     class Email
     {
+        private LoginFirebaseController connection = new LoginFirebaseController();
         //smtp.Credentials = new NetworkCredential("contato@projetopainelsolar.site", "Riotcc2021");
         //more code here
         public void SendEmail(String token)
         {
-            Monitor_Energia_Solar.Controller.LoginController login = new LoginController();
-
             Obj_Banco_Dados objBancoDados = new Obj_Banco_Dados();
-            objBancoDados = login.RecuperarDadosPeloEmail(token);
 
+            objBancoDados = connection.RetrieveLoginEmail(token);
+            
             if (objBancoDados.Usuario == null || objBancoDados.Usuario == "")
             {
                 Toast.MakeText(Application.Context, "Atenção, usuário não encontrado", ToastLength.Short).Show();
