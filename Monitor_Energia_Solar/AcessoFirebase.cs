@@ -66,7 +66,7 @@ namespace Monitor_Energia_Solar
             client = new FirebaseClient(config);
             if (client != null)
             {
-                response = await client.SetAsync("TAB_TENSAO" + "/" + model.Token + "/" + model.Id_dia, model);
+                response = await client.SetAsync("TAB_LUMINOSIDADE" + "/" + model.Token + "/" + model.Id_dia, model);
                 var result = response.ResultAs<Monitor_Energia_Solar.Student1>();
                 if (result == null)
                 {
