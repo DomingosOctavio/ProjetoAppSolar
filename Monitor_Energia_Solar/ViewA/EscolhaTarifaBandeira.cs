@@ -62,13 +62,11 @@ namespace Monitor_Energia_Solar
             textobandeira = FindViewById<TextView>(Resource.Id.textoBandeira);
             textoTarifa = FindViewById<TextView>(Resource.Id.textoTarifa);
 
-            TelaInstrucaoSensoresAPIController textoInstrucao = new TelaInstrucaoSensoresAPIController();
-
-            textobandeira.Text = textoInstrucao.ConsultarTextoBandeira();
-            textoTarifa.Text = textoInstrucao.ConsultarTextoTarifas();
+            TelaInstrucaoSensoresFirebase textoInstrucao = new TelaInstrucaoSensoresFirebase();
 
 
-
+            textobandeira.Text = textoInstrucao.RetrieveTexto("TELA_INSTRUCAO/0/Texto_bandeira");
+            textoTarifa.Text = textoInstrucao.RetrieveTexto("TELA_INSTRUCAO/0/Texto_Tarifas");
         }
         public override void OnBackPressed()
         {

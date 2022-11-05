@@ -39,64 +39,7 @@ namespace Monitor_Energia_Solar
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
 
-            Obj_Plot obj = new Obj_Plot();
-            obj.Token = "100";
-            obj.Id_dia = "12-08-1984";
-            obj.Seis =  3;
-            obj.Sete = 4;
-            obj.Oito = 2;
-            obj.Nove = 7;
-            obj.Dez = 8;
-            obj.Onze = 3;
-            obj.Doze = 3;
-            obj.Treze = 1;
-            obj.Catorze = 5;
-            obj.Quinze = 6;
-            obj.Dezeseis = 6;
-            obj.Dezesete = 4;
-            obj.Dezoito = 2;
-
-
-            connection.AddObject(obj);
-
-            Obj_Plot obj2 = new Obj_Plot();
-            obj2.Token = "100";
-            obj2.Id_dia = "15-08-1984";
-            obj2.Seis = 4;
-            obj2.Sete = 7;
-            obj2.Oito = 2;
-            obj2.Nove = 5;
-            obj2.Dez = 11;
-            obj2.Onze = 1;
-            obj2.Doze = 1;
-            obj2.Treze = 1;
-            obj2.Catorze = 6;
-            obj2.Quinze = 8;
-            obj2.Dezeseis = 8;
-            obj2.Dezesete = 6;
-            obj2.Dezoito = 5;
-
-
-            connection.AddObject(obj2);
-            //Obj_Banco_Dados obj = new Obj_Banco_Dados();
-
-            //obj.Id = "200";
-            //obj.Senha = "senha";
-            //obj.Token = "200";
-            //obj.Email = "tavotere@hotmail.com";
-            //obj.Usuario = "uol2";
-            //obj.IP_conexao = "senha";
-
-
-
-            //obj.Id = "400";
-            //obj.Senha = "senha5";
-            //obj.Token = "350";
-            //obj.Email = "tavotere@hotmail.com";
-            //obj.Usuario = "uol4";
-            //obj.IP_conexao = "senha";
-
-            //connection.AddObject(obj);
+          
         }
 
 

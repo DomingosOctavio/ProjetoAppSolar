@@ -74,6 +74,7 @@
     <Compile Include="Controller\MainActivityController.cs" />
     <Compile Include="Controller\MainActivityFirebaseController.cs" />
     <Compile Include="Controller\TelaInstrucaoSensoresAPIController.cs" />
+    <Compile Include="Controller\TelaInstrucaoSensoresFirebase.cs" />
     <Compile Include="CredencialFirebase.cs" />
     <Compile Include="Controller\BancoLogin.cs" />
     <Compile Include="Model\Obj_Plot.cs" />

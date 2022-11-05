@@ -65,11 +65,11 @@ namespace Monitor_Energia_Solar
             textoBussola = FindViewById<TextView>(Resource.Id.textoBussola);
             textoInclinacao = FindViewById<TextView>(Resource.Id.textoinclinacao);
 
-            TelaInstrucaoSensoresAPIController textoInstrucao = new TelaInstrucaoSensoresAPIController();
+            TelaInstrucaoSensoresFirebase textoInstrucao = new TelaInstrucaoSensoresFirebase();
 
            
-            textoBussola.Text = textoInstrucao.ConsultarTextoBussola();
-            textoInclinacao.Text = textoInstrucao.ConsultarTextoInclinacao(); 
+            textoBussola.Text = textoInstrucao.RetrieveTexto("TELA_INSTRUCAO/0/Texto_bussola");
+            textoInclinacao.Text = textoInstrucao.RetrieveTexto("TELA_INSTRUCAO/0/Texto_bussola"); 
 
         // From Drawable
         //Stream input = Resources.OpenRawResource(Resource.Drawable.GIF);
