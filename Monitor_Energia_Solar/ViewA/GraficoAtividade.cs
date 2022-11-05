@@ -385,10 +385,6 @@ namespace Monitor_Energia_Solar
 
             view2.Model = plotModel;
 
-
-
-            
-
             //view.Model = GraficoPlot(1, data.ToString());
             Toast.MakeText(this, toast, ToastLength.Long).Show();
         }
@@ -397,9 +393,7 @@ namespace Monitor_Energia_Solar
         {
             intervalo = new ArrayList();
 
-            GraficoController consulta_data = new GraficoController();
             List<String> obj_Plot = new List<String>();
-
 
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
             string token = dadosUsuario.GetString("Token", null);
@@ -415,9 +409,6 @@ namespace Monitor_Energia_Solar
         }
         private static ColumnSeries CreateColunaTensao(string dataEscolhida, int tipo)
         {
-      
-            GraficoController consulta_dados = new GraficoController();
-           
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
             string token = dadosUsuario.GetString("Token", null);
 
@@ -429,7 +420,6 @@ namespace Monitor_Energia_Solar
 
             var LineSeries = new OxyPlot.Series.ColumnSeries();
 
-         
                 LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Seis));
                 LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Sete));
                 LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Oito));
@@ -451,9 +441,6 @@ namespace Monitor_Energia_Solar
 
         private static ColumnSeries CreateColunaLuz(string dataEscolhida, int tipo)
         {
-
-            GraficoController consulta_dados = new GraficoController();
-           
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
             string token = dadosUsuario.GetString("Token", null);
 
@@ -482,9 +469,6 @@ namespace Monitor_Energia_Solar
         }
         private static ColumnSeries CreateColunaCorrente(string dataEscolhida, int tipo)
         {
-
-            GraficoController consulta_dados = new GraficoController();
-           
             var dadosUsuario = Application.Context.GetSharedPreferences("usuario", Android.Content.FileCreationMode.Private);
             string token = dadosUsuario.GetString("Token", null);
 
@@ -507,12 +491,8 @@ namespace Monitor_Energia_Solar
                 LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezesete));
                 LineSeries.Items.Add(new OxyPlot.Series.ColumnItem(obj_Plot.Dezoito));
                
-           
             return LineSeries;
-        }
-
-
-       
+        }   
     }
 }
   
