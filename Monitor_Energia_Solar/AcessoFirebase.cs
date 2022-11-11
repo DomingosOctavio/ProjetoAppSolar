@@ -61,23 +61,23 @@ namespace Monitor_Energia_Solar
         }
       
 
-        protected internal async void AddObject(Obj_Plot model)
-        {
-            client = new FirebaseClient(config);
-            if (client != null)
-            {
-                response = await client.SetAsync("TAB_LUMINOSIDADE" + "/" + model.Token + "/" + model.Id_dia, model);
-                var result = response.ResultAs<Monitor_Energia_Solar.Student1>();
-                if (result == null)
-                {
-                    throw new Exception("Erro ao ");
-                }
-            }
-            else
-            {
-                throw new Exception("Bağlantı başarısız.");
-            }
-        }
+        //protected internal async void AddObject(Obj_Plot model)
+        //{
+        //    client = new FirebaseClient(config);
+        //    if (client != null)
+        //    {
+        //        response = await client.SetAsync("TAB_LUMINOSIDADE" + "/" + model.Token + "/" + model.Id_dia, model);
+        //        var result = response.ResultAs<Monitor_Energia_Solar.Student1>();
+        //        if (result == null)
+        //        {
+        //            throw new Exception("Erro ao ");
+        //        }
+        //    }
+        //    else
+        //    {
+        //        throw new Exception("Bağlantı başarısız.");
+        //    }
+        //}
 
         protected internal async void UpdateObject(Object model, string chave)
         {

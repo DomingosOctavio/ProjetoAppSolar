@@ -27,9 +27,7 @@ namespace Monitor_Energia_Solar
             // Create your application here
             SetContentView(Resource.Layout.DadosPessoais);
 
-         
-
-
+        
             btn_concluir = FindViewById<Button>(Resource.Id.concluir);
             btn_concluir.Click += Btnconcluir_Click;
         }
@@ -57,6 +55,7 @@ namespace Monitor_Energia_Solar
                 
             Obj_Banco_Dados objDadosPessoais = new Obj_Banco_Dados();
   
+       
 
             //connection.AddLogin(objDadosPessoais);
 

@@ -77,7 +77,6 @@
     <Compile Include="Service\ArduinoDadosService.cs" />
     <Compile Include="Service\BandeiraService.cs" />
     <Compile Include="Service\TarifasService.cs" />
-    <Compile Include="Student1.cs" />
     <Compile Include="ViewA\Bandeira_Atividade.cs" />
     <Compile Include="ViewA\Bussola_Atividade.cs" />
     <Compile Include="ViewA\CadastroTokenAtividade.cs" />
