@@ -35,6 +35,12 @@ namespace Monitor_Energia_Solar.Controller
        
         public Boolean EmptyListVerification(string token)
         {
+            if (token.Equals(""))
+            {
+
+                return false;
+            }
+
             Boolean existe = false;
             client = new FirebaseClient(config);
             if (client != null)
